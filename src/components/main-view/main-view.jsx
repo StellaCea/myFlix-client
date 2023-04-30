@@ -5,6 +5,7 @@ import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
 import {Container, Row, Col, Button, Card} from "react-bootstrap";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { NavigationBar } from "../navigation-bar/navigation-bar";
 
 export const MainView = () => {
     const storedUser = JSON.parse(localStorage.getItem("user"));
@@ -40,6 +41,14 @@ export const MainView = () => {
 
     return (
         <BrowserRouter>
+            <NavigationBar
+                user={user}
+                onLoggedOut={() => {
+                    setUser(null);
+                    setToken(null);
+                    localStorage.clear();
+                }}
+            />
             <Row className="justify-content-md-center">
                 <Routes>
                     <Route
