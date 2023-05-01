@@ -27,7 +27,7 @@ export const SignupView = () => {
         }).then((response) => {
             if (response.ok) {
                 alert ("Signup successful");
-                window.location.reload();
+                window.location.replace("/login");
             } else {
                 alert ("Signup failed");
             }
@@ -78,7 +78,7 @@ export const SignupView = () => {
                                     required
                                 />
                             </Form.Group>
-                            <Button variant="promary" type="submit">Submit</Button>
+                            <Button variant="primary" type="submit">Submit</Button>
                         </Form>
                     </Card>
                 </Col>
