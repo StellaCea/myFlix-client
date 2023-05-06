@@ -3,12 +3,14 @@ import React, {useEffect, useState} from "react";
 import { Row, Button, Card, Col, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { MovieCard } from "../movie-card/movie-card";
+import { FavoriteMovies } from "./favorite-movies";
 
-export const ProfileView = ({user, token, favoriteMovies, favoriteMovieList}) => {
+export const ProfileView = ({user, movies, updateUser}) => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState("");
     const [birthday, setBirthday] = useState("");
+    const [favorite, setFavorite] = useState([]);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -19,7 +21,6 @@ export const ProfileView = ({user, token, favoriteMovies, favoriteMovieList}) =>
             Email: user.email,
             Birthday: user.birthday
         }
-
 
         fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
             method: "PUT",
@@ -68,47 +69,55 @@ export const ProfileView = ({user, token, favoriteMovies, favoriteMovieList}) =>
 
     return (
         <>
-            
-            <Row>
-                <Col sm={{offset: 2}} md={{offset: 1}}>
-                    <Card className="mt-2 mb-3">
+            <Row className="row-cols-1 row-cols-md-2 g-4">
+                <Col>
+                    <Card>
                         <Card.Body>
                             <Card.Title>
                                 <h3>Your information</h3></Card.Title>
-                            <Col>
-                                <p >Username: {user.Username}</p>
-                            </Col>
-                            
-                            <Col sm={{offset: 2}} md={{offset: 8}}>
-                                <Link to={`/users/settings/username`}>Change username</Link>
-                            </Col>
-                            <p>Password: ********</p>
-                            <Col sm={{offset: 2}} md={{offset: 8}}>
-                                <Link to={`/users/settings/password`}>Change password</Link>
-                            </Col>
-                            <p>E-mail: {user.Email}</p>
-                            <Col sm={{offset: 2}} md={{offset: 8}}>
-                                <Link to={`/users/settings/email`}>Change email</Link>
-                            </Col>
-                            <p>Birthday: {user.Birthday}</p>
-                            <Col sm={{offset: 2}} md={{offset: 8}}>
-                                <Link to={`/users/settings/birthday`}>Change birthday</Link>
-                            </Col>
-                            <Button variant="danger" className="centered" onClick={() => {
-                        if(confirm("Are you sure?")) {
-                            deleteAccount();
-                        }
-                    }}>Delete account</Button>
+                                <Col>
+                                    <p >Username: {user.Username}</p>
+                                    <p>Password: ********</p>
+                                    <p>E-mail: {user.Email}</p>
+                                    <p>Birthday: {user.Birthday}</p>
+                                </Col>
                         </Card.Body>
                     </Card>
-                    
                 </Col>
-                <Col md={12}>
+                <Col>
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>
+                                <h3>Edit your information</h3></Card.Title>
+                            <Col>
+                                <Link to={`/users/settings/username`}>Change username</Link>
+                                <p></p>
+                                <Link to={`/users/settings/password`}>Change password</Link>
+                                <p></p>
+                                <Link to={`/users/settings/email`}>Change email</Link>
+                                <p></p>
+                                <Link to={`/users/settings/birthday`}>Change birthday</Link>
+                                <p></p>
+                            </Col>
+                            <Button variant="danger" className="centered" onClick={() => {
+                                if(confirm("Are you sure you want to delete your account?")) {
+                                    deleteAccount();
+                                }
+                                }}>Delete account</Button>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
                     <h3>Your favorite movies:</h3>
                 </Col>
             </Row>
-            
+            <Row>
+                <Col>
+                    <FavoriteMovies movies={favorite} />
+                </Col>
+            </Row>
         </>
     );
-
 }

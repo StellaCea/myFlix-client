@@ -20,9 +20,11 @@ export const MainView = () => {
     const [user, setUser] = useState(null);
     const [token, setToken] = useState(null);
 
-    const updateUser = user => {
-        setUser(user);
+    const updateUser = (user) => {
+        delete user.password;
         localStorage.setItem("user", JSON.stringify(user));
+        setUser(user);
+        
     }
 
     useEffect(() => {
