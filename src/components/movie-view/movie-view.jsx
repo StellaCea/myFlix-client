@@ -4,13 +4,15 @@ import {Row, Col, Button} from "react-bootstrap";
 import { useParams } from "react-router";
 import {Link} from "react-router-dom";
 import { useState, useEffect } from "react";
+import { MovieCard } from "../movie-card/movie-card";
 
 
-export const MovieView = ({ movies }) =>{
+export const MovieView = ({ movies, user, token }) =>{
     const {movieId} = useParams();
-    const movie = movies.find((m) => m.id === movieId);
+    const movie = movies.find((movie) => movie.id === movieId);
     const [favorite, setFavorite] = useState(user.favoriteMovies.includes(movie.id));
 
+    //GET request
     useEffect(() => {
         setFavorite(user.favoriteMovies.includes(movie.id));
     }, [movieId])
@@ -32,7 +34,7 @@ export const MovieView = ({ movies }) =>{
             if (user) {
                 alert("Added to favorites!");
                 setFavorite(true);
-                onUpdatedUser(user);
+                updateUser(user);
             }
         })
         .catch(e => {
@@ -57,7 +59,7 @@ export const MovieView = ({ movies }) =>{
             if (user) {
                 alert("Removed from favorites!");
                 setFavorite(false);
-                onUpdatedUser(user);
+                updateUser(user);
             }
         })
         .catch(e => {

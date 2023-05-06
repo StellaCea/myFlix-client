@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Container, Row, Col, Form, Card, Button } from "react-bootstrap";
 
 export const SignupView = () => {
-    const [username, setusername] = useState("");
+    const [username, setsername] = useState("");
     const [password, setPassword] = useState("");
     const [email, setEmail] = useState("");
     const [birthday, setBirthday] = useState("");
@@ -46,7 +46,7 @@ export const SignupView = () => {
                                 <Form.Control
                                     type="text"
                                     value={username}
-                                    onChange={(e) => setusername(e.target.value)}
+                                    onChange={(e) => setUsername(e.target.value)}
                                     required
                                     minLength="3"
                                 />
