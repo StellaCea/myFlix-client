@@ -46956,8 +46956,8 @@ const NavigationBar = ({ user , onLoggedOut , onSearch  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar), {
         fluid: "true",
         style: {
-            borderBottom: "1px solid black",
-            backgroundColor: "rgb(225, 123, 82)"
+            borderBottom: "1px solid purple",
+            backgroundColor: "rgb(231, 135, 126)"
         },
         expand: "lg",
         variant: "light",

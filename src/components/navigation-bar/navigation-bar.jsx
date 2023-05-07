@@ -18,7 +18,7 @@ export const NavigationBar = ({ user, onLoggedOut, onSearch }) => {
   }, [query]);
   
   return (
-    <Navbar fluid="true" style={{borderBottom: "1px solid black", backgroundColor:"rgb(225, 123, 82)"}} expand="lg" variant="light" className="mb-4 navbar-container" sticky="top">
+    <Navbar fluid="true" style={{borderBottom: "1px solid purple", backgroundColor:"rgb(231, 135, 126)"}} expand="lg" variant="light" className="mb-4 navbar-container" sticky="top">
       <Container>
         <Navbar.Brand as={Link} to="/" onClick={() => setQuery("")}>
           <img src={logo} className="png-logo" alt="MyFlix"/>{""}MyFlix
