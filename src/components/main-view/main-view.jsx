@@ -3,7 +3,7 @@ import {MovieCard} from "../movie-card/movie-card";
 import {MovieView} from "../movie-view/movie-view";
 import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
-import {Container, Row, Col, Button, Card} from "react-bootstrap";
+import {Container, Row, Col, Button, Card, Form, FormControl} from "react-bootstrap";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { NavigationBar } from "../navigation-bar/navigation-bar";
 import { ProfileView } from "../profile-view/profile-view";
@@ -13,12 +13,14 @@ import { EmailSettings } from "../profile-view/email-settings";
 import { BirthdaySettings } from "../profile-view/birthday-settings";
 
 
+
 export const MainView = () => {
     const storedUser = JSON.parse(localStorage.getItem("user"));
     const storedToken = localStorage.getItem("token");
     const [movies, setMovies] = useState([]);
     const [user, setUser] = useState(null);
     const [token, setToken] = useState(null);
+    const [searchMovies, setSearchMovies] = useState(movies);
 
     const updateUser = (user) => {
         delete user.password;
@@ -36,8 +38,8 @@ export const MainView = () => {
             headers: {Authorization: `Bearer ${token}` },
         })
         .then((response) => response.json())
-        .then((data) => {
-            const moviesFromApi = data.map((doc) => {
+        .then((movies) => {
+            const moviesFromApi = movies.map((doc) => {
                 return {
                     id: doc._id,
                     title: doc.Title,
@@ -51,6 +53,11 @@ export const MainView = () => {
         });
     }, [token]);
 
+    useEffect(() => {
+        setSearchMovies(movies);
+    }, [movies]);
+
+
     return (
         <BrowserRouter>
             <NavigationBar
@@ -59,6 +66,9 @@ export const MainView = () => {
                     setUser(null);
                     setToken(null);
                     localStorage.clear();
+                }}
+                onSearch={(query) => {
+                    setSearchMovies(movies.filter(movie => movie.title.toLowerCase().includes(query.toLowerCase())));
                 }}
             />
             <Row className="justify-content-md-center">
@@ -213,10 +223,11 @@ export const MainView = () => {
                         path="/"
                         element={
                             <>
+                                
                                 {!user ? (
                                     <Navigate to="/login" replace />
                                 ) : movies.length === 0 ? (
-                                    <Col>the list is empty</Col>
+                                    <Col>The list is empty</Col>
                                 ) : (
                                     <>
                                         {movies.map((movie) => (

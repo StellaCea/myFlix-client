@@ -13,12 +13,17 @@ export const UsernameSettings = ({user, token, updateUser}) => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        const data = {
+        if(username === controlUsername){
+            var data = {
             username: username,
             password: password,
             email: email,
             birthday: birthday
+            }
+        } else {
+            alert("Usernames don't match");
         }
+        
 
         fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
             method: "PUT",
@@ -48,11 +53,12 @@ export const UsernameSettings = ({user, token, updateUser}) => {
     }
 
     return (
-       <Form onSubmit={handleSubmit} className="mt-2">
+        <Form onSubmit={handleSubmit} className="mt-2">
             <Row className="mb-3">
                 <FormGroup controlId="formNewUsername" as={Col} sm={{offset: 2}} md={{offset: 4}}>
                     <Form.Label>New username:</Form.Label>
                     <Form.Control
+                        style={{backgroundColor:"white"}}
                         type="text" 
                         value={username}
                         onChange={(e) => setUsername(e.target.value)}
@@ -66,6 +72,7 @@ export const UsernameSettings = ({user, token, updateUser}) => {
                 <FormGroup controlId="formControlUsername" as={Col} sm={{offset: 2}} md={{offset: 4}}>
                     <Form.Label>Enter new username again:</Form.Label>
                     <Form.Control 
+                        style={{backgroundColor:"white"}}
                         type="text"
                         value={controlUsername}
                         onChange={(e) => setControlUsername(e.target.value)}

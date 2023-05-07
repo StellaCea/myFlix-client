@@ -59,6 +59,7 @@ export const BirthdaySettings = (user, token, updateUser) => {
                 <FormGroup controlId="formNewBirthday" as={Col} sm={{offset: 2}} md={{offset: 4}}>
                     <Form.Label>New birthday:</Form.Label>
                     <Form.Control
+                        style={{backgroundColor:"white"}}
                         type="date" 
                         value={birthday}
                         onChange={(e) => setBirthday(e.target.value)}
@@ -71,6 +72,7 @@ export const BirthdaySettings = (user, token, updateUser) => {
                 <FormGroup controlId="formControlBirthday" as={Col} sm={{offset: 2}} md={{offset: 4}}>
                     <Form.Label>Enter new birthday again:</Form.Label>
                     <Form.Control 
+                        style={{backgroundColor:"white"}}
                         type="date"
                         value={controlBirthday}
                         onChange={(e) => setControlBirthday(e.target.value)}

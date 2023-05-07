@@ -99,17 +99,19 @@ export const ProfileView = ({user, movies, updateUser}) => {
                                 <Link to={`/users/settings/birthday`}>Change birthday</Link>
                                 <p></p>
                             </Col>
-                            <Button variant="danger" className="centered" onClick={() => {
-                                if(confirm("Are you sure you want to delete your account?")) {
-                                    deleteAccount();
-                                }
-                                }}>Delete account</Button>
                         </Card.Body>
                     </Card>
                 </Col>
+                <Col>
+                    <Button variant="danger" className="centered" onClick={() => {
+                        if(confirm("Are you sure you want to delete your account?")) {
+                            deleteAccount();
+                        }
+                        }}>Delete account</Button>
+                </Col>
             </Row>
             <Row>
-                <Col>
+                <Col className="mt-3">
                     <h3>Your favorite movies:</h3>
                 </Col>
             </Row>

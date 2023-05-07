@@ -57,6 +57,7 @@ export const PasswordSettings = ({user, token, updateUser}) => {
                 <FormGroup controlId="formNewPassword" as={Col} sm={{offset: 2}} md={{offset: 4}}>
                     <Form.Label>New password:</Form.Label>
                     <Form.Control
+                        style={{backgroundColor:"white"}}
                         type="password" 
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
@@ -69,7 +70,8 @@ export const PasswordSettings = ({user, token, updateUser}) => {
             <Row className="mb-3">            
                 <FormGroup controlId="formControlPassword" as={Col} sm={{offset: 2}} md={{offset: 4}}>
                     <Form.Label>Enter new password again:</Form.Label>
-                    <Form.Control 
+                    <Form.Control
+                        style={{backgroundColor:"white"}}
                         type="password"
                         value={controlPassword}
                         onChange={(e) => setControlPassword(e.target.value)}

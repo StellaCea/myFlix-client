@@ -42,11 +42,12 @@ export const LoginView = ({onLoggedIn}) => {
                 <Col>
                     <Card>
                         <Card.Body>
-                        <Card.Title>Please Log in</Card.Title>
+                            <Card.Title>Please Log in</Card.Title>
                             <Form onSubmit={handleSubmit}>  
                                 <Form.Group controlId="formUsername">
                                     <Form.Label>Username: </Form.Label>
                                     <Form.Control
+                                        style={{backgroundColor:"white"}}
                                         type="text"
                                         value={username}
                                         onChange={(e) => setUsername(e.target.value)}
@@ -55,7 +56,8 @@ export const LoginView = ({onLoggedIn}) => {
                                 </Form.Group>
                                 <Form.Group controlId="formPassword">
                                     <Form.Label>Password:</Form.Label>
-                                    <Form.Control 
+                                    <Form.Control
+                                        style={{backgroundColor:"white"}}
                                         type="password"
                                         value={password}
                                         onChange={(e) => setPassword(e.target.value)}

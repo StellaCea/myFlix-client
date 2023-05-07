@@ -20,6 +20,8 @@ export const EmailSettings = (user, token, updateUser) => {
                 email,
                 birthday
             }
+        }else{
+            alert("Emails don't match");
         }
 
         fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
@@ -55,6 +57,7 @@ export const EmailSettings = (user, token, updateUser) => {
                 <FormGroup controlId="formNewEmail" as={Col} sm={{offset: 2}} md={{offset: 4}}>
                     <Form.Label>New Email:</Form.Label>
                     <Form.Control
+                        style={{backgroundColor:"white"}}
                         type="email" 
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
@@ -67,7 +70,8 @@ export const EmailSettings = (user, token, updateUser) => {
             <Row className="mb-3">            
                 <FormGroup controlId="formControlEmail" as={Col} sm={{offset: 2}} md={{offset: 4}}>
                     <Form.Label>Enter new email again:</Form.Label>
-                    <Form.Control 
+                    <Form.Control
+                        style={{backgroundColor:"white"}}
                         type="email"
                         value={controlEmail}
                         onChange={(e) => setControlEmail(e.target.value)}

@@ -1,4 +1,4 @@
-import "./movie-view.scss";
+
 import PropTypes from "prop-types";
 import {Row, Col, Button, Image, Container} from "react-bootstrap";
 import { useParams } from "react-router";
@@ -74,7 +74,7 @@ export const MovieView = ({ movies, user, updateUser }) =>{
     return (
         <>
             <Row>
-                <Col xs={12} md={6} lg={4}>
+                <Col xs={12} md={6} lg={4} className="mb-4" >
                     <Image className="img-fluid h-auto" src={movie.image} />
                 </Col>
 
@@ -82,8 +82,9 @@ export const MovieView = ({ movies, user, updateUser }) =>{
                     <h2>{movie.title}</h2>
                     <h4>Description:</h4>
                     <p>{movie.description}</p>
-                    <h4>Genre: {movie.genre}</h4>
-                    <h4>Director: {movie.director}</h4>
+                    <h4>Genre:</h4><p>{movie.genre}</p>
+                    <h4>Director:</h4>
+                    <p>{movie.director}</p>
 
                     {favorite ? (
                         <Button
@@ -95,7 +96,7 @@ export const MovieView = ({ movies, user, updateUser }) =>{
                     ): (
                         <Button
                             onClick={addFavorite}
-                            variant="success"
+                            variant="primary"
                             className="movie-fav-button mt-4">
                             Add to favorites
                         </Button>
