@@ -24,7 +24,7 @@ export const EmailSettings = (user, token, updateUser) => {
             alert("Emails don't match");
         }
 
-        fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {

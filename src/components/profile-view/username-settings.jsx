@@ -25,7 +25,7 @@ export const UsernameSettings = ({user, token, updateUser}) => {
         }
         
 
-        fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {

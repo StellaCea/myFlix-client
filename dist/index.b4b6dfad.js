@@ -46342,7 +46342,7 @@ const MovieView = ({ movies , user , updateUser  })=>{
     ]);
     const addFavorite = ()=>{
         const token = localStorage.getItem("token");
-        fetch(`https://myflixapi.herokuapp.com/users/${user.username}/movies/${movieId}`, {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}/movies/${movieId}`, {
             method: "POST",
             headers: {
                 Authorization: `Bearer ${token}`
@@ -46365,7 +46365,7 @@ const MovieView = ({ movies , user , updateUser  })=>{
     };
     const removeFavorite = ()=>{
         const token = localStorage.getItem("token");
-        fetch(`https://myflixapi.herokuapp.com/users/${user.username}/movies/${movieId}`, {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}/movies/${movieId}`, {
             method: "DELETE",
             headers: {
                 Authorization: `Bearer ${token}`
@@ -47574,7 +47574,7 @@ const UsernameSettings = ({ user , token , updateUser  })=>{
             birthday: birthday
         };
         else alert("Usernames don't match");
-        fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {
@@ -47814,7 +47814,7 @@ const PasswordSettings = ({ user , token , updateUser  })=>{
             alert("Not matching passwords");
             return;
         }
-        fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {
@@ -48050,7 +48050,7 @@ const EmailSettings = (user, token, updateUser)=>{
             birthday
         };
         else alert("Emails don't match");
-        fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {
@@ -48289,7 +48289,7 @@ const BirthdaySettings = (user, token, updateUser)=>{
             alert("Birthday doesn't match");
             return;
         }
-        fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
             method: "PUT",
             body: JSON.stringify(data),
             headers: {

@@ -21,7 +21,7 @@ export const MovieView = ({ movies, user, updateUser }) =>{
 
     const addFavorite = () => {
         const token = localStorage.getItem("token");
-        fetch(`https://myflixapi.herokuapp.com/users/${user.username}/movies/${movieId}`, {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}/movies/${movieId}`, {
             method: "POST",
             headers: {Authorization: `Bearer ${token}`}
         })
@@ -47,7 +47,7 @@ export const MovieView = ({ movies, user, updateUser }) =>{
 
     const removeFavorite = () => {
         const token = localStorage.getItem("token");
-        fetch(`https://myflixapi.herokuapp.com/users/${user.username}/movies/${movieId}`, {
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}/movies/${movieId}`, {
             method: "DELETE",
             headers: {Authorization: `Bearer ${token}`}
         })
