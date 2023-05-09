@@ -1,6 +1,7 @@
 
-$primary: rgb(175, 14, 175)
-;
+$primary: rgba(52, 55, 121, 1);
+$secondary: rgba(255, 165, 0, 1);
+
 $body-bg: rgb(231, 135, 126);
 
 @import '~bootstrap/scss/bootstrap.scss';
@@ -15,6 +16,6 @@ $body-bg: rgb(231, 135, 126);
 
 }
 body {
-    background-image: url("../src/img/bg.jpg");
+    background-color: rgba(51, 169, 172, 1);
     background-size: cover;
 }

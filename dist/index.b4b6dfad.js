@@ -27631,6 +27631,9 @@ const MovieCard = ({ movie , favoriteMovies  })=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                         to: `/movies/${encodeURIComponent(movie.id)}`,
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            style: {
+                                width: "270px"
+                            },
                             variant: "primary",
                             children: "Open"
                         }, void 0, false, {
@@ -46957,10 +46960,10 @@ const NavigationBar = ({ user , onLoggedOut , onSearch  })=>{
         fluid: "true",
         style: {
             borderBottom: "1px solid purple",
-            backgroundColor: "rgb(231, 135, 126)"
+            backgroundColor: "rgba(52, 55, 121, 1)"
         },
         expand: "lg",
-        variant: "light",
+        variant: "dark",
         className: "mb-4 navbar-container",
         sticky: "top",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Container), {
@@ -47082,7 +47085,7 @@ const NavigationBar = ({ user , onLoggedOut , onSearch  })=>{
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                     to: "/",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                                        variant: "outline-primary",
+                                        variant: "outline-secondary",
                                         onClick: ()=>{
                                             onSearch(query);
                                         },
