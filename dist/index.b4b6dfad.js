@@ -47085,7 +47085,8 @@ const NavigationBar = ({ user , onLoggedOut , onSearch  })=>{
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
                                     to: "/",
                                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
-                                        variant: "outline-secondary",
+                                        variant: "primary",
+                                        className: "border border-tertiary",
                                         onClick: ()=>{
                                             onSearch(query);
                                         },

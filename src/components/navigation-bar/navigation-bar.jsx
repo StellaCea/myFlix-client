@@ -64,7 +64,7 @@ export const NavigationBar = ({ user, onLoggedOut, onSearch }) => {
                   }}
               />
               <Link to={"/"}>
-                <Button variant="outline-secondary" onClick={() => {
+                <Button variant="primary" className="border border-tertiary" onClick={() => {
                   onSearch(query);
                 }}>Search</Button>
               </Link>

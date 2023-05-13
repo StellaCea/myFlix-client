@@ -1,9 +1,9 @@
 Objective:
 Build the client-side for MyFlix App using React based on its existing servicer-side code (REST API and database).
 
+Hosted on Netlify:
+
 ![Screenshot of the Website View] (src/img/view.png)
-
-
 
 Technical Requirements:
 ● The application must be a single-page application (SPA)
@@ -15,3 +15,12 @@ Technical Requirements:
 ● The application must contain function components
 ● The application must be hosted online
 ● The application may use React Redux for state management of at least one feature (i.e.,filtering movies)
+
+Languages:
+● HTML
+● SCSS
+● JavaScript, JSX
+
+Build Tool:
+● Parcel
+
