@@ -9,7 +9,6 @@ export const EmailSettings = (user, token, updateUser) => {
     const [username, setUsername] = useState("");
     const [birthday, setBirthday] = useState("");
 
-
     const handleSubmit = (event) => {
         event.preventDefault();
 

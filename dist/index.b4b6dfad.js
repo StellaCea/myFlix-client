@@ -27321,7 +27321,7 @@ const MainView = ()=>{
     };
     (0, _react.useEffect)(()=>{
         if (!token) return;
-        fetch("https://myflixapi.herokuapp.com/movies", {
+        fetch(`https://myflixapi.herokuapp.com/movies`, {
             headers: {
                 Authorization: `Bearer ${token}`
             }
@@ -47511,7 +47511,11 @@ const FavoriteMovies = ({ movies , user , updateUser  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
         className: "justify-content-center",
         children: favoriteMovies.length > 0 ? favoriteMovies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Col, {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {}, void 0, false, {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
+                    movie: movie,
+                    user: user,
+                    updateUser: updateUser
+                }, void 0, false, {
                     fileName: "src/components/profile-view/favorite-movies.jsx",
                     lineNumber: 12,
                     columnNumber: 25
@@ -48093,7 +48097,7 @@ const EmailSettings = (user, token, updateUser)=>{
                                 children: "New Email:"
                             }, void 0, false, {
                                 fileName: "src/components/profile-view/email-settings.jsx",
-                                lineNumber: 58,
+                                lineNumber: 57,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
@@ -48107,13 +48111,13 @@ const EmailSettings = (user, token, updateUser)=>{
                                 placeholder: "Enter new email"
                             }, void 0, false, {
                                 fileName: "src/components/profile-view/email-settings.jsx",
-                                lineNumber: 59,
+                                lineNumber: 58,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/profile-view/email-settings.jsx",
-                        lineNumber: 57,
+                        lineNumber: 56,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
@@ -48126,13 +48130,13 @@ const EmailSettings = (user, token, updateUser)=>{
                         className: "desktop"
                     }, void 0, false, {
                         fileName: "src/components/profile-view/email-settings.jsx",
-                        lineNumber: 68,
+                        lineNumber: 67,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/profile-view/email-settings.jsx",
-                lineNumber: 56,
+                lineNumber: 55,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
@@ -48152,7 +48156,7 @@ const EmailSettings = (user, token, updateUser)=>{
                                 children: "Enter new email again:"
                             }, void 0, false, {
                                 fileName: "src/components/profile-view/email-settings.jsx",
-                                lineNumber: 72,
+                                lineNumber: 71,
                                 columnNumber: 21
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
@@ -48165,13 +48169,13 @@ const EmailSettings = (user, token, updateUser)=>{
                                 placeholder: "Enter new email again"
                             }, void 0, false, {
                                 fileName: "src/components/profile-view/email-settings.jsx",
-                                lineNumber: 73,
+                                lineNumber: 72,
                                 columnNumber: 21
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/profile-view/email-settings.jsx",
-                        lineNumber: 71,
+                        lineNumber: 70,
                         columnNumber: 17
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
@@ -48184,13 +48188,13 @@ const EmailSettings = (user, token, updateUser)=>{
                         className: "desktop desktop-long"
                     }, void 0, false, {
                         fileName: "src/components/profile-view/email-settings.jsx",
-                        lineNumber: 81,
+                        lineNumber: 80,
                         columnNumber: 17
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/profile-view/email-settings.jsx",
-                lineNumber: 70,
+                lineNumber: 69,
                 columnNumber: 13
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
@@ -48209,7 +48213,7 @@ const EmailSettings = (user, token, updateUser)=>{
                             children: "Submit"
                         }, void 0, false, {
                             fileName: "src/components/profile-view/email-settings.jsx",
-                            lineNumber: 85,
+                            lineNumber: 84,
                             columnNumber: 21
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
@@ -48219,29 +48223,29 @@ const EmailSettings = (user, token, updateUser)=>{
                                 children: "Cancel"
                             }, void 0, false, {
                                 fileName: "src/components/profile-view/email-settings.jsx",
-                                lineNumber: 87,
+                                lineNumber: 86,
                                 columnNumber: 25
                             }, undefined)
                         }, void 0, false, {
                             fileName: "src/components/profile-view/email-settings.jsx",
-                            lineNumber: 86,
+                            lineNumber: 85,
                             columnNumber: 21
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/profile-view/email-settings.jsx",
-                    lineNumber: 84,
+                    lineNumber: 83,
                     columnNumber: 17
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/profile-view/email-settings.jsx",
-                lineNumber: 83,
+                lineNumber: 82,
                 columnNumber: 13
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/profile-view/email-settings.jsx",
-        lineNumber: 55,
+        lineNumber: 54,
         columnNumber: 9
     }, undefined);
 };

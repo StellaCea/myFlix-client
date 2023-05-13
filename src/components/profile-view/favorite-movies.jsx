@@ -9,7 +9,7 @@ export const FavoriteMovies = ({movies, user, updateUser}) => {
             {favoriteMovies.length > 0 ? (
                 favoriteMovies.map(movie => (
                     <Col key={movie.id}>
-                        <MovieCard />
+                        <MovieCard movie={movie} user={user} updateUser={updateUser}/>
                     </Col>
                 ))) : <p>No favorite movies added yet</p>
             }

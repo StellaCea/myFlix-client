@@ -34,7 +34,7 @@ export const MainView = () => {
             return;
         }
 
-        fetch("https://myflixapi.herokuapp.com/movies", {
+        fetch(`https://myflixapi.herokuapp.com/movies`, {
             headers: {Authorization: `Bearer ${token}` },
         })
         .then((response) => response.json())
