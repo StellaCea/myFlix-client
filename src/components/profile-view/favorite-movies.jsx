@@ -1,8 +1,8 @@
-import { Row } from "react-bootstrap";
+import { Row, Col} from "react-bootstrap";
 import { MovieCard } from "../movie-card/movie-card";
 
 export const FavoriteMovies = ({movies, user, updateUser}) => {
-    const favoriteMovies = movies.filter(movie => user.favoriteMovies.includes(movie.id));
+    const favoriteMovies = movies.filter(movie => user.FavoriteMovies.includes(movie.id));
 
     return (
         <Row className="justify-content-center">
