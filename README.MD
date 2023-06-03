@@ -1,7 +1,8 @@
 Objective:
 Build the client-side for MyFlix App using React based on its existing servicer-side code (REST API and database).
 
-Technical Requirements
+Technical Requirements:
+
 ● The application must be a single-page application (SPA)
 
 ● The application must use state routing to navigate between views and share URLs

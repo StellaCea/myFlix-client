@@ -42,12 +42,19 @@ export const LoginView = ({onLoggedIn}) => {
                 <Col>
                     <Card>
                         <Card.Body>
+<<<<<<< HEAD
                             <Card.Title>Please Log in</Card.Title>
+=======
+                        <Card.Title>Please Log in</Card.Title>
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                             <Form onSubmit={handleSubmit}>  
                                 <Form.Group controlId="formUsername">
                                     <Form.Label>Username: </Form.Label>
                                     <Form.Control
+<<<<<<< HEAD
                                         style={{backgroundColor:"white"}}
+=======
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                                         type="text"
                                         value={username}
                                         onChange={(e) => setUsername(e.target.value)}
@@ -56,8 +63,12 @@ export const LoginView = ({onLoggedIn}) => {
                                 </Form.Group>
                                 <Form.Group controlId="formPassword">
                                     <Form.Label>Password:</Form.Label>
+<<<<<<< HEAD
                                     <Form.Control
                                         style={{backgroundColor:"white"}}
+=======
+                                    <Form.Control 
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                                         type="password"
                                         value={password}
                                         onChange={(e) => setPassword(e.target.value)}
