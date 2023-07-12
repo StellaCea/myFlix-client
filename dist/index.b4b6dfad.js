@@ -142,9 +142,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"gCSer":[function(require,module,exports) {
-var Refresh = require("f8eb91b15c75d5f3");
-var ErrorOverlay = require("8ecc06f11e2173");
+})({"1xC6H":[function(require,module,exports) {
+var Refresh = require("471db97d1d2ec22");
+var ErrorOverlay = require("331a79f88df90d57");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"f8eb91b15c75d5f3":"hoRen","8ecc06f11e2173":"fYA2C"}],"hoRen":[function(require,module,exports) {
+},{"471db97d1d2ec22":"786KC","331a79f88df90d57":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("ae53b3c57f7e7d25");
+module.exports = require("cc7a461b671c20b1");
 
-},{"ae53b3c57f7e7d25":"ixSQw"}],"ixSQw":[function(require,module,exports) {
+},{"cc7a461b671c20b1":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -627,8 +627,8 @@ module.exports = require("ae53b3c57f7e7d25");
     exports.setSignature = setSignature;
 })();
 
-},{}],"fYA2C":[function(require,module,exports) {
-var process = require("a4924c29753b3f1");
+},{}],"1dldy":[function(require,module,exports) {
+var process = require("67d72cb1a85bf2d5");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("a4924c29753b3f1");
     ]);
 });
 
-},{"a4924c29753b3f1":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"67d72cb1a85bf2d5":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2503,7 +2503,7 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"5vlUK":[function(require,module,exports) {
+},{}],"7a1Sg":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -2928,6 +2928,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _client = require("react-dom/client");
 var _mainView = require("./components/main-view/main-view");
 //Import statement to indicate that you need to bundle `./index.scss``
+//import "bootstrap/dist/css/bootstrap.min.css";
 var _indexScss = require("./index.scss");
 var _reactBootstrap = require("react-bootstrap");
 //Main component (will eventually use all the others)
@@ -2935,12 +2936,20 @@ const MyFlixApplication = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Container), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainView.MainView), {}, void 0, false, {
             fileName: "src/index.jsx",
+<<<<<<< HEAD
+            lineNumber: 14,
+=======
             lineNumber: 13,
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
             columnNumber: 13
         }, undefined)
     }, void 0, false, {
         fileName: "src/index.jsx",
+<<<<<<< HEAD
+        lineNumber: 13,
+=======
         lineNumber: 12,
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
         columnNumber: 9
     }, undefined);
 };
@@ -2951,7 +2960,11 @@ const root = (0, _client.createRoot)(container);
 //Tells React to render the app in the root DOM element
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MyFlixApplication, {}, void 0, false, {
     fileName: "src/index.jsx",
+<<<<<<< HEAD
+    lineNumber: 24,
+=======
     lineNumber: 23,
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
     columnNumber: 13
 }, undefined));
 var _c;
@@ -2962,7 +2975,11 @@ $RefreshReg$(_c, "MyFlixApplication");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/main-view/main-view":"4gflv","react-bootstrap":"3AD9A"}],"iTorj":[function(require,module,exports) {
+=======
 },{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dIT0z","./components/main-view/main-view":"4gflv","react-bootstrap":"3AD9A"}],"iTorj":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 "use strict";
 module.exports = require("baef9c753aa5b96e");
 
@@ -27147,9 +27164,9 @@ module.exports = require("4641ad5b9c0e9c52");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"lJZlQ":[function() {},{}],"dIT0z":[function(require,module,exports) {
+},{}],"lJZlQ":[function() {},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
-var Refresh = require("d42b1bfe1b9036df");
+var Refresh = require("50151529641bd80b");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -27280,7 +27297,11 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
+<<<<<<< HEAD
+},{"50151529641bd80b":"786KC"}],"4gflv":[function(require,module,exports) {
+=======
 },{"d42b1bfe1b9036df":"hoRen"}],"4gflv":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var $parcel$ReactRefreshHelpers$f7a6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27297,12 +27318,40 @@ var _movieView = require("../movie-view/movie-view");
 var _loginView = require("../login-view/login-view");
 var _signupView = require("../signup-view/signup-view");
 var _reactBootstrap = require("react-bootstrap");
+<<<<<<< HEAD
+var _reactRouterDom = require("react-router-dom");
+var _navigationBar = require("../navigation-bar/navigation-bar");
+var _profileView = require("../profile-view/profile-view");
+var _usernameSettings = require("../profile-view/username-settings");
+var _passwordSettings = require("../profile-view/password-settings");
+var _emailSettings = require("../profile-view/email-settings");
+var _birthdaySettings = require("../profile-view/birthday-settings");
+=======
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var _s = $RefreshSig$();
 const MainView = ()=>{
     _s();
     const storedUser = JSON.parse(localStorage.getItem("user"));
     const storedToken = localStorage.getItem("token");
     const [movies, setMovies] = (0, _react.useState)([]);
+<<<<<<< HEAD
+    const [user, setUser] = (0, _react.useState)(null);
+    const [token, setToken] = (0, _react.useState)(null);
+    const [searchMovies, setSearchMovies] = (0, _react.useState)(movies);
+    const updateUser = (user)=>{
+        delete user.password;
+        localStorage.setItem("user", JSON.stringify(user));
+        setUser(user);
+    };
+    (0, _react.useEffect)(()=>{
+        if (!token) return;
+        fetch(`https://myflixapi.herokuapp.com/movies`, {
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>response.json()).then((movies)=>{
+            const moviesFromApi = movies.map((doc)=>{
+=======
     const [selectedMovie, setSelectedMovie] = (0, _react.useState)(null);
     const [user, setUser] = (0, _react.useState)(null);
     const [token, setToken] = (0, _react.useState)(null);
@@ -27314,6 +27363,7 @@ const MainView = ()=>{
             }
         }).then((response)=>response.json()).then((data)=>{
             const moviesFromApi = data.map((doc)=>{
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                 return {
                     id: doc._id,
                     title: doc.Title,
@@ -27328,6 +27378,237 @@ const MainView = ()=>{
     }, [
         token
     ]);
+<<<<<<< HEAD
+    (0, _react.useEffect)(()=>{
+        setSearchMovies(movies);
+    }, [
+        movies
+    ]);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _navigationBar.NavigationBar), {
+                user: user,
+                onLoggedOut: ()=>{
+                    setUser(null);
+                    setToken(null);
+                    localStorage.clear();
+                },
+                onSearch: (query)=>{
+                    setSearchMovies(movies.filter((movie)=>movie.title.toLowerCase().includes(query.toLowerCase())));
+                }
+            }, void 0, false, {
+                fileName: "src/components/main-view/main-view.jsx",
+                lineNumber: 63,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "justify-content-md-center",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/signup",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/"
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                    mod: 5,
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signupView.SignupView), {}, void 0, false, void 0, void 0)
+                                }, void 0, false, void 0, void 0)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 76,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/login",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/"
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                    md: 5,
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loginView.LoginView), {
+                                        onLoggedIn: (user, token)=>{
+                                            setUser(user);
+                                            setToken(token);
+                                        }
+                                    }, void 0, false, void 0, void 0)
+                                }, void 0, false, void 0, void 0)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 91,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/users",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/login",
+                                    replace: true
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _profileView.ProfileView), {
+                                    user: user,
+                                    token: token,
+                                    movies: movies,
+                                    onLoggedOut: ()=>{
+                                        setUser(null);
+                                        setToken(null);
+                                        localStorage.clear();
+                                    },
+                                    updateUser: updateUser
+                                }, void 0, false, void 0, void 0)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 109,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/users/settings/username",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/login",
+                                    replace: true
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _usernameSettings.UsernameSettings), {
+                                    user: user,
+                                    token: token,
+                                    movies: movies,
+                                    onLoggedOut: ()=>{
+                                        setUser(null);
+                                        setToken(null);
+                                        localStorage.clear();
+                                    },
+                                    updateUser: updateUser
+                                }, void 0, false, void 0, void 0)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 126,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/users/settings/password",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/login",
+                                    replace: true
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _passwordSettings.PasswordSettings), {
+                                    user: user,
+                                    token: token,
+                                    updateUser: ()=>{
+                                        setUser(null), setToken(null), localStorage.clear();
+                                    }
+                                }, void 0, false, void 0, void 0)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 144,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/users/settings/email",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/login",
+                                    replace: true
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _emailSettings.EmailSettings), {
+                                    user: user,
+                                    token: token,
+                                    updateUser: ()=>{
+                                        setUser(null), setToken(null), localStorage.clear();
+                                    }
+                                }, void 0, false, void 0, void 0)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 164,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/users/settings/birthday",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/login",
+                                    replace: true
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _birthdaySettings.BirthdaySettings), {
+                                    user: user,
+                                    token: token,
+                                    updateUser: ()=>{
+                                        setUser(null), setToken(null), localStorage.clear();
+                                    }
+                                }, void 0, false, void 0, void 0)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 184,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/movies/:movieId",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/login",
+                                    replace: true
+                                }, void 0, false, void 0, void 0) : movies.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                    children: "The list is empty"
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                    md: 8,
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieView.MovieView), {
+                                        movies: movies,
+                                        user: user,
+                                        token: token,
+                                        updateUser: updateUser
+                                    }, void 0, false, void 0, void 0)
+                                }, void 0, false, void 0, void 0)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 205,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                            path: "/",
+                            element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
+                                    to: "/login",
+                                    replace: true
+                                }, void 0, false, void 0, void 0) : movies.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                    children: "The list is empty"
+                                }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                    children: movies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                            className: "mb-4",
+                                            md: 3,
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
+                                                movie: movie
+                                            }, void 0, false, void 0, void 0)
+                                        }, movie.id, false, void 0, void 0))
+                                }, void 0, false)
+                            }, void 0, false)
+                        }, void 0, false, {
+                            fileName: "src/components/main-view/main-view.jsx",
+                            lineNumber: 222,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/main-view/main-view.jsx",
+                    lineNumber: 75,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/main-view/main-view.jsx",
+                lineNumber: 74,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/main-view/main-view.jsx",
+        lineNumber: 62,
+        columnNumber: 9
+    }, undefined);
+};
+_s(MainView, "RF54pFHY/5pjVJitSzNuNIPds8M=");
+=======
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
         children: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
             children: [
@@ -27404,6 +27685,7 @@ const MainView = ()=>{
     }, undefined);
 };
 _s(MainView, "ld1mNqbzEgxPu9ZfASjBJ7ZrUMw=");
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 _c = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");
@@ -27413,7 +27695,11 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","../profile-view/username-settings":"dZ9kv","../profile-view/password-settings":"5unBk","../profile-view/email-settings":"44XWW","../profile-view/birthday-settings":"79rq2"}],"bwuIu":[function(require,module,exports) {
+=======
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dIT0z","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","react-bootstrap":"3AD9A"}],"bwuIu":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var $parcel$ReactRefreshHelpers$67b2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27424,6 +27710,74 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MovieCard", ()=>MovieCard);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
+<<<<<<< HEAD
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+var _reactBootstrap = require("react-bootstrap");
+var _reactRouterDom = require("react-router-dom");
+const MovieCard = ({ movie , favoriteMovies  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+        border: "primary",
+        style: {
+            width: "19rem"
+        },
+        className: "h-100",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Img, {
+                variant: "top",
+                src: movie.image
+            }, void 0, false, {
+                fileName: "src/components/movie-card/movie-card.jsx",
+                lineNumber: 9,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Title, {
+                        children: movie.title
+                    }, void 0, false, {
+                        fileName: "src/components/movie-card/movie-card.jsx",
+                        lineNumber: 11,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Text, {
+                        children: movie.director
+                    }, void 0, false, {
+                        fileName: "src/components/movie-card/movie-card.jsx",
+                        lineNumber: 12,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: `/movies/${encodeURIComponent(movie.id)}`,
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            style: {
+                                width: "270px"
+                            },
+                            variant: "primary",
+                            children: "Open"
+                        }, void 0, false, {
+                            fileName: "src/components/movie-card/movie-card.jsx",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/movie-card/movie-card.jsx",
+                        lineNumber: 13,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/movie-card/movie-card.jsx",
+                lineNumber: 10,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/movie-card/movie-card.jsx",
+        lineNumber: 8,
+=======
 var _propTypes = require("prop-types");
 var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
 const MovieCard = ({ movie , onMovieClick  })=>{
@@ -27435,15 +27789,24 @@ const MovieCard = ({ movie , onMovieClick  })=>{
     }, void 0, false, {
         fileName: "src/components/movie-card/movie-card.jsx",
         lineNumber: 5,
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
         columnNumber: 9
     }, undefined);
 };
 _c = MovieCard;
+<<<<<<< HEAD
+//Define prop constraints
+=======
 //Define props constraints
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 MovieCard.propTypes = {
     movie: (0, _propTypesDefault.default).shape({
         title: (0, _propTypesDefault.default).string.isRequired,
         image: (0, _propTypesDefault.default).string.isRequired,
+<<<<<<< HEAD
+        director: (0, _propTypesDefault.default).string.isRequired
+    }).isRequired
+=======
         director: (0, _propTypesDefault.default).shape({
             name: (0, _propTypesDefault.default).string.isRequired,
             bio: (0, _propTypesDefault.default).string.isRequired
@@ -27454,6 +27817,7 @@ MovieCard.propTypes = {
         })
     }).isRequired,
     onMovieClick: (0, _propTypesDefault.default).func.isRequired
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 };
 var _c;
 $RefreshReg$(_c, "MovieCard");
@@ -27463,7 +27827,11 @@ $RefreshReg$(_c, "MovieCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe"}],"7wKI2":[function(require,module,exports) {
+=======
 },{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dIT0z"}],"7wKI2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28210,7 +28578,11 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
+<<<<<<< HEAD
+},{"70981538a294a8fd":"jZTZJ","6ad4139a6db6a6e4":"fqKuf"}],"gkKU3":[function(require,module,exports) {
+=======
 },{"70981538a294a8fd":"jZTZJ","6ad4139a6db6a6e4":"fqKuf"}],"l1nDD":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28240,6 +28612,9 @@ exports.export = function(dest, destName, get) {
     });
 };
 
+<<<<<<< HEAD
+},{}],"3AD9A":[function(require,module,exports) {
+=======
 },{}],"ggaUx":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e9f6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -28413,6 +28788,7 @@ $RefreshReg$(_c, "MovieView");
   window.$RefreshSig$ = prevRefreshSig;
 }
 },{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dIT0z","./movie-view.scss":"jnlR5","prop-types":"7wKI2","react-bootstrap":"3AD9A"}],"jnlR5":[function() {},{}],"3AD9A":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Accordion", ()=>(0, _accordionDefault.default));
@@ -28669,7 +29045,11 @@ var _toggleButtonGroupDefault = parcelHelpers.interopDefault(_toggleButtonGroup)
 var _tooltip = require("./Tooltip");
 var _tooltipDefault = parcelHelpers.interopDefault(_tooltip);
 
+<<<<<<< HEAD
+},{"./Accordion":"1m6xp","./AccordionContext":"e5D96","./AccordionCollapse":"kI8r5","./AccordionButton":"hkYfS","./Alert":"e3Xec","./Anchor":"lwVpH","./Badge":"eEyks","./Breadcrumb":"hOow1","./BreadcrumbItem":"bWkuO","./Button":"aPzUt","./ButtonGroup":"gXYCe","./ButtonToolbar":"k88gW","./Card":"lAynp","./CardImg":"1reTi","./CardGroup":"2j3Ij","./Carousel":"bsGhm","./CarouselItem":"9A3DI","./CloseButton":"1wmVl","./Col":"2L2I6","./Collapse":"acuzI","./Dropdown":"88m2L","./DropdownButton":"5sMVB","./Fade":"aH18S","./Form":"iBZ80","./FormControl":"iynMc","./FormCheck":"idkr0","./FormFloating":"aj346","./FloatingLabel":"coYzo","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormText":"ffeC7","./FormSelect":"hHWyB","./Container":"hEdsw","./Image":"cyVPa","./Figure":"7Eckp","./InputGroup":"htx7r","./ListGroup":"4tGXh","./ListGroupItem":"9U5b8","./Modal":"aNVmp","./ModalBody":"e0aNG","./ModalDialog":"cwGGq","./ModalHeader":"cxgdE","./ModalFooter":"9SLlP","./ModalTitle":"kYqJp","./Nav":"cXyL2","./Navbar":"1mHjo","./NavbarBrand":"iOo4v","./NavDropdown":"8e6QB","./NavItem":"ew05W","./NavLink":"7geL8","./Offcanvas":"eC3RS","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./OffcanvasBody":"fX7Bo","./Overlay":"bHdwO","./OverlayTrigger":"acOnV","./PageItem":"i0zxH","./Pagination":"6yvxS","./Placeholder":"fw5xV","./PlaceholderButton":"dRc7O","./Popover":"afWr1","./PopoverHeader":"1rLXn","./PopoverBody":"amJTZ","./ProgressBar":"cCHIb","./Ratio":"ioXys","./Row":"cMC39","./Spinner":"2r8jr","./SplitButton":"fWabe","./SSRProvider":"kdCr8","./Stack":"eZkZ1","./Tab":"kfiWM","./TabContainer":"hkO95","./TabContent":"fQxYB","./Table":"3UQc3","./TabPane":"4jWis","./Tabs":"cq1ML","./ThemeProvider":"dVixI","./Toast":"iyxlo","./ToastBody":"30cvm","./ToastHeader":"gsTvK","./ToastContainer":"kqOPy","./ToggleButton":"dCmeV","./ToggleButtonGroup":"2t8MV","./Tooltip":"ajjgB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1m6xp":[function(require,module,exports) {
+=======
 },{"./Accordion":"1m6xp","./AccordionContext":"e5D96","./AccordionCollapse":"kI8r5","./AccordionButton":"hkYfS","./Alert":"e3Xec","./Anchor":"lwVpH","./Badge":"eEyks","./Breadcrumb":"hOow1","./BreadcrumbItem":"bWkuO","./Button":"aPzUt","./ButtonGroup":"gXYCe","./ButtonToolbar":"k88gW","./Card":"lAynp","./CardImg":"1reTi","./CardGroup":"2j3Ij","./Carousel":"bsGhm","./CarouselItem":"9A3DI","./CloseButton":"1wmVl","./Col":"2L2I6","./Collapse":"acuzI","./Dropdown":"88m2L","./DropdownButton":"5sMVB","./Fade":"aH18S","./Form":"iBZ80","./FormControl":"iynMc","./FormCheck":"idkr0","./FormFloating":"aj346","./FloatingLabel":"coYzo","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormText":"ffeC7","./FormSelect":"hHWyB","./Container":"hEdsw","./Image":"cyVPa","./Figure":"7Eckp","./InputGroup":"htx7r","./ListGroup":"4tGXh","./ListGroupItem":"9U5b8","./Modal":"aNVmp","./ModalBody":"e0aNG","./ModalDialog":"cwGGq","./ModalHeader":"cxgdE","./ModalFooter":"9SLlP","./ModalTitle":"kYqJp","./Nav":"cXyL2","./Navbar":"1mHjo","./NavbarBrand":"iOo4v","./NavDropdown":"8e6QB","./NavItem":"ew05W","./NavLink":"7geL8","./Offcanvas":"eC3RS","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./OffcanvasBody":"fX7Bo","./Overlay":"bHdwO","./OverlayTrigger":"acOnV","./PageItem":"i0zxH","./Pagination":"6yvxS","./Placeholder":"fw5xV","./PlaceholderButton":"dRc7O","./Popover":"afWr1","./PopoverHeader":"1rLXn","./PopoverBody":"amJTZ","./ProgressBar":"cCHIb","./Ratio":"ioXys","./Row":"cMC39","./Spinner":"2r8jr","./SplitButton":"fWabe","./SSRProvider":"kdCr8","./Stack":"eZkZ1","./Tab":"kfiWM","./TabContainer":"hkO95","./TabContent":"fQxYB","./Table":"3UQc3","./TabPane":"4jWis","./Tabs":"cq1ML","./ThemeProvider":"dVixI","./Toast":"iyxlo","./ToastBody":"30cvm","./ToastHeader":"gsTvK","./ToastContainer":"kqOPy","./ToggleButton":"dCmeV","./ToggleButtonGroup":"2t8MV","./Tooltip":"ajjgB","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1m6xp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -28723,7 +29103,11 @@ exports.default = Object.assign(Accordion, {
     Body: (0, _accordionBodyDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","./ThemeProvider":"dVixI","./AccordionBody":"2p9OR","./AccordionButton":"hkYfS","./AccordionCollapse":"kI8r5","./AccordionContext":"e5D96","./AccordionHeader":"LJXVf","./AccordionItem":"8sXhn","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jocGM":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","./ThemeProvider":"dVixI","./AccordionBody":"2p9OR","./AccordionButton":"hkYfS","./AccordionCollapse":"kI8r5","./AccordionContext":"e5D96","./AccordionHeader":"LJXVf","./AccordionItem":"8sXhn","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"jocGM":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
@@ -28775,7 +29159,11 @@ var _hookDefault = parcelHelpers.interopDefault(_hook);
 var _uncontrollable = require("./uncontrollable");
 var _uncontrollableDefault = parcelHelpers.interopDefault(_uncontrollable);
 
+<<<<<<< HEAD
+},{"./hook":"cv9oS","./uncontrollable":"aqbCD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cv9oS":[function(require,module,exports) {
+=======
 },{"./hook":"cv9oS","./uncontrollable":"aqbCD","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cv9oS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useUncontrolledProp", ()=>useUncontrolledProp);
@@ -28836,7 +29224,11 @@ function useUncontrolled(props, config) {
 }
 exports.default = useUncontrolled;
 
+<<<<<<< HEAD
+},{"@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","react":"21dqq","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fTBFS":[function(require,module,exports) {
+=======
 },{"@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","react":"21dqq","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fTBFS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _extends() {
@@ -28851,7 +29243,11 @@ function _extends() {
 }
 exports.default = _extends;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"adHgr":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"adHgr":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _objectWithoutPropertiesLoose(source, excluded) {
@@ -28868,7 +29264,11 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 exports.default = _objectWithoutPropertiesLoose;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7UQ73":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7UQ73":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "uncontrolledPropTypes", ()=>uncontrolledPropTypes);
@@ -28913,7 +29313,11 @@ function canAcceptRef(component) {
     return !!component && (typeof component !== "function" || component.prototype && component.prototype.isReactComponent);
 }
 
+<<<<<<< HEAD
+},{"invariant":"d1QgR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d1QgR":[function(require,module,exports) {
+=======
 },{"invariant":"d1QgR","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"d1QgR":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -29101,7 +29505,11 @@ function uncontrollable(Component, controlledValues, methods) {
 }
 exports.default = uncontrollable;
 
+<<<<<<< HEAD
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","react":"21dqq","react-lifecycles-compat":"3f3fU","invariant":"d1QgR","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9u2Z8":[function(require,module,exports) {
+=======
 },{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","react":"21dqq","react-lifecycles-compat":"3f3fU","invariant":"d1QgR","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9u2Z8":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _setPrototypeOfJs = require("./setPrototypeOf.js");
@@ -29113,7 +29521,11 @@ function _inheritsLoose(subClass, superClass) {
 }
 exports.default = _inheritsLoose;
 
+<<<<<<< HEAD
+},{"./setPrototypeOf.js":"3XDFA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3XDFA":[function(require,module,exports) {
+=======
 },{"./setPrototypeOf.js":"3XDFA","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3XDFA":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function _setPrototypeOf(o, p) {
@@ -29125,7 +29537,11 @@ function _setPrototypeOf(o, p) {
 }
 exports.default = _setPrototypeOf;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3f3fU":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3f3fU":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -29218,7 +29634,11 @@ function polyfill(Component) {
     return Component;
 }
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dVixI":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dVixI":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "DEFAULT_BREAKPOINTS", ()=>DEFAULT_BREAKPOINTS);
@@ -29301,7 +29721,11 @@ function createBootstrapComponent(Component, opts) {
 }
 exports.default = ThemeProvider;
 
+<<<<<<< HEAD
+},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports) {
+=======
 },{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6AEwr":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 "use strict";
 module.exports = require("5c60f9d56e7c5da");
 
@@ -30182,7 +30606,11 @@ as: Component = "div" , bsPrefix , className , onEnter , onEntering , onEntered 
 AccordionBody.displayName = "AccordionBody";
 exports.default = AccordionBody;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionCollapse":"kI8r5","./AccordionItemContext":"35RRI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kI8r5":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionCollapse":"kI8r5","./AccordionItemContext":"35RRI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"kI8r5":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -30212,7 +30640,11 @@ var _jsxRuntime = require("react/jsx-runtime");
 AccordionCollapse.displayName = "AccordionCollapse";
 exports.default = AccordionCollapse;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Collapse":"acuzI","./AccordionContext":"e5D96","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"acuzI":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Collapse":"acuzI","./AccordionContext":"e5D96","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"acuzI":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -30315,7 +30747,11 @@ const Collapse = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({ onEnter 
 // @ts-ignore
 exports.default = Collapse;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","dom-helpers/css":"klmhr","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./createChainedFunction":"1KNLM","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"klmhr":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","dom-helpers/css":"klmhr","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./createChainedFunction":"1KNLM","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"klmhr":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getComputedStyle = require("./getComputedStyle");
@@ -30339,7 +30775,11 @@ function style(node, property) {
 }
 exports.default = style;
 
+<<<<<<< HEAD
+},{"./getComputedStyle":"adqGa","./hyphenateStyle":"hbsNp","./isTransform":"gnxjD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"adqGa":[function(require,module,exports) {
+=======
 },{"./getComputedStyle":"adqGa","./hyphenateStyle":"hbsNp","./isTransform":"gnxjD","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"adqGa":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _ownerWindow = require("./ownerWindow");
@@ -30349,7 +30789,11 @@ function getComputedStyle(node, psuedoElement) {
 }
 exports.default = getComputedStyle;
 
+<<<<<<< HEAD
+},{"./ownerWindow":"3nPSD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3nPSD":[function(require,module,exports) {
+=======
 },{"./ownerWindow":"3nPSD","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3nPSD":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _ownerDocument = require("./ownerDocument");
@@ -30360,7 +30804,11 @@ function ownerWindow(node) {
 }
 exports.default = ownerWindow;
 
+<<<<<<< HEAD
+},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2WpOk":[function(require,module,exports) {
+=======
 },{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2WpOk":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Returns the owner document of a given element.
  * 
@@ -30372,7 +30820,11 @@ function ownerDocument(node) {
 }
 exports.default = ownerDocument;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hbsNp":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hbsNp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30387,7 +30839,11 @@ function hyphenateStyleName(string) {
 }
 exports.default = hyphenateStyleName;
 
+<<<<<<< HEAD
+},{"./hyphenate":"3UJRr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3UJRr":[function(require,module,exports) {
+=======
 },{"./hyphenate":"3UJRr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3UJRr":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var rUpper = /([A-Z])/g;
@@ -30396,7 +30852,11 @@ function hyphenate(string) {
 }
 exports.default = hyphenate;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gnxjD":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gnxjD":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var supportedTransforms = /^((translate|rotate|scale)(X|Y|Z|3d)?|matrix(3d)?|perspective|skew(X|Y)?)$/i;
@@ -30405,7 +30865,11 @@ function isTransform(value) {
 }
 exports.default = isTransform;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cKsrS":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cKsrS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "UNMOUNTED", ()=>UNMOUNTED);
@@ -30921,14 +31385,22 @@ Transition.ENTERED = ENTERED;
 Transition.EXITING = EXITING;
 exports.default = Transition;
 
+<<<<<<< HEAD
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","prop-types":"7wKI2","react":"21dqq","react-dom":"j6uA9","./config":"cepoZ","./utils/PropTypes":"9Zqaa","./TransitionGroupContext":"47LXo","./utils/reflow":"V4VjQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cepoZ":[function(require,module,exports) {
+=======
 },{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","prop-types":"7wKI2","react":"21dqq","react-dom":"j6uA9","./config":"cepoZ","./utils/PropTypes":"9Zqaa","./TransitionGroupContext":"47LXo","./utils/reflow":"V4VjQ","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cepoZ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     disabled: false
 };
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9Zqaa":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9Zqaa":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "timeoutsShape", ()=>timeoutsShape);
@@ -30960,14 +31432,22 @@ var classNamesShape = (0, _propTypesDefault.default).oneOfType([
     })
 ]);
 
+<<<<<<< HEAD
+},{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"47LXo":[function(require,module,exports) {
+=======
 },{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"47LXo":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 exports.default = (0, _reactDefault.default).createContext(null);
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"V4VjQ":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"V4VjQ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "forceReflow", ()=>forceReflow);
@@ -30975,7 +31455,11 @@ var forceReflow = function forceReflow(node) {
     return node.scrollTop;
 };
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"68oh7":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"68oh7":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _css = require("dom-helpers/css");
@@ -30999,7 +31483,11 @@ function transitionEndListener(element, handler) {
 }
 exports.default = transitionEndListener;
 
+<<<<<<< HEAD
+},{"dom-helpers/css":"klmhr","dom-helpers/transitionEnd":"7hVJq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7hVJq":[function(require,module,exports) {
+=======
 },{"dom-helpers/css":"klmhr","dom-helpers/transitionEnd":"7hVJq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7hVJq":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _css = require("./css");
@@ -31040,7 +31528,11 @@ function transitionEnd(element, handler, duration, padding) {
 }
 exports.default = transitionEnd;
 
+<<<<<<< HEAD
+},{"./css":"klmhr","./listen":"1i4e7","./triggerEvent":"lQ70W","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1i4e7":[function(require,module,exports) {
+=======
 },{"./css":"klmhr","./listen":"1i4e7","./triggerEvent":"lQ70W","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1i4e7":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _addEventListener = require("./addEventListener");
@@ -31055,7 +31547,11 @@ function listen(node, eventName, handler, options) {
 }
 exports.default = listen;
 
+<<<<<<< HEAD
+},{"./addEventListener":"c5x2p","./removeEventListener":"la8JB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c5x2p":[function(require,module,exports) {
+=======
 },{"./addEventListener":"c5x2p","./removeEventListener":"la8JB","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"c5x2p":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /* eslint-disable no-return-assign */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "optionsSupported", ()=>optionsSupported);
@@ -31104,12 +31600,20 @@ try {
 }
 exports.default = addEventListener;
 
+<<<<<<< HEAD
+},{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9AwUB":[function(require,module,exports) {
+=======
 },{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9AwUB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = !!(typeof window !== "undefined" && window.document && window.document.createElement);
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"la8JB":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"la8JB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * A `removeEventListener` ponyfill
  * 
@@ -31126,7 +31630,11 @@ function removeEventListener(node, eventName, handler, options) {
 }
 exports.default = removeEventListener;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lQ70W":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"lQ70W":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Triggers an event on a given element.
  * 
@@ -31147,7 +31655,11 @@ function triggerEvent(node, eventName, bubbles, cancelable) {
 }
 exports.default = triggerEvent;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1KNLM":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1KNLM":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Safe chained function
  *
@@ -31172,7 +31684,11 @@ function createChainedFunction(...funcs) {
 }
 exports.default = createChainedFunction;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eWjs5":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eWjs5":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 // reading a dimension prop will cause the browser to recalculate,
 // which will let our animations work
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -31183,7 +31699,11 @@ function triggerBrowserReflow(node) {
 }
 exports.default = triggerBrowserReflow;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jKUqZ":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"jKUqZ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31247,7 +31767,11 @@ const TransitionWrapper = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({
 });
 exports.default = TransitionWrapper;
 
+<<<<<<< HEAD
+},{"react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/hooks/useMergedRefs":"6hhuo","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6hhuo":[function(require,module,exports) {
+=======
 },{"react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/hooks/useMergedRefs":"6hhuo","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6hhuo":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "mergeRefs", ()=>mergeRefs);
@@ -31290,7 +31814,11 @@ function mergeRefs(refA, refB) {
 }
 exports.default = useMergedRefs;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"XsXw9":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"XsXw9":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _reactDom = require("react-dom");
@@ -31301,7 +31829,11 @@ function safeFindDOMNode(componentOrElement) {
 }
 exports.default = safeFindDOMNode;
 
+<<<<<<< HEAD
+},{"react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e5D96":[function(require,module,exports) {
+=======
 },{"react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"e5D96":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isAccordionItemSelected", ()=>isAccordionItemSelected);
@@ -31313,7 +31845,11 @@ const context = /*#__PURE__*/ _react.createContext({});
 context.displayName = "AccordionContext";
 exports.default = context;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"35RRI":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"35RRI":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31323,7 +31859,11 @@ const context = /*#__PURE__*/ _react.createContext({
 context.displayName = "AccordionItemContext";
 exports.default = context;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hkYfS":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hkYfS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useAccordionButton", ()=>useAccordionButton);
@@ -31377,7 +31917,11 @@ as: Component = "button" , bsPrefix , className , onClick , ...props }, ref)=>{
 AccordionButton.displayName = "AccordionButton";
 exports.default = AccordionButton;
 
+<<<<<<< HEAD
+},{"react":"21dqq","classnames":"jocGM","./AccordionContext":"e5D96","./AccordionItemContext":"35RRI","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"LJXVf":[function(require,module,exports) {
+=======
 },{"react":"21dqq","classnames":"jocGM","./AccordionContext":"e5D96","./AccordionItemContext":"35RRI","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"LJXVf":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31403,7 +31947,11 @@ as: Component = "h2" , bsPrefix , className , children , onClick , ...props }, r
 AccordionHeader.displayName = "AccordionHeader";
 exports.default = AccordionHeader;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionButton":"hkYfS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8sXhn":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionButton":"hkYfS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"8sXhn":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31433,7 +31981,11 @@ as: Component = "div" , bsPrefix , className , eventKey , ...props }, ref)=>{
 AccordionItem.displayName = "AccordionItem";
 exports.default = AccordionItem;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionItemContext":"35RRI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e3Xec":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionItemContext":"35RRI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"e3Xec":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31500,7 +32052,11 @@ exports.default = Object.assign(Alert, {
     Heading: AlertHeading
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","@restart/hooks/useEventCallback":"7ONdq","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","./Fade":"aH18S","./CloseButton":"1wmVl","./divWithClassName":"eDg7t","./createWithBsPrefix":"itt7e","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7ONdq":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","@restart/hooks/useEventCallback":"7ONdq","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","./Fade":"aH18S","./CloseButton":"1wmVl","./divWithClassName":"eDg7t","./createWithBsPrefix":"itt7e","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7ONdq":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31516,7 +32072,11 @@ function useEventCallback(fn) {
 }
 exports.default = useEventCallback;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g5BYG":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"g5BYG":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31539,7 +32099,11 @@ var _react = require("react");
 }
 exports.default = useCommittedRef;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cQOWi":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cQOWi":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isTrivialHref", ()=>isTrivialHref);
@@ -31591,7 +32155,11 @@ function isTrivialHref(href) {
 Anchor.displayName = "Anchor";
 exports.default = Anchor;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@restart/hooks":"5ErkJ","./Button":"8YUbR","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ErkJ":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@restart/hooks":"5ErkJ","./Button":"8YUbR","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"5ErkJ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallbackRef", ()=>(0, _useCallbackRefDefault.default));
@@ -31634,7 +32202,11 @@ var _useImageDefault = parcelHelpers.interopDefault(_useImage);
 var _useResizeObserver = require("./useResizeObserver");
 var _useResizeObserverDefault = parcelHelpers.interopDefault(_useResizeObserver);
 
+<<<<<<< HEAD
+},{"./useCallbackRef":"82p6M","./useCommittedRef":"g5BYG","./useEventCallback":"7ONdq","./useEventListener":"dBDI3","./useGlobalListener":"iey73","./useInterval":"hnmo4","./useRafInterval":"4qbLw","./useMergeState":"7E8IK","./useMergeStateFromProps":"6f6Me","./useMounted":"iK6A1","./usePrevious":"gDCGm","./useImage":"iuAlv","./useResizeObserver":"edwGv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"82p6M":[function(require,module,exports) {
+=======
 },{"./useCallbackRef":"82p6M","./useCommittedRef":"g5BYG","./useEventCallback":"7ONdq","./useEventListener":"dBDI3","./useGlobalListener":"iey73","./useInterval":"hnmo4","./useRafInterval":"4qbLw","./useMergeState":"7E8IK","./useMergeStateFromProps":"6f6Me","./useMounted":"iK6A1","./usePrevious":"gDCGm","./useImage":"iuAlv","./useResizeObserver":"edwGv","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"82p6M":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31643,7 +32215,11 @@ function useCallbackRef() {
 }
 exports.default = useCallbackRef;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dBDI3":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dBDI3":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31664,7 +32240,11 @@ function useEventListener(eventTarget, event, listener, capture) {
 }
 exports.default = useEventListener;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./useEventCallback":"7ONdq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iey73":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./useEventCallback":"7ONdq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iey73":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useEventListener = require("./useEventListener");
@@ -31679,7 +32259,11 @@ function useGlobalListener(event, handler, capture) {
 }
 exports.default = useGlobalListener;
 
+<<<<<<< HEAD
+},{"./useEventListener":"dBDI3","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hnmo4":[function(require,module,exports) {
+=======
 },{"./useEventListener":"dBDI3","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hnmo4":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31728,7 +32312,11 @@ var _useCommittedRefDefault = parcelHelpers.interopDefault(_useCommittedRef);
 }
 exports.default = useInterval;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4qbLw":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"4qbLw":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31761,7 +32349,11 @@ function useRafInterval(fn, ms, paused) {
 }
 exports.default = useRafInterval;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7E8IK":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7E8IK":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31796,7 +32388,11 @@ function useMergeState(initialState) {
 }
 exports.default = useMergeState;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6f6Me":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6f6Me":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useMergeState = require("./useMergeState");
@@ -31812,7 +32408,11 @@ function useMergeStateFromProps(props, gDSFP, initialState) {
 }
 exports.default = useMergeStateFromProps;
 
+<<<<<<< HEAD
+},{"./useMergeState":"7E8IK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iK6A1":[function(require,module,exports) {
+=======
 },{"./useMergeState":"7E8IK","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iK6A1":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31831,7 +32431,11 @@ function useMounted() {
 }
 exports.default = useMounted;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gDCGm":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gDCGm":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31844,7 +32448,11 @@ function usePrevious(value) {
 }
 exports.default = usePrevious;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iuAlv":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iuAlv":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31896,7 +32504,11 @@ function useImage(imageOrUrl, crossOrigin) {
 }
 exports.default = useImage;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"edwGv":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"edwGv":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31932,7 +32544,11 @@ function useResizeObserver(element) {
 }
 exports.default = useResizeObserver;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./useIsomorphicEffect":"e8blq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e8blq":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./useIsomorphicEffect":"e8blq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"e8blq":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31950,7 +32566,11 @@ var isDOM = typeof document !== "undefined";
  * @category effects
  */ exports.default = isDOM || isReactNative ? (0, _react.useLayoutEffect) : (0, _react.useEffect);
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8YUbR":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"8YUbR":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isTrivialHref", ()=>isTrivialHref);
@@ -32040,7 +32660,11 @@ const Button = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 Button.displayName = "Button";
 exports.default = Button;
 
+<<<<<<< HEAD
+},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aH18S":[function(require,module,exports) {
+=======
 },{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"aH18S":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32088,7 +32712,11 @@ const Fade = /*#__PURE__*/ _react.forwardRef(({ className , children , transitio
 Fade.displayName = "Fade";
 exports.default = Fade;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1wmVl":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1wmVl":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _propTypes = require("prop-types");
@@ -32119,7 +32747,11 @@ CloseButton.displayName = "CloseButton";
 CloseButton.propTypes = propTypes;
 exports.default = CloseButton;
 
+<<<<<<< HEAD
+},{"prop-types":"7wKI2","react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eDg7t":[function(require,module,exports) {
+=======
 },{"prop-types":"7wKI2","react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eDg7t":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -32132,7 +32764,11 @@ exports.default = (className)=>/*#__PURE__*/ _react.forwardRef((p, ref)=>/*#__PU
             className: (0, _classnamesDefault.default)(p.className, className)
         }));
 
+<<<<<<< HEAD
+},{"react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"itt7e":[function(require,module,exports) {
+=======
 },{"react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"itt7e":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32161,7 +32797,11 @@ function createWithBsPrefix(prefix, { displayName =pascalCase(prefix) , Componen
 }
 exports.default = createWithBsPrefix;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","dom-helpers/camelize":"kbWDq","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kbWDq":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","dom-helpers/camelize":"kbWDq","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"kbWDq":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var rHyphen = /-(.)/g;
@@ -32172,14 +32812,22 @@ function camelize(string) {
 }
 exports.default = camelize;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lwVpH":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"lwVpH":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _anchor = require("@restart/ui/Anchor");
 var _anchorDefault = parcelHelpers.interopDefault(_anchor);
 exports.default = (0, _anchorDefault.default);
 
+<<<<<<< HEAD
+},{"@restart/ui/Anchor":"cQOWi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eEyks":[function(require,module,exports) {
+=======
 },{"@restart/ui/Anchor":"cQOWi","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eEyks":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32198,7 +32846,11 @@ const Badge = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , bg ="primary" , pill
 Badge.displayName = "Badge";
 exports.default = Badge;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hOow1":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hOow1":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32228,7 +32880,11 @@ exports.default = Object.assign(Breadcrumb, {
     Item: (0, _breadcrumbItemDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./BreadcrumbItem":"bWkuO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bWkuO":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./BreadcrumbItem":"bWkuO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"bWkuO":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32260,7 +32916,11 @@ as: Component = "li" , linkAs: LinkComponent = (0, _anchorDefault.default) , lin
 BreadcrumbItem.displayName = "BreadcrumbItem";
 exports.default = BreadcrumbItem;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aPzUt":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"aPzUt":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32288,7 +32948,11 @@ const Button = /*#__PURE__*/ _react.forwardRef(({ as , bsPrefix , variant ="prim
 Button.displayName = "Button";
 exports.default = Button;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gXYCe":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gXYCe":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32311,7 +32975,11 @@ as: Component = "div" , ...rest }, ref)=>{
 ButtonGroup.displayName = "ButtonGroup";
 exports.default = ButtonGroup;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"k88gW":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"k88gW":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32331,7 +32999,11 @@ const ButtonToolbar = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , 
 ButtonToolbar.displayName = "ButtonToolbar";
 exports.default = ButtonToolbar;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lAynp":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"lAynp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32389,7 +33061,11 @@ exports.default = Object.assign(Card, {
     ImgOverlay: CardImgOverlay
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","./CardImg":"1reTi","./CardHeader":"dXnnx","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1reTi":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","./CardImg":"1reTi","./CardHeader":"dXnnx","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1reTi":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32409,7 +33085,11 @@ const CardImg = /*#__PURE__*/ _react.forwardRef(// Need to define the default "a
 CardImg.displayName = "CardImg";
 exports.default = CardImg;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXnnx":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dXnnx":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32439,7 +33119,11 @@ as: Component = "div" , ...props }, ref)=>{
 CardHeader.displayName = "CardHeader";
 exports.default = CardHeader;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardHeaderContext":"36cNB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"36cNB":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardHeaderContext":"36cNB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"36cNB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -32447,14 +33131,22 @@ const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = "CardHeaderContext";
 exports.default = context;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2j3Ij":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2j3Ij":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("card-group");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bsGhm":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"bsGhm":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useEventCallback = require("@restart/hooks/useEventCallback");
@@ -32782,7 +33474,11 @@ exports.default = Object.assign(Carousel, {
     Item: (0, _carouselItemDefault.default)
 });
 
+<<<<<<< HEAD
+},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useUpdateEffect":"bHP1w","@restart/hooks/useCommittedRef":"g5BYG","@restart/hooks/useTimeout":"63wsP","@restart/ui/Anchor":"cQOWi","classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","./CarouselCaption":"dH56B","./CarouselItem":"9A3DI","./ElementChildren":"fdyAp","./ThemeProvider":"dVixI","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bHP1w":[function(require,module,exports) {
+=======
 },{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useUpdateEffect":"bHP1w","@restart/hooks/useCommittedRef":"g5BYG","@restart/hooks/useTimeout":"63wsP","@restart/ui/Anchor":"cQOWi","classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","./CarouselCaption":"dH56B","./CarouselItem":"9A3DI","./ElementChildren":"fdyAp","./ThemeProvider":"dVixI","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"bHP1w":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -32817,7 +33513,11 @@ var _react = require("react");
 }
 exports.default = useUpdateEffect;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"63wsP":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"63wsP":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -32865,7 +33565,11 @@ function useTimeout() {
 }
 exports.default = useTimeout;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./useMounted":"iK6A1","./useWillUnmount":"2OOXI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2OOXI":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./useMounted":"iK6A1","./useWillUnmount":"2OOXI","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2OOXI":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useUpdatedRef = require("./useUpdatedRef");
@@ -32881,7 +33585,11 @@ function useWillUnmount(fn) {
 }
 exports.default = useWillUnmount;
 
+<<<<<<< HEAD
+},{"./useUpdatedRef":"cfaLu","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cfaLu":[function(require,module,exports) {
+=======
 },{"./useUpdatedRef":"cfaLu","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cfaLu":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -32892,14 +33600,22 @@ function useUpdatedRef(value) {
 }
 exports.default = useUpdatedRef;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dH56B":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dH56B":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("carousel-caption");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9A3DI":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9A3DI":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32919,7 +33635,11 @@ as: Component = "div" , bsPrefix , className , ...props }, ref)=>{
 CarouselItem.displayName = "CarouselItem";
 exports.default = CarouselItem;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fdyAp":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fdyAp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "map", ()=>map);
@@ -32955,7 +33675,11 @@ var _react = require("react");
     return _react.Children.toArray(children).some((child)=>/*#__PURE__*/ _react.isValidElement(child) && child.type === type);
 }
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2L2I6":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2L2I6":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCol", ()=>useCol);
@@ -33007,7 +33731,11 @@ const Col = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" d
 Col.displayName = "Col";
 exports.default = Col;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"88m2L":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"88m2L":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -33114,7 +33842,11 @@ exports.default = Object.assign(Dropdown, {
     Header: DropdownHeader
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Dropdown":"eizH2","uncontrollable":"b3yWY","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"4Ufmn","./DropdownItem":"xQ9Cw","./DropdownMenu":"6UpAn","./DropdownToggle":"gCRNt","./InputGroupContext":"eWDkO","./ThemeProvider":"dVixI","./createWithBsPrefix":"itt7e","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eizH2":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/Dropdown":"eizH2","uncontrollable":"b3yWY","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"4Ufmn","./DropdownItem":"xQ9Cw","./DropdownMenu":"6UpAn","./DropdownToggle":"gCRNt","./InputGroupContext":"eWDkO","./ThemeProvider":"dVixI","./createWithBsPrefix":"itt7e","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eizH2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _querySelectorAll = require("dom-helpers/querySelectorAll");
@@ -33313,7 +34045,11 @@ Dropdown.Toggle = (0, _dropdownToggleDefault.default);
 Dropdown.Item = (0, _dropdownItemDefault.default);
 exports.default = Dropdown;
 
+<<<<<<< HEAD
+},{"dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/addEventListener":"c5x2p","react":"21dqq","uncontrollable":"b3yWY","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useEventListener":"dBDI3","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"dX4vI","./DropdownMenu":"6fCTW","./DropdownToggle":"8iWIY","./DropdownItem":"hDAPz","./SelectableContext":"8zLqy","./DataKey":"9vwZh","./useWindow":"4AsJ2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g5Sx6":[function(require,module,exports) {
+=======
 },{"dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/addEventListener":"c5x2p","react":"21dqq","uncontrollable":"b3yWY","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useEventListener":"dBDI3","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"dX4vI","./DropdownMenu":"6fCTW","./DropdownToggle":"8iWIY","./DropdownItem":"hDAPz","./SelectableContext":"8zLqy","./DataKey":"9vwZh","./useWindow":"4AsJ2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"g5Sx6":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var toArray = Function.prototype.bind.call(Function.prototype.call, [].slice);
@@ -33322,7 +34058,11 @@ function qsa(element, selector) {
 }
 exports.default = qsa;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3Y4bz":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3Y4bz":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -33336,14 +34076,22 @@ function useForceUpdate() {
 }
 exports.default = useForceUpdate;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dX4vI":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dX4vI":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 const DropdownContext = /*#__PURE__*/ _react.createContext(null);
 exports.default = DropdownContext;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6fCTW":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6fCTW":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -33451,7 +34199,11 @@ DropdownMenu.displayName = "DropdownMenu";
 DropdownMenu.defaultProps = defaultProps;
 /** @component */ exports.default = DropdownMenu;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@restart/hooks/useCallbackRef":"82p6M","./DropdownContext":"dX4vI","./usePopper":"7aqz6","./useClickOutside":"ed4Oi","./mergeOptionsWithPopperConfig":"8jWN8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7aqz6":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@restart/hooks/useCallbackRef":"82p6M","./DropdownContext":"dX4vI","./usePopper":"7aqz6","./useClickOutside":"ed4Oi","./mergeOptionsWithPopperConfig":"8jWN8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7aqz6":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -33630,7 +34382,11 @@ const EMPTY_MODIFIERS = [];
 }
 exports.default = usePopper;
 
+<<<<<<< HEAD
+},{"react":"21dqq","dequal":"ceyyc","@restart/hooks/useSafeState":"OEC1E","./popper":"fMLGS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ceyyc":[function(require,module,exports) {
+=======
 },{"react":"21dqq","dequal":"ceyyc","@restart/hooks/useSafeState":"OEC1E","./popper":"fMLGS","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"ceyyc":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "dequal", ()=>dequal);
@@ -33703,7 +34459,11 @@ function dequal(foo, bar) {
     return foo !== foo && bar !== bar;
 }
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"OEC1E":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"OEC1E":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -33724,7 +34484,11 @@ function useSafeState(state) {
 }
 exports.default = useSafeState;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./useMounted":"iK6A1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fMLGS":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./useMounted":"iK6A1","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fMLGS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createPopper", ()=>createPopper);
@@ -33760,7 +34524,11 @@ const createPopper = (0, _popperBase.popperGenerator)({
     ]
 });
 
+<<<<<<< HEAD
+},{"@popperjs/core/lib/modifiers/arrow":"31HFW","@popperjs/core/lib/modifiers/computeStyles":"gDlm2","@popperjs/core/lib/modifiers/eventListeners":"hBKsL","@popperjs/core/lib/modifiers/flip":"fv5wq","@popperjs/core/lib/modifiers/hide":"2g4OF","@popperjs/core/lib/modifiers/offset":"3GKVY","@popperjs/core/lib/modifiers/popperOffsets":"6I679","@popperjs/core/lib/modifiers/preventOverflow":"1AMhb","@popperjs/core/lib/enums":"lCAq5","@popperjs/core/lib/popper-base":"9X7Du","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"31HFW":[function(require,module,exports) {
+=======
 },{"@popperjs/core/lib/modifiers/arrow":"31HFW","@popperjs/core/lib/modifiers/computeStyles":"gDlm2","@popperjs/core/lib/modifiers/eventListeners":"hBKsL","@popperjs/core/lib/modifiers/flip":"fv5wq","@popperjs/core/lib/modifiers/hide":"2g4OF","@popperjs/core/lib/modifiers/offset":"3GKVY","@popperjs/core/lib/modifiers/popperOffsets":"6I679","@popperjs/core/lib/modifiers/preventOverflow":"1AMhb","@popperjs/core/lib/enums":"lCAq5","@popperjs/core/lib/popper-base":"9X7Du","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"31HFW":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getBasePlacementJs = require("../utils/getBasePlacement.js");
@@ -33853,7 +34621,11 @@ exports.default = {
     ]
 };
 
+<<<<<<< HEAD
+},{"../utils/getBasePlacement.js":"59Wp3","../dom-utils/getLayoutRect.js":"jvjuf","../dom-utils/contains.js":"4QxRR","../dom-utils/getOffsetParent.js":"laoYw","../utils/getMainAxisFromPlacement.js":"1Xlom","../utils/within.js":"3glSz","../utils/mergePaddingObject.js":"lEIf9","../utils/expandToHashMap.js":"iQlH5","../enums.js":"lCAq5","../dom-utils/instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59Wp3":[function(require,module,exports) {
+=======
 },{"../utils/getBasePlacement.js":"59Wp3","../dom-utils/getLayoutRect.js":"jvjuf","../dom-utils/contains.js":"4QxRR","../dom-utils/getOffsetParent.js":"laoYw","../utils/getMainAxisFromPlacement.js":"1Xlom","../utils/within.js":"3glSz","../utils/mergePaddingObject.js":"lEIf9","../utils/expandToHashMap.js":"iQlH5","../enums.js":"lCAq5","../dom-utils/instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"59Wp3":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _enumsJs = require("../enums.js");
@@ -33862,7 +34634,11 @@ function getBasePlacement(placement) {
 }
 exports.default = getBasePlacement;
 
+<<<<<<< HEAD
+},{"../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lCAq5":[function(require,module,exports) {
+=======
 },{"../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"lCAq5":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "top", ()=>top);
@@ -33942,7 +34718,11 @@ var modifierPhases = [
     afterWrite
 ];
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jvjuf":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"jvjuf":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getBoundingClientRectJs = require("./getBoundingClientRect.js"); // Returns the layout rect of an element relative to its offsetParent. Layout
@@ -33963,7 +34743,11 @@ function getLayoutRect(element) {
 }
 exports.default = getLayoutRect;
 
+<<<<<<< HEAD
+},{"./getBoundingClientRect.js":"9CFSQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9CFSQ":[function(require,module,exports) {
+=======
 },{"./getBoundingClientRect.js":"9CFSQ","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9CFSQ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _instanceOfJs = require("./instanceOf.js");
@@ -34001,7 +34785,11 @@ function getBoundingClientRect(element, includeScale, isFixedStrategy) {
 }
 exports.default = getBoundingClientRect;
 
+<<<<<<< HEAD
+},{"./instanceOf.js":"gYFUC","../utils/math.js":"gQqVe","./getWindow.js":"2SkOo","./isLayoutViewport.js":"3ipHv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gYFUC":[function(require,module,exports) {
+=======
 },{"./instanceOf.js":"gYFUC","../utils/math.js":"gQqVe","./getWindow.js":"2SkOo","./isLayoutViewport.js":"3ipHv","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gYFUC":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isElement", ()=>isElement);
@@ -34024,7 +34812,11 @@ function isShadowRoot(node) {
     return node instanceof OwnElement || node instanceof ShadowRoot;
 }
 
+<<<<<<< HEAD
+},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2SkOo":[function(require,module,exports) {
+=======
 },{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2SkOo":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getWindow(node) {
@@ -34037,7 +34829,11 @@ function getWindow(node) {
 }
 exports.default = getWindow;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gQqVe":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gQqVe":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "max", ()=>max);
@@ -34047,7 +34843,11 @@ var max = Math.max;
 var min = Math.min;
 var round = Math.round;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3ipHv":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3ipHv":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _userAgentJs = require("../utils/userAgent.js");
@@ -34057,7 +34857,11 @@ function isLayoutViewport() {
 }
 exports.default = isLayoutViewport;
 
+<<<<<<< HEAD
+},{"../utils/userAgent.js":"1hEx0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1hEx0":[function(require,module,exports) {
+=======
 },{"../utils/userAgent.js":"1hEx0","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1hEx0":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getUAString() {
@@ -34069,7 +34873,11 @@ function getUAString() {
 }
 exports.default = getUAString;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4QxRR":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"4QxRR":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _instanceOfJs = require("./instanceOf.js");
@@ -34088,7 +34896,11 @@ function contains(parent, child) {
 }
 exports.default = contains;
 
+<<<<<<< HEAD
+},{"./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"laoYw":[function(require,module,exports) {
+=======
 },{"./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"laoYw":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getWindowJs = require("./getWindow.js");
@@ -34144,7 +34956,11 @@ function getOffsetParent(element) {
 }
 exports.default = getOffsetParent;
 
+<<<<<<< HEAD
+},{"./getWindow.js":"2SkOo","./getNodeName.js":"a2Qom","./getComputedStyle.js":"3mZjB","./instanceOf.js":"gYFUC","./isTableElement.js":"2qBb7","./getParentNode.js":"bIHpd","../utils/userAgent.js":"1hEx0","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a2Qom":[function(require,module,exports) {
+=======
 },{"./getWindow.js":"2SkOo","./getNodeName.js":"a2Qom","./getComputedStyle.js":"3mZjB","./instanceOf.js":"gYFUC","./isTableElement.js":"2qBb7","./getParentNode.js":"bIHpd","../utils/userAgent.js":"1hEx0","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"a2Qom":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getNodeName(element) {
@@ -34152,7 +34968,11 @@ function getNodeName(element) {
 }
 exports.default = getNodeName;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3mZjB":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3mZjB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getWindowJs = require("./getWindow.js");
@@ -34162,7 +34982,11 @@ function getComputedStyle(element) {
 }
 exports.default = getComputedStyle;
 
+<<<<<<< HEAD
+},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2qBb7":[function(require,module,exports) {
+=======
 },{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2qBb7":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getNodeNameJs = require("./getNodeName.js");
@@ -34176,7 +35000,11 @@ function isTableElement(element) {
 }
 exports.default = isTableElement;
 
+<<<<<<< HEAD
+},{"./getNodeName.js":"a2Qom","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bIHpd":[function(require,module,exports) {
+=======
 },{"./getNodeName.js":"a2Qom","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"bIHpd":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getNodeNameJs = require("./getNodeName.js");
@@ -34196,7 +35024,11 @@ function getParentNode(element) {
 }
 exports.default = getParentNode;
 
+<<<<<<< HEAD
+},{"./getNodeName.js":"a2Qom","./getDocumentElement.js":"eJ9Y1","./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eJ9Y1":[function(require,module,exports) {
+=======
 },{"./getNodeName.js":"a2Qom","./getDocumentElement.js":"eJ9Y1","./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eJ9Y1":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _instanceOfJs = require("./instanceOf.js");
@@ -34206,7 +35038,11 @@ function getDocumentElement(element) {
 }
 exports.default = getDocumentElement;
 
+<<<<<<< HEAD
+},{"./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1Xlom":[function(require,module,exports) {
+=======
 },{"./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1Xlom":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getMainAxisFromPlacement(placement) {
@@ -34217,7 +35053,11 @@ function getMainAxisFromPlacement(placement) {
 }
 exports.default = getMainAxisFromPlacement;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3glSz":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3glSz":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "within", ()=>within);
@@ -34231,7 +35071,11 @@ function withinMaxClamp(min, value, max) {
     return v > max ? max : v;
 }
 
+<<<<<<< HEAD
+},{"./math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lEIf9":[function(require,module,exports) {
+=======
 },{"./math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"lEIf9":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getFreshSideObjectJs = require("./getFreshSideObject.js");
@@ -34241,7 +35085,11 @@ function mergePaddingObject(paddingObject) {
 }
 exports.default = mergePaddingObject;
 
+<<<<<<< HEAD
+},{"./getFreshSideObject.js":"g4xOt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g4xOt":[function(require,module,exports) {
+=======
 },{"./getFreshSideObject.js":"g4xOt","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"g4xOt":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getFreshSideObject() {
@@ -34254,7 +35102,11 @@ function getFreshSideObject() {
 }
 exports.default = getFreshSideObject;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iQlH5":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iQlH5":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function expandToHashMap(value, keys) {
@@ -34265,7 +35117,11 @@ function expandToHashMap(value, keys) {
 }
 exports.default = expandToHashMap;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gDlm2":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gDlm2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "mapToStyles", ()=>mapToStyles);
@@ -34416,7 +35272,11 @@ exports.default = {
     data: {}
 };
 
+<<<<<<< HEAD
+},{"../enums.js":"lCAq5","../dom-utils/getOffsetParent.js":"laoYw","../dom-utils/getWindow.js":"2SkOo","../dom-utils/getDocumentElement.js":"eJ9Y1","../dom-utils/getComputedStyle.js":"3mZjB","../utils/getBasePlacement.js":"59Wp3","../utils/getVariation.js":"hIo7Y","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hIo7Y":[function(require,module,exports) {
+=======
 },{"../enums.js":"lCAq5","../dom-utils/getOffsetParent.js":"laoYw","../dom-utils/getWindow.js":"2SkOo","../dom-utils/getDocumentElement.js":"eJ9Y1","../dom-utils/getComputedStyle.js":"3mZjB","../utils/getBasePlacement.js":"59Wp3","../utils/getVariation.js":"hIo7Y","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hIo7Y":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getVariation(placement) {
@@ -34424,7 +35284,11 @@ function getVariation(placement) {
 }
 exports.default = getVariation;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hBKsL":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hBKsL":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getWindowJs = require("../dom-utils/getWindow.js"); // eslint-disable-next-line import/no-unused-modules
@@ -34457,7 +35321,11 @@ exports.default = {
     data: {}
 };
 
+<<<<<<< HEAD
+},{"../dom-utils/getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fv5wq":[function(require,module,exports) {
+=======
 },{"../dom-utils/getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fv5wq":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getOppositePlacementJs = require("../utils/getOppositePlacement.js");
@@ -34579,7 +35447,11 @@ exports.default = {
     }
 };
 
+<<<<<<< HEAD
+},{"../utils/getOppositePlacement.js":"a8CY0","../utils/getBasePlacement.js":"59Wp3","../utils/getOppositeVariationPlacement.js":"bKTLC","../utils/detectOverflow.js":"ltCuw","../utils/computeAutoPlacement.js":"gytMj","../enums.js":"lCAq5","../utils/getVariation.js":"hIo7Y","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a8CY0":[function(require,module,exports) {
+=======
 },{"../utils/getOppositePlacement.js":"a8CY0","../utils/getBasePlacement.js":"59Wp3","../utils/getOppositeVariationPlacement.js":"bKTLC","../utils/detectOverflow.js":"ltCuw","../utils/computeAutoPlacement.js":"gytMj","../enums.js":"lCAq5","../utils/getVariation.js":"hIo7Y","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"a8CY0":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var hash = {
@@ -34595,7 +35467,11 @@ function getOppositePlacement(placement) {
 }
 exports.default = getOppositePlacement;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bKTLC":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"bKTLC":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var hash = {
@@ -34609,7 +35485,11 @@ function getOppositeVariationPlacement(placement) {
 }
 exports.default = getOppositeVariationPlacement;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ltCuw":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"ltCuw":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getClippingRectJs = require("../dom-utils/getClippingRect.js");
@@ -34671,7 +35551,11 @@ function detectOverflow(state, options) {
 }
 exports.default = detectOverflow;
 
+<<<<<<< HEAD
+},{"../dom-utils/getClippingRect.js":"eeg2s","../dom-utils/getDocumentElement.js":"eJ9Y1","../dom-utils/getBoundingClientRect.js":"9CFSQ","./computeOffsets.js":"7jtXk","./rectToClientRect.js":"cQ3tg","../enums.js":"lCAq5","../dom-utils/instanceOf.js":"gYFUC","./mergePaddingObject.js":"lEIf9","./expandToHashMap.js":"iQlH5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eeg2s":[function(require,module,exports) {
+=======
 },{"../dom-utils/getClippingRect.js":"eeg2s","../dom-utils/getDocumentElement.js":"eJ9Y1","../dom-utils/getBoundingClientRect.js":"9CFSQ","./computeOffsets.js":"7jtXk","./rectToClientRect.js":"cQ3tg","../enums.js":"lCAq5","../dom-utils/instanceOf.js":"gYFUC","./mergePaddingObject.js":"lEIf9","./expandToHashMap.js":"iQlH5","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eeg2s":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _enumsJs = require("../enums.js");
@@ -34751,7 +35635,11 @@ function getClippingRect(element, boundary, rootBoundary, strategy) {
 }
 exports.default = getClippingRect;
 
+<<<<<<< HEAD
+},{"../enums.js":"lCAq5","./getViewportRect.js":"cnH2G","./getDocumentRect.js":"d94SC","./listScrollParents.js":"2di3T","./getOffsetParent.js":"laoYw","./getDocumentElement.js":"eJ9Y1","./getComputedStyle.js":"3mZjB","./instanceOf.js":"gYFUC","./getBoundingClientRect.js":"9CFSQ","./getParentNode.js":"bIHpd","./contains.js":"4QxRR","./getNodeName.js":"a2Qom","../utils/rectToClientRect.js":"cQ3tg","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cnH2G":[function(require,module,exports) {
+=======
 },{"../enums.js":"lCAq5","./getViewportRect.js":"cnH2G","./getDocumentRect.js":"d94SC","./listScrollParents.js":"2di3T","./getOffsetParent.js":"laoYw","./getDocumentElement.js":"eJ9Y1","./getComputedStyle.js":"3mZjB","./instanceOf.js":"gYFUC","./getBoundingClientRect.js":"9CFSQ","./getParentNode.js":"bIHpd","./contains.js":"4QxRR","./getNodeName.js":"a2Qom","../utils/rectToClientRect.js":"cQ3tg","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cnH2G":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getWindowJs = require("./getWindow.js");
@@ -34788,7 +35676,11 @@ function getViewportRect(element, strategy) {
 }
 exports.default = getViewportRect;
 
+<<<<<<< HEAD
+},{"./getWindow.js":"2SkOo","./getDocumentElement.js":"eJ9Y1","./getWindowScrollBarX.js":"sz4Ld","./isLayoutViewport.js":"3ipHv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"sz4Ld":[function(require,module,exports) {
+=======
 },{"./getWindow.js":"2SkOo","./getDocumentElement.js":"eJ9Y1","./getWindowScrollBarX.js":"sz4Ld","./isLayoutViewport.js":"3ipHv","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"sz4Ld":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getBoundingClientRectJs = require("./getBoundingClientRect.js");
@@ -34809,7 +35701,11 @@ function getWindowScrollBarX(element) {
 }
 exports.default = getWindowScrollBarX;
 
+<<<<<<< HEAD
+},{"./getBoundingClientRect.js":"9CFSQ","./getDocumentElement.js":"eJ9Y1","./getWindowScroll.js":"1XUtN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1XUtN":[function(require,module,exports) {
+=======
 },{"./getBoundingClientRect.js":"9CFSQ","./getDocumentElement.js":"eJ9Y1","./getWindowScroll.js":"1XUtN","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1XUtN":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getWindowJs = require("./getWindow.js");
@@ -34825,7 +35721,11 @@ function getWindowScroll(node) {
 }
 exports.default = getWindowScroll;
 
+<<<<<<< HEAD
+},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d94SC":[function(require,module,exports) {
+=======
 },{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"d94SC":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getDocumentElementJs = require("./getDocumentElement.js");
@@ -34856,7 +35756,11 @@ function getDocumentRect(element) {
 }
 exports.default = getDocumentRect;
 
+<<<<<<< HEAD
+},{"./getDocumentElement.js":"eJ9Y1","./getComputedStyle.js":"3mZjB","./getWindowScrollBarX.js":"sz4Ld","./getWindowScroll.js":"1XUtN","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2di3T":[function(require,module,exports) {
+=======
 },{"./getDocumentElement.js":"eJ9Y1","./getComputedStyle.js":"3mZjB","./getWindowScrollBarX.js":"sz4Ld","./getWindowScroll.js":"1XUtN","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2di3T":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getScrollParentJs = require("./getScrollParent.js");
@@ -34881,7 +35785,11 @@ function listScrollParents(element, list) {
 }
 exports.default = listScrollParents;
 
+<<<<<<< HEAD
+},{"./getScrollParent.js":"jy4ZS","./getParentNode.js":"bIHpd","./getWindow.js":"2SkOo","./isScrollParent.js":"9rLGO","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jy4ZS":[function(require,module,exports) {
+=======
 },{"./getScrollParent.js":"jy4ZS","./getParentNode.js":"bIHpd","./getWindow.js":"2SkOo","./isScrollParent.js":"9rLGO","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"jy4ZS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getParentNodeJs = require("./getParentNode.js");
@@ -34903,7 +35811,11 @@ function getScrollParent(node) {
 }
 exports.default = getScrollParent;
 
+<<<<<<< HEAD
+},{"./getParentNode.js":"bIHpd","./isScrollParent.js":"9rLGO","./getNodeName.js":"a2Qom","./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9rLGO":[function(require,module,exports) {
+=======
 },{"./getParentNode.js":"bIHpd","./isScrollParent.js":"9rLGO","./getNodeName.js":"a2Qom","./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9rLGO":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getComputedStyleJs = require("./getComputedStyle.js");
@@ -34915,7 +35827,11 @@ function isScrollParent(element) {
 }
 exports.default = isScrollParent;
 
+<<<<<<< HEAD
+},{"./getComputedStyle.js":"3mZjB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cQ3tg":[function(require,module,exports) {
+=======
 },{"./getComputedStyle.js":"3mZjB","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cQ3tg":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function rectToClientRect(rect) {
@@ -34928,7 +35844,11 @@ function rectToClientRect(rect) {
 }
 exports.default = rectToClientRect;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7jtXk":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7jtXk":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getBasePlacementJs = require("./getBasePlacement.js");
@@ -34993,7 +35913,11 @@ function computeOffsets(_ref) {
 }
 exports.default = computeOffsets;
 
+<<<<<<< HEAD
+},{"./getBasePlacement.js":"59Wp3","./getVariation.js":"hIo7Y","./getMainAxisFromPlacement.js":"1Xlom","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gytMj":[function(require,module,exports) {
+=======
 },{"./getBasePlacement.js":"59Wp3","./getVariation.js":"hIo7Y","./getMainAxisFromPlacement.js":"1Xlom","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gytMj":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getVariationJs = require("./getVariation.js");
@@ -35038,7 +35962,11 @@ function computeAutoPlacement(state, options) {
 }
 exports.default = computeAutoPlacement;
 
+<<<<<<< HEAD
+},{"./getVariation.js":"hIo7Y","../enums.js":"lCAq5","./detectOverflow.js":"ltCuw","./getBasePlacement.js":"59Wp3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2g4OF":[function(require,module,exports) {
+=======
 },{"./getVariation.js":"hIo7Y","../enums.js":"lCAq5","./detectOverflow.js":"ltCuw","./getBasePlacement.js":"59Wp3","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2g4OF":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _enumsJs = require("../enums.js");
@@ -35102,7 +36030,11 @@ exports.default = {
     fn: hide
 };
 
+<<<<<<< HEAD
+},{"../enums.js":"lCAq5","../utils/detectOverflow.js":"ltCuw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3GKVY":[function(require,module,exports) {
+=======
 },{"../enums.js":"lCAq5","../utils/detectOverflow.js":"ltCuw","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3GKVY":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "distanceAndSkiddingToXY", ()=>distanceAndSkiddingToXY);
@@ -35158,7 +36090,11 @@ exports.default = {
     fn: offset
 };
 
+<<<<<<< HEAD
+},{"../utils/getBasePlacement.js":"59Wp3","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6I679":[function(require,module,exports) {
+=======
 },{"../utils/getBasePlacement.js":"59Wp3","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6I679":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _computeOffsetsJs = require("../utils/computeOffsets.js");
@@ -35184,7 +36120,11 @@ exports.default = {
     data: {}
 };
 
+<<<<<<< HEAD
+},{"../utils/computeOffsets.js":"7jtXk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1AMhb":[function(require,module,exports) {
+=======
 },{"../utils/computeOffsets.js":"7jtXk","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1AMhb":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _enumsJs = require("../enums.js");
@@ -35306,7 +36246,11 @@ exports.default = {
     ]
 };
 
+<<<<<<< HEAD
+},{"../enums.js":"lCAq5","../utils/getBasePlacement.js":"59Wp3","../utils/getMainAxisFromPlacement.js":"1Xlom","../utils/getAltAxis.js":"59FWE","../utils/within.js":"3glSz","../dom-utils/getLayoutRect.js":"jvjuf","../dom-utils/getOffsetParent.js":"laoYw","../utils/detectOverflow.js":"ltCuw","../utils/getVariation.js":"hIo7Y","../utils/getFreshSideObject.js":"g4xOt","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"59FWE":[function(require,module,exports) {
+=======
 },{"../enums.js":"lCAq5","../utils/getBasePlacement.js":"59Wp3","../utils/getMainAxisFromPlacement.js":"1Xlom","../utils/getAltAxis.js":"59FWE","../utils/within.js":"3glSz","../dom-utils/getLayoutRect.js":"jvjuf","../dom-utils/getOffsetParent.js":"laoYw","../utils/detectOverflow.js":"ltCuw","../utils/getVariation.js":"hIo7Y","../utils/getFreshSideObject.js":"g4xOt","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"59FWE":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getAltAxis(axis) {
@@ -35314,7 +36258,11 @@ function getAltAxis(axis) {
 }
 exports.default = getAltAxis;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9X7Du":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9X7Du":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // eslint-disable-next-line import/no-unused-modules
@@ -35323,7 +36271,11 @@ parcelHelpers.export(exports, "popperGenerator", ()=>(0, _createPopperJs.popperG
 parcelHelpers.export(exports, "detectOverflow", ()=>(0, _createPopperJs.detectOverflow));
 var _createPopperJs = require("./createPopper.js");
 
+<<<<<<< HEAD
+},{"./createPopper.js":"cHuNp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cHuNp":[function(require,module,exports) {
+=======
 },{"./createPopper.js":"cHuNp","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cHuNp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "popperGenerator", ()=>popperGenerator);
@@ -35536,7 +36488,11 @@ function popperGenerator(generatorOptions) {
 }
 var createPopper = /*#__PURE__*/ popperGenerator(); // eslint-disable-next-line import/no-unused-modules
 
+<<<<<<< HEAD
+},{"./dom-utils/getCompositeRect.js":"ijPls","./dom-utils/getLayoutRect.js":"jvjuf","./dom-utils/listScrollParents.js":"2di3T","./dom-utils/getOffsetParent.js":"laoYw","./dom-utils/getComputedStyle.js":"3mZjB","./utils/orderModifiers.js":"N0VO0","./utils/debounce.js":"g6Chr","./utils/validateModifiers.js":"1S5dQ","./utils/uniqueBy.js":"hhl2M","./utils/getBasePlacement.js":"59Wp3","./utils/mergeByName.js":"2zTVN","./utils/detectOverflow.js":"ltCuw","./dom-utils/instanceOf.js":"gYFUC","./enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ijPls":[function(require,module,exports) {
+=======
 },{"./dom-utils/getCompositeRect.js":"ijPls","./dom-utils/getLayoutRect.js":"jvjuf","./dom-utils/listScrollParents.js":"2di3T","./dom-utils/getOffsetParent.js":"laoYw","./dom-utils/getComputedStyle.js":"3mZjB","./utils/orderModifiers.js":"N0VO0","./utils/debounce.js":"g6Chr","./utils/validateModifiers.js":"1S5dQ","./utils/uniqueBy.js":"hhl2M","./utils/getBasePlacement.js":"59Wp3","./utils/mergeByName.js":"2zTVN","./utils/detectOverflow.js":"ltCuw","./dom-utils/instanceOf.js":"gYFUC","./enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"ijPls":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getBoundingClientRectJs = require("./getBoundingClientRect.js");
@@ -35591,7 +36547,11 @@ function getCompositeRect(elementOrVirtualElement, offsetParent, isFixed) {
 }
 exports.default = getCompositeRect;
 
+<<<<<<< HEAD
+},{"./getBoundingClientRect.js":"9CFSQ","./getNodeScroll.js":"bBjCr","./getNodeName.js":"a2Qom","./instanceOf.js":"gYFUC","./getWindowScrollBarX.js":"sz4Ld","./getDocumentElement.js":"eJ9Y1","./isScrollParent.js":"9rLGO","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bBjCr":[function(require,module,exports) {
+=======
 },{"./getBoundingClientRect.js":"9CFSQ","./getNodeScroll.js":"bBjCr","./getNodeName.js":"a2Qom","./instanceOf.js":"gYFUC","./getWindowScrollBarX.js":"sz4Ld","./getDocumentElement.js":"eJ9Y1","./isScrollParent.js":"9rLGO","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"bBjCr":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getWindowScrollJs = require("./getWindowScroll.js");
@@ -35607,7 +36567,11 @@ function getNodeScroll(node) {
 }
 exports.default = getNodeScroll;
 
+<<<<<<< HEAD
+},{"./getWindowScroll.js":"1XUtN","./getWindow.js":"2SkOo","./instanceOf.js":"gYFUC","./getHTMLElementScroll.js":"6pwY2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6pwY2":[function(require,module,exports) {
+=======
 },{"./getWindowScroll.js":"1XUtN","./getWindow.js":"2SkOo","./instanceOf.js":"gYFUC","./getHTMLElementScroll.js":"6pwY2","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6pwY2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getHTMLElementScroll(element) {
@@ -35618,7 +36582,11 @@ function getHTMLElementScroll(element) {
 }
 exports.default = getHTMLElementScroll;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"N0VO0":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"N0VO0":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _enumsJs = require("../enums.js"); // source: https://stackoverflow.com/questions/49875255
@@ -35657,7 +36625,11 @@ function orderModifiers(modifiers) {
 }
 exports.default = orderModifiers;
 
+<<<<<<< HEAD
+},{"../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g6Chr":[function(require,module,exports) {
+=======
 },{"../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"g6Chr":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function debounce(fn) {
@@ -35674,7 +36646,11 @@ function debounce(fn) {
 }
 exports.default = debounce;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1S5dQ":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1S5dQ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _formatJs = require("./format.js");
@@ -35737,7 +36713,11 @@ function validateModifiers(modifiers) {
 }
 exports.default = validateModifiers;
 
+<<<<<<< HEAD
+},{"./format.js":"baNIW","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"baNIW":[function(require,module,exports) {
+=======
 },{"./format.js":"baNIW","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"baNIW":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function format(str) {
@@ -35748,7 +36728,11 @@ function format(str) {
 }
 exports.default = format;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hhl2M":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hhl2M":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function uniqueBy(arr, fn) {
@@ -35763,7 +36747,11 @@ function uniqueBy(arr, fn) {
 }
 exports.default = uniqueBy;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2zTVN":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2zTVN":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function mergeByName(modifiers) {
@@ -35781,7 +36769,11 @@ function mergeByName(modifiers) {
 }
 exports.default = mergeByName;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ed4Oi":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"ed4Oi":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getRefTarget", ()=>getRefTarget);
@@ -35875,7 +36867,11 @@ const InitialTriggerEvents = {
 }
 exports.default = useClickOutside;
 
+<<<<<<< HEAD
+},{"dom-helpers/contains":"KpRFS","dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","warning":"eUVzU","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"KpRFS":[function(require,module,exports) {
+=======
 },{"dom-helpers/contains":"KpRFS","dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","warning":"eUVzU","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"KpRFS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /* eslint-disable no-bitwise, no-cond-assign */ /**
  * Checks if an element contains another given element.
  * 
@@ -35891,7 +36887,11 @@ function contains(context, node) {
 }
 exports.default = contains;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eUVzU":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eUVzU":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -35991,7 +36991,11 @@ function mergeOptionsWithPopperConfig({ enabled , enableEvents , placement , fli
 }
 exports.default = mergeOptionsWithPopperConfig;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8iWIY":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"8iWIY":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isRoleMenu", ()=>isRoleMenu);
@@ -36052,7 +37056,11 @@ function useDropdownToggle() {
 DropdownToggle.displayName = "DropdownToggle";
 /** @component */ exports.default = DropdownToggle;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./ssr":"eaHes","./DropdownContext":"dX4vI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eaHes":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./ssr":"eaHes","./DropdownContext":"dX4vI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eaHes":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useSSRSafeId", ()=>(0, _ssr.useSSRSafeId));
@@ -36060,7 +37068,11 @@ parcelHelpers.export(exports, "useIsSSR", ()=>(0, _ssr.useIsSSR));
 parcelHelpers.export(exports, "SSRProvider", ()=>(0, _ssr.SSRProvider));
 var _ssr = require("@react-aria/ssr");
 
+<<<<<<< HEAD
+},{"@react-aria/ssr":"dIzY2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dIzY2":[function(require,module,exports) {
+=======
 },{"@react-aria/ssr":"dIzY2","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dIzY2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "SSRProvider", ()=>$704cf1d3b684cc5c$export$9f8ac96af4b1b2ae);
@@ -36175,7 +37187,11 @@ function $704cf1d3b684cc5c$export$535bd6ca7f90a273() {
     return cur.isSSR;
 }
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hDAPz":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hDAPz":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -36251,7 +37267,11 @@ const DropdownItem = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 DropdownItem.displayName = "DropdownItem";
 exports.default = DropdownItem;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./SelectableContext":"8zLqy","./NavContext":"j1SMA","./Button":"8YUbR","./DataKey":"9vwZh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8zLqy":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./SelectableContext":"8zLqy","./NavContext":"j1SMA","./Button":"8YUbR","./DataKey":"9vwZh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"8zLqy":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "makeEventKey", ()=>makeEventKey);
@@ -36263,7 +37283,11 @@ const makeEventKey = (eventKey, href = null)=>{
 };
 exports.default = SelectableContext;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j1SMA":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"j1SMA":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36271,7 +37295,11 @@ const NavContext = /*#__PURE__*/ _react.createContext(null);
 NavContext.displayName = "NavContext";
 exports.default = NavContext;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9vwZh":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9vwZh":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ATTRIBUTE_PREFIX", ()=>ATTRIBUTE_PREFIX);
@@ -36287,7 +37315,11 @@ function dataProp(property) {
     return `${PROPERTY_PREFIX}${property}`;
 }
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4AsJ2":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"4AsJ2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "WindowProvider", ()=>WindowProvider);
@@ -36301,7 +37333,11 @@ function useWindow() {
 }
 exports.default = useWindow;
 
+<<<<<<< HEAD
+},{"react":"21dqq","dom-helpers/canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4Ufmn":[function(require,module,exports) {
+=======
 },{"react":"21dqq","dom-helpers/canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"4Ufmn":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36309,7 +37345,11 @@ const DropdownContext = /*#__PURE__*/ _react.createContext({});
 DropdownContext.displayName = "DropdownContext";
 exports.default = DropdownContext;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"xQ9Cw":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"xQ9Cw":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36339,7 +37379,11 @@ const DropdownItem = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , e
 DropdownItem.displayName = "DropdownItem";
 exports.default = DropdownItem;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownItem":"hDAPz","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6UpAn":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownItem":"hDAPz","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6UpAn":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getDropdownMenuPlacement", ()=>getDropdownMenuPlacement);
@@ -36455,7 +37499,11 @@ as: Component = "div" , popperConfig , variant , ...props }, ref)=>{
 DropdownMenu.displayName = "DropdownMenu";
 exports.default = DropdownMenu;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownMenu":"6fCTW","@restart/hooks/useIsomorphicEffect":"e8blq","@restart/hooks/useMergedRefs":"6hhuo","warning":"eUVzU","./DropdownContext":"4Ufmn","./InputGroupContext":"eWDkO","./NavbarContext":"dpn1g","./ThemeProvider":"dVixI","./useWrappedRefWithWarning":"a7ejw","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eWDkO":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownMenu":"6fCTW","@restart/hooks/useIsomorphicEffect":"e8blq","@restart/hooks/useMergedRefs":"6hhuo","warning":"eUVzU","./DropdownContext":"4Ufmn","./InputGroupContext":"eWDkO","./NavbarContext":"dpn1g","./ThemeProvider":"dVixI","./useWrappedRefWithWarning":"a7ejw","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eWDkO":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36463,7 +37511,11 @@ const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = "InputGroupContext";
 exports.default = context;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dpn1g":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dpn1g":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36472,7 +37524,11 @@ const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = "NavbarContext";
 exports.default = context;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a7ejw":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"a7ejw":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _invariant = require("invariant");
@@ -36492,7 +37548,11 @@ function useWrappedRefWithWarning(ref, componentName) {
 }
 exports.default = useWrappedRefWithWarning;
 
+<<<<<<< HEAD
+},{"invariant":"d1QgR","react":"21dqq","@restart/hooks/useMergedRefs":"6hhuo","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jwKaQ":[function(require,module,exports) {
+=======
 },{"invariant":"d1QgR","react":"21dqq","@restart/hooks/useMergedRefs":"6hhuo","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"jwKaQ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "alignPropType", ()=>alignPropType);
@@ -36522,7 +37582,11 @@ const alignPropType = (0, _propTypesDefault.default).oneOfType([
     (0, _propTypesDefault.default).object
 ]);
 
+<<<<<<< HEAD
+},{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gCRNt":[function(require,module,exports) {
+=======
 },{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gCRNt":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useMergedRefs = require("@restart/hooks/useMergedRefs");
@@ -36557,7 +37621,11 @@ as: Component = (0, _buttonDefault.default) , ...props }, ref)=>{
 DropdownToggle.displayName = "DropdownToggle";
 exports.default = DropdownToggle;
 
+<<<<<<< HEAD
+},{"@restart/hooks/useMergedRefs":"6hhuo","@restart/ui/DropdownContext":"dX4vI","@restart/ui/DropdownToggle":"8iWIY","classnames":"jocGM","react":"21dqq","./Button":"aPzUt","./ThemeProvider":"dVixI","./useWrappedRefWithWarning":"a7ejw","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5sMVB":[function(require,module,exports) {
+=======
 },{"@restart/hooks/useMergedRefs":"6hhuo","@restart/ui/DropdownContext":"dX4vI","@restart/ui/DropdownToggle":"8iWIY","classnames":"jocGM","react":"21dqq","./Button":"aPzUt","./ThemeProvider":"dVixI","./useWrappedRefWithWarning":"a7ejw","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"5sMVB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36645,7 +37713,11 @@ DropdownButton.displayName = "DropdownButton";
 DropdownButton.propTypes = propTypes;
 exports.default = DropdownButton;
 
+<<<<<<< HEAD
+},{"react":"21dqq","prop-types":"7wKI2","./Dropdown":"88m2L","./DropdownToggle":"gCRNt","./DropdownMenu":"6UpAn","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iBZ80":[function(require,module,exports) {
+=======
 },{"react":"21dqq","prop-types":"7wKI2","./Dropdown":"88m2L","./DropdownToggle":"gCRNt","./DropdownMenu":"6UpAn","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iBZ80":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36710,7 +37782,11 @@ exports.default = Object.assign(Form, {
     FloatingLabel: (0, _floatingLabelDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","prop-types":"7wKI2","react":"21dqq","./FormCheck":"idkr0","./FormControl":"iynMc","./FormFloating":"aj346","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormRange":"8zsCO","./FormSelect":"hHWyB","./FormText":"ffeC7","./Switch":"9O81i","./FloatingLabel":"coYzo","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"idkr0":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","prop-types":"7wKI2","react":"21dqq","./FormCheck":"idkr0","./FormControl":"iynMc","./FormFloating":"aj346","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormRange":"8zsCO","./FormSelect":"hHWyB","./FormText":"ffeC7","./Switch":"9O81i","./FloatingLabel":"coYzo","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"idkr0":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36776,7 +37852,11 @@ exports.default = Object.assign(FormCheck, {
     Label: (0, _formCheckLabelDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./Feedback":"aWeg2","./FormCheckInput":"dPzD9","./FormCheckLabel":"fGhS2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aWeg2":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./Feedback":"aWeg2","./FormCheckInput":"dPzD9","./FormCheckLabel":"fGhS2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"aWeg2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36804,7 +37884,11 @@ Feedback.displayName = "Feedback";
 Feedback.propTypes = propTypes;
 exports.default = Feedback;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dPzD9":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dPzD9":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36829,7 +37913,11 @@ as: Component = "input" , ...props }, ref)=>{
 FormCheckInput.displayName = "FormCheckInput";
 exports.default = FormCheckInput;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gjvSt":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gjvSt":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36837,7 +37925,11 @@ var _react = require("react");
 const FormContext = /*#__PURE__*/ _react.createContext({});
 exports.default = FormContext;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fGhS2":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fGhS2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36860,7 +37952,11 @@ const FormCheckLabel = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className ,
 FormCheckLabel.displayName = "FormCheckLabel";
 exports.default = FormCheckLabel;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iynMc":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iynMc":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36902,14 +37998,22 @@ exports.default = Object.assign(FormControl, {
     Feedback: (0, _feedbackDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Feedback":"aWeg2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aj346":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Feedback":"aWeg2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"aj346":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("form-floating");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1qBHH":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1qBHH":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36934,7 +38038,11 @@ as: Component = "div" , ...props }, ref)=>{
 FormGroup.displayName = "FormGroup";
 exports.default = FormGroup;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"66epi":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"66epi":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36975,7 +38083,11 @@ as: Component = "label" , bsPrefix , column =false , visuallyHidden =false , cla
 FormLabel.displayName = "FormLabel";
 exports.default = FormLabel;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Col":"2L2I6","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8zsCO":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Col":"2L2I6","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"8zsCO":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36999,7 +38111,11 @@ const FormRange = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , id ,
 FormRange.displayName = "FormRange";
 exports.default = FormRange;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hHWyB":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hHWyB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37023,7 +38139,11 @@ const FormSelect = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , size , htmlSize
 FormSelect.displayName = "FormSelect";
 exports.default = FormSelect;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ffeC7":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"ffeC7":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37043,7 +38163,11 @@ const FormText = /*#__PURE__*/ _react.forwardRef(// Need to define the default "
 FormText.displayName = "FormText";
 exports.default = FormText;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9O81i":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9O81i":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -37061,7 +38185,11 @@ exports.default = Object.assign(Switch, {
     Label: (0, _formCheckDefault.default).Label
 });
 
+<<<<<<< HEAD
+},{"react":"21dqq","./FormCheck":"idkr0","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"coYzo":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./FormCheck":"idkr0","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"coYzo":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37090,7 +38218,11 @@ const FloatingLabel = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , 
 FloatingLabel.displayName = "FloatingLabel";
 exports.default = FloatingLabel;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./FormGroup":"1qBHH","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hEdsw":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./FormGroup":"1qBHH","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hEdsw":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37111,7 +38243,11 @@ as: Component = "div" , className , ...props }, ref)=>{
 Container.displayName = "Container";
 exports.default = Container;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cyVPa":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cyVPa":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "propTypes", ()=>propTypes);
@@ -37151,7 +38287,11 @@ const Image = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , fluid =f
 Image.displayName = "Image";
 exports.default = Image;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7Eckp":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7Eckp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -37168,7 +38308,11 @@ exports.default = Object.assign(Figure, {
     Caption: (0, _figureCaptionDefault.default)
 });
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","./FigureImage":"jhS47","./FigureCaption":"aGvgd","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jhS47":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","./FigureImage":"jhS47","./FigureCaption":"aGvgd","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"jhS47":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37187,7 +38331,11 @@ FigureImage.displayName = "FigureImage";
 FigureImage.propTypes = (0, _image.propTypes);
 exports.default = FigureImage;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./Image":"cyVPa","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aGvgd":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./Image":"cyVPa","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"aGvgd":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -37197,7 +38345,11 @@ const FigureCaption = (0, _createWithBsPrefixDefault.default)("figure-caption", 
 });
 exports.default = FigureCaption;
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"htx7r":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"htx7r":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37248,7 +38400,11 @@ exports.default = Object.assign(InputGroup, {
     Checkbox: InputGroupCheckbox
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./createWithBsPrefix":"itt7e","./ThemeProvider":"dVixI","./FormCheckInput":"dPzD9","./InputGroupContext":"eWDkO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4tGXh":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./createWithBsPrefix":"itt7e","./ThemeProvider":"dVixI","./FormCheckInput":"dPzD9","./InputGroupContext":"eWDkO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"4tGXh":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37284,7 +38440,11 @@ exports.default = Object.assign(ListGroup, {
     Item: (0, _listGroupItemDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./ListGroupItem":"9U5b8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fZdNd":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./ListGroupItem":"9U5b8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fZdNd":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _querySelectorAll = require("dom-helpers/querySelectorAll");
@@ -37415,14 +38575,22 @@ exports.default = Object.assign(Nav, {
     Item: (0, _navItemDefault.default)
 });
 
+<<<<<<< HEAD
+},{"dom-helpers/querySelectorAll":"g5Sx6","react":"21dqq","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useMergedRefs":"6hhuo","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./TabContext":"cI3G3","./DataKey":"9vwZh","./NavItem":"2cGYS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cI3G3":[function(require,module,exports) {
+=======
 },{"dom-helpers/querySelectorAll":"g5Sx6","react":"21dqq","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useMergedRefs":"6hhuo","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./TabContext":"cI3G3","./DataKey":"9vwZh","./NavItem":"2cGYS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cI3G3":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 const TabContext = /*#__PURE__*/ _react.createContext(null);
 exports.default = TabContext;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2cGYS":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2cGYS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useNavItem", ()=>useNavItem);
@@ -37518,7 +38686,11 @@ const NavItem = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 NavItem.displayName = "NavItem";
 exports.default = NavItem;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./Button":"8YUbR","./DataKey":"9vwZh","./TabContext":"cI3G3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9U5b8":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./Button":"8YUbR","./DataKey":"9vwZh","./TabContext":"cI3G3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9U5b8":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37565,7 +38737,11 @@ const ListGroupItem = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , active , dis
 ListGroupItem.displayName = "ListGroupItem";
 exports.default = ListGroupItem;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","@restart/hooks/useEventCallback":"7ONdq","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aNVmp":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","@restart/hooks/useEventCallback":"7ONdq","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"aNVmp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37793,7 +38969,11 @@ exports.default = Object.assign(Modal, {
     BACKDROP_TRANSITION_DURATION: 150
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","dom-helpers/addEventListener":"c5x2p","dom-helpers/canUseDOM":"9AwUB","dom-helpers/ownerDocument":"2WpOk","dom-helpers/removeEventListener":"la8JB","dom-helpers/scrollbarSize":"lhsUa","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useWillUnmount":"2OOXI","dom-helpers/transitionEnd":"7hVJq","react":"21dqq","@restart/ui/Modal":"crj1M","./BootstrapModalManager":"lr1Yp","./Fade":"aH18S","./ModalBody":"e0aNG","./ModalContext":"2U4Zk","./ModalDialog":"cwGGq","./ModalFooter":"9SLlP","./ModalHeader":"cxgdE","./ModalTitle":"kYqJp","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lhsUa":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","dom-helpers/addEventListener":"c5x2p","dom-helpers/canUseDOM":"9AwUB","dom-helpers/ownerDocument":"2WpOk","dom-helpers/removeEventListener":"la8JB","dom-helpers/scrollbarSize":"lhsUa","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useWillUnmount":"2OOXI","dom-helpers/transitionEnd":"7hVJq","react":"21dqq","@restart/ui/Modal":"crj1M","./BootstrapModalManager":"lr1Yp","./Fade":"aH18S","./ModalBody":"e0aNG","./ModalContext":"2U4Zk","./ModalDialog":"cwGGq","./ModalFooter":"9SLlP","./ModalHeader":"cxgdE","./ModalTitle":"kYqJp","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"lhsUa":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _canUseDOM = require("./canUseDOM");
@@ -37817,7 +38997,11 @@ function scrollbarSize(recalc) {
 }
 exports.default = scrollbarSize;
 
+<<<<<<< HEAD
+},{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"crj1M":[function(require,module,exports) {
+=======
 },{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"crj1M":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /* eslint-disable @typescript-eslint/no-use-before-define, react/prop-types */ var _activeElement = require("dom-helpers/activeElement");
@@ -38063,7 +39247,11 @@ exports.default = Object.assign(Modal, {
     Manager: (0, _modalManagerDefault.default)
 });
 
+<<<<<<< HEAD
+},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"iK6A1","@restart/hooks/useWillUnmount":"2OOXI","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useEventCallback":"7ONdq","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","./utils":"2Fmci","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ShA6":[function(require,module,exports) {
+=======
 },{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"iK6A1","@restart/hooks/useWillUnmount":"2OOXI","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useEventCallback":"7ONdq","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","./utils":"2Fmci","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"5ShA6":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _ownerDocument = require("./ownerDocument");
@@ -38083,7 +39271,11 @@ function activeElement(doc) {
 }
 exports.default = activeElement;
 
+<<<<<<< HEAD
+},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5alMm":[function(require,module,exports) {
+=======
 },{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"5alMm":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "OPEN_DATA_ATTRIBUTE", ()=>OPEN_DATA_ATTRIBUTE);
@@ -38172,7 +39364,11 @@ const OPEN_DATA_ATTRIBUTE = (0, _dataKey.dataAttr)("modal-open");
 }
 exports.default = ModalManager;
 
+<<<<<<< HEAD
+},{"dom-helpers/css":"klmhr","./DataKey":"9vwZh","./getScrollbarWidth":"9IxEN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9IxEN":[function(require,module,exports) {
+=======
 },{"dom-helpers/css":"klmhr","./DataKey":"9vwZh","./getScrollbarWidth":"9IxEN","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9IxEN":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Get the width of the vertical window scrollbar if it's visible
  */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -38183,7 +39379,11 @@ function getBodyScrollbarWidth(ownerDocument = document) {
 }
 exports.default = getBodyScrollbarWidth;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"83lRQ":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"83lRQ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "resolveContainerRef", ()=>resolveContainerRef);
@@ -38226,7 +39426,11 @@ function useWaitForDOMRef(ref, onResolved) {
 }
 exports.default = useWaitForDOMRef;
 
+<<<<<<< HEAD
+},{"dom-helpers/ownerDocument":"2WpOk","dom-helpers/canUseDOM":"9AwUB","react":"21dqq","./useWindow":"4AsJ2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j0Jao":[function(require,module,exports) {
+=======
 },{"dom-helpers/ownerDocument":"2WpOk","dom-helpers/canUseDOM":"9AwUB","react":"21dqq","./useWindow":"4AsJ2","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"j0Jao":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useTransition", ()=>useTransition);
@@ -38306,7 +39510,11 @@ function renderTransition(Component, runTransition, props) {
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _noopTransitionDefault.default), Object.assign({}, props));
 }
 
+<<<<<<< HEAD
+},{"@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useIsomorphicEffect":"e8blq","react":"21dqq","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cwnaj":[function(require,module,exports) {
+=======
 },{"@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useIsomorphicEffect":"e8blq","react":"21dqq","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cwnaj":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useEventCallback = require("@restart/hooks/useEventCallback");
@@ -38336,7 +39544,11 @@ function NoopTransition({ children , in: inProp , onExited , mountOnEnter , unmo
 }
 exports.default = NoopTransition;
 
+<<<<<<< HEAD
+},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2Fmci":[function(require,module,exports) {
+=======
 },{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2Fmci":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /* eslint-disable import/prefer-default-export */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isEscKey", ()=>isEscKey);
@@ -38344,7 +39556,11 @@ function isEscKey(e) {
     return e.code === "Escape" || e.keyCode === 27;
 }
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lr1Yp":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"lr1Yp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getSharedManager", ()=>getSharedManager);
@@ -38411,7 +39627,11 @@ function getSharedManager(options) {
 }
 exports.default = BootstrapModalManager;
 
+<<<<<<< HEAD
+},{"dom-helpers/addClass":"7dIIz","dom-helpers/css":"klmhr","dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/removeClass":"66hgg","@restart/ui/ModalManager":"5alMm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7dIIz":[function(require,module,exports) {
+=======
 },{"dom-helpers/addClass":"7dIIz","dom-helpers/css":"klmhr","dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/removeClass":"66hgg","@restart/ui/ModalManager":"5alMm","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7dIIz":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _hasClass = require("./hasClass");
@@ -38425,7 +39645,11 @@ function addClass(element, className) {
 }
 exports.default = addClass;
 
+<<<<<<< HEAD
+},{"./hasClass":"6sJz4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6sJz4":[function(require,module,exports) {
+=======
 },{"./hasClass":"6sJz4","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6sJz4":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /**
  * Checks if a given element has a CSS class.
  * 
@@ -38439,7 +39663,11 @@ function hasClass(element, className) {
 }
 exports.default = hasClass;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"66hgg":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"66hgg":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function replaceClassName(origClass, classToRemove) {
@@ -38452,14 +39680,22 @@ function removeClass(element, className) {
 }
 exports.default = removeClass;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e0aNG":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"e0aNG":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("modal-body");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2U4Zk":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2U4Zk":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -38469,7 +39705,11 @@ const ModalContext = /*#__PURE__*/ _react.createContext({
 });
 exports.default = ModalContext;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cwGGq":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cwGGq":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38494,14 +39734,22 @@ const ModalDialog = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , co
 ModalDialog.displayName = "ModalDialog";
 exports.default = ModalDialog;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9SLlP":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9SLlP":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("modal-footer");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cxgdE":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cxgdE":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38524,7 +39772,11 @@ const ModalHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , cl
 ModalHeader.displayName = "ModalHeader";
 exports.default = ModalHeader;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hPF8S":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hPF8S":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -38556,7 +39808,11 @@ const AbstractModalHeader = /*#__PURE__*/ _react.forwardRef(({ closeLabel ="Clos
 });
 exports.default = AbstractModalHeader;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./CloseButton":"1wmVl","./ModalContext":"2U4Zk","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kYqJp":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./CloseButton":"1wmVl","./ModalContext":"2U4Zk","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"kYqJp":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -38568,7 +39824,11 @@ exports.default = (0, _createWithBsPrefixDefault.default)("modal-title", {
     Component: DivStyledAsH4
 });
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cXyL2":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cXyL2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38625,7 +39885,11 @@ exports.default = Object.assign(Nav, {
     Link: (0, _navLinkDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","prop-types-extra/lib/all":"37Ank","react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","./CardHeaderContext":"36cNB","./NavItem":"ew05W","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"37Ank":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","prop-types-extra/lib/all":"37Ank","react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","./CardHeaderContext":"36cNB","./NavItem":"ew05W","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"37Ank":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -38698,7 +39962,11 @@ var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("nav-item");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7geL8":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7geL8":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38729,7 +39997,11 @@ const NavLink = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , as: Co
 NavLink.displayName = "NavLink";
 exports.default = NavLink;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1mHjo":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1mHjo":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38808,7 +40080,11 @@ exports.default = Object.assign(Navbar, {
     Toggle: (0, _navbarToggleDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","uncontrollable":"b3yWY","./createWithBsPrefix":"itt7e","./NavbarBrand":"iOo4v","./NavbarCollapse":"eNSCC","./NavbarToggle":"7vOXv","./NavbarOffcanvas":"fOxoE","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iOo4v":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","uncontrollable":"b3yWY","./createWithBsPrefix":"itt7e","./NavbarBrand":"iOo4v","./NavbarCollapse":"eNSCC","./NavbarToggle":"7vOXv","./NavbarOffcanvas":"fOxoE","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iOo4v":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38828,7 +40104,11 @@ const NavbarBrand = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , as
 NavbarBrand.displayName = "NavbarBrand";
 exports.default = NavbarBrand;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eNSCC":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eNSCC":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -38854,7 +40134,11 @@ const NavbarCollapse = /*#__PURE__*/ _react.forwardRef(({ children , bsPrefix , 
 NavbarCollapse.displayName = "NavbarCollapse";
 exports.default = NavbarCollapse;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./Collapse":"acuzI","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7vOXv":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./Collapse":"acuzI","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"7vOXv":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38889,7 +40173,11 @@ as: Component = "button" , onClick , ...props }, ref)=>{
 NavbarToggle.displayName = "NavbarToggle";
 exports.default = NavbarToggle;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fOxoE":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fOxoE":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -38910,7 +40198,11 @@ const NavbarOffcanvas = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
 NavbarOffcanvas.displayName = "NavbarOffcanvas";
 exports.default = NavbarOffcanvas;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./Offcanvas":"eC3RS","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eC3RS":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./Offcanvas":"eC3RS","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eC3RS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39049,7 +40341,11 @@ exports.default = Object.assign(Offcanvas, {
     Title: (0, _offcanvasTitleDefault.default)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","@restart/hooks/useBreakpoint":"2c4de","@restart/hooks/useEventCallback":"7ONdq","react":"21dqq","@restart/ui/Modal":"crj1M","./Fade":"aH18S","./OffcanvasBody":"fX7Bo","./OffcanvasToggling":"eGvzt","./ModalContext":"2U4Zk","./NavbarContext":"dpn1g","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./ThemeProvider":"dVixI","./BootstrapModalManager":"lr1Yp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2c4de":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","@restart/hooks/useBreakpoint":"2c4de","@restart/hooks/useEventCallback":"7ONdq","react":"21dqq","@restart/ui/Modal":"crj1M","./Fade":"aH18S","./OffcanvasBody":"fX7Bo","./OffcanvasToggling":"eGvzt","./ModalContext":"2U4Zk","./NavbarContext":"dpn1g","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./ThemeProvider":"dVixI","./BootstrapModalManager":"lr1Yp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2c4de":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -39147,7 +40443,11 @@ var useBreakpoint = createBreakpointHook({
 });
 exports.default = useBreakpoint;
 
+<<<<<<< HEAD
+},{"./useMediaQuery":"etGLg","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"etGLg":[function(require,module,exports) {
+=======
 },{"./useMediaQuery":"etGLg","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"etGLg":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useIsomorphicEffect = require("./useIsomorphicEffect");
@@ -39195,14 +40495,22 @@ function useMediaQuery(query, targetWindow) {
 }
 exports.default = useMediaQuery;
 
+<<<<<<< HEAD
+},{"./useIsomorphicEffect":"e8blq","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fX7Bo":[function(require,module,exports) {
+=======
 },{"./useIsomorphicEffect":"e8blq","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fX7Bo":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("offcanvas-body");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eGvzt":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eGvzt":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39239,7 +40547,11 @@ const OffcanvasToggling = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , classNam
 OffcanvasToggling.displayName = "OffcanvasToggling";
 exports.default = OffcanvasToggling;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./TransitionWrapper":"jKUqZ","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a6xAh":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./TransitionWrapper":"jKUqZ","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"a6xAh":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39262,7 +40574,11 @@ const OffcanvasHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className 
 OffcanvasHeader.displayName = "OffcanvasHeader";
 exports.default = OffcanvasHeader;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"77qdX":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"77qdX":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -39274,7 +40590,11 @@ exports.default = (0, _createWithBsPrefixDefault.default)("offcanvas-title", {
     Component: DivStyledAsH5
 });
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8e6QB":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"8e6QB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39320,7 +40640,11 @@ exports.default = Object.assign(NavDropdown, {
     Header: (0, _dropdownDefault.default).Header
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Dropdown":"88m2L","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bHdwO":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Dropdown":"88m2L","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"bHdwO":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39421,7 +40745,11 @@ const Overlay = /*#__PURE__*/ _react.forwardRef(({ children: overlay , transitio
 Overlay.displayName = "Overlay";
 exports.default = Overlay;
 
+<<<<<<< HEAD
+},{"react":"21dqq","classnames":"jocGM","@restart/ui/Overlay":"Ivi01","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useIsomorphicEffect":"e8blq","@restart/hooks/useMergedRefs":"6hhuo","./useOverlayOffset":"iHgTL","./Fade":"aH18S","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"Ivi01":[function(require,module,exports) {
+=======
 },{"react":"21dqq","classnames":"jocGM","@restart/ui/Overlay":"Ivi01","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useIsomorphicEffect":"e8blq","@restart/hooks/useMergedRefs":"6hhuo","./useOverlayOffset":"iHgTL","./Fade":"aH18S","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"Ivi01":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39505,7 +40833,11 @@ var _imperativeTransition = require("./ImperativeTransition");
 Overlay.displayName = "Overlay";
 exports.default = Overlay;
 
+<<<<<<< HEAD
+},{"react":"21dqq","react-dom":"j6uA9","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useMergedRefs":"6hhuo","./usePopper":"7aqz6","./useRootClose":"6bSYP","./useWaitForDOMRef":"83lRQ","./mergeOptionsWithPopperConfig":"8jWN8","./ImperativeTransition":"j0Jao","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6bSYP":[function(require,module,exports) {
+=======
 },{"react":"21dqq","react-dom":"j6uA9","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useMergedRefs":"6hhuo","./usePopper":"7aqz6","./useRootClose":"6bSYP","./useWaitForDOMRef":"83lRQ","./mergeOptionsWithPopperConfig":"8jWN8","./ImperativeTransition":"j0Jao","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6bSYP":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _listen = require("dom-helpers/listen");
@@ -39564,7 +40896,11 @@ const noop = ()=>{};
 }
 exports.default = useRootClose;
 
+<<<<<<< HEAD
+},{"dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./useClickOutside":"ed4Oi","./utils":"2Fmci","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iHgTL":[function(require,module,exports) {
+=======
 },{"dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./useClickOutside":"ed4Oi","./utils":"2Fmci","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iHgTL":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39600,7 +40936,11 @@ function useOverlayOffset(customOffset) {
 }
 exports.default = useOverlayOffset;
 
+<<<<<<< HEAD
+},{"react":"21dqq","dom-helpers/hasClass":"6sJz4","./ThemeProvider":"dVixI","./Popover":"afWr1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"afWr1":[function(require,module,exports) {
+=======
 },{"react":"21dqq","dom-helpers/hasClass":"6sJz4","./ThemeProvider":"dVixI","./Popover":"afWr1","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"afWr1":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39654,21 +40994,33 @@ exports.default = Object.assign(Popover, {
     ]
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./PopoverHeader":"1rLXn","./PopoverBody":"amJTZ","./helpers":"gotcT","./getInitialPopperStyles":"c8j3Q","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1rLXn":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./PopoverHeader":"1rLXn","./PopoverBody":"amJTZ","./helpers":"gotcT","./getInitialPopperStyles":"c8j3Q","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"1rLXn":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("popover-header");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"amJTZ":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"amJTZ":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("popover-body");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gotcT":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gotcT":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "BsPrefixComponent", ()=>BsPrefixComponent);
@@ -39684,7 +41036,11 @@ function getOverlayDirection(placement, isRTL) {
     return bsDirection;
 }
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c8j3Q":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"c8j3Q":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function getInitialPopperStyles(position = "absolute") {
@@ -39698,7 +41054,11 @@ function getInitialPopperStyles(position = "absolute") {
 }
 exports.default = getInitialPopperStyles;
 
+<<<<<<< HEAD
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"acOnV":[function(require,module,exports) {
+=======
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"acOnV":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _contains = require("dom-helpers/contains");
@@ -39841,7 +41201,11 @@ function OverlayTrigger({ trigger =[
 }
 exports.default = OverlayTrigger;
 
+<<<<<<< HEAD
+},{"dom-helpers/contains":"KpRFS","react":"21dqq","@restart/hooks/useTimeout":"63wsP","warning":"eUVzU","uncontrollable":"b3yWY","@restart/hooks/useMergedRefs":"6hhuo","./Overlay":"bHdwO","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i0zxH":[function(require,module,exports) {
+=======
 },{"dom-helpers/contains":"KpRFS","react":"21dqq","@restart/hooks/useTimeout":"63wsP","warning":"eUVzU","uncontrollable":"b3yWY","@restart/hooks/useMergedRefs":"6hhuo","./Overlay":"bHdwO","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"i0zxH":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 /* eslint-disable react/no-multi-comp */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "First", ()=>First);
@@ -39903,7 +41267,11 @@ const Ellipsis = createButton("Ellipsis", "…", "More");
 const Next = createButton("Next", "›");
 const Last = createButton("Last", "\xbb");
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6yvxS":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"6yvxS":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39931,7 +41299,11 @@ exports.default = Object.assign(Pagination, {
     Last: (0, _pageItem.Last)
 });
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./PageItem":"i0zxH","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fw5xV":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./PageItem":"i0zxH","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fw5xV":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39952,7 +41324,11 @@ exports.default = Object.assign(Placeholder, {
     Button: (0, _placeholderButtonDefault.default)
 });
 
+<<<<<<< HEAD
+},{"react":"21dqq","./usePlaceholder":"4BAv2","./PlaceholderButton":"dRc7O","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4BAv2":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./usePlaceholder":"4BAv2","./PlaceholderButton":"dRc7O","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"4BAv2":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39969,7 +41345,11 @@ function usePlaceholder({ animation , bg , bsPrefix , size , ...props }) {
 }
 exports.default = usePlaceholder;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","./ThemeProvider":"dVixI","./Col":"2L2I6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dRc7O":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","./ThemeProvider":"dVixI","./Col":"2L2I6","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dRc7O":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39990,7 +41370,11 @@ const PlaceholderButton = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
 PlaceholderButton.displayName = "PlaceholderButton";
 exports.default = PlaceholderButton;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./Button":"aPzUt","./usePlaceholder":"4BAv2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cCHIb":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./Button":"aPzUt","./usePlaceholder":"4BAv2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cCHIb":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40083,7 +41467,11 @@ const ProgressBar = /*#__PURE__*/ _react.forwardRef(({ isChild =false , ...rest 
 ProgressBar.displayName = "ProgressBar";
 exports.default = ProgressBar;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ioXys":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"ioXys":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40114,7 +41502,11 @@ const Ratio = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , children
 });
 exports.default = Ratio;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cMC39":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cMC39":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40147,7 +41539,11 @@ as: Component = "div" , ...props }, ref)=>{
 Row.displayName = "Row";
 exports.default = Row;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2r8jr":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2r8jr":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40168,7 +41564,11 @@ as: Component = "div" , className , ...props }, ref)=>{
 Spinner.displayName = "Spinner";
 exports.default = Spinner;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fWabe":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fWabe":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40270,13 +41670,21 @@ SplitButton.propTypes = propTypes;
 SplitButton.displayName = "SplitButton";
 exports.default = SplitButton;
 
+<<<<<<< HEAD
+},{"react":"21dqq","prop-types":"7wKI2","./Button":"aPzUt","./ButtonGroup":"gXYCe","./Dropdown":"88m2L","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kdCr8":[function(require,module,exports) {
+=======
 },{"react":"21dqq","prop-types":"7wKI2","./Button":"aPzUt","./ButtonGroup":"gXYCe","./Dropdown":"88m2L","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"kdCr8":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _ssr = require("@restart/ui/ssr");
 exports.default = (0, _ssr.SSRProvider);
 
+<<<<<<< HEAD
+},{"@restart/ui/ssr":"eaHes","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eZkZ1":[function(require,module,exports) {
+=======
 },{"@restart/ui/ssr":"eaHes","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"eZkZ1":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40301,7 +41709,11 @@ const Stack = /*#__PURE__*/ _react.forwardRef(({ as: Component = "div" , bsPrefi
 Stack.displayName = "Stack";
 exports.default = Stack;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./createUtilityClasses":"kKxSO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kKxSO":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./createUtilityClasses":"kKxSO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"kKxSO":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "responsivePropType", ()=>responsivePropType);
@@ -40339,7 +41751,11 @@ function createUtilityClassName(utilityValues, breakpoints = (0, _themeProvider.
 }
 exports.default = createUtilityClassName;
 
+<<<<<<< HEAD
+},{"prop-types":"7wKI2","./ThemeProvider":"dVixI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kfiWM":[function(require,module,exports) {
+=======
 },{"prop-types":"7wKI2","./ThemeProvider":"dVixI","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"kfiWM":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _propTypes = require("prop-types");
@@ -40380,7 +41796,11 @@ exports.default = Object.assign(Tab, {
     Pane: (0, _tabPaneDefault.default)
 });
 
+<<<<<<< HEAD
+},{"prop-types":"7wKI2","react":"21dqq","./TabContainer":"hkO95","./TabContent":"fQxYB","./TabPane":"4jWis","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hkO95":[function(require,module,exports) {
+=======
 },{"prop-types":"7wKI2","react":"21dqq","./TabContainer":"hkO95","./TabContent":"fQxYB","./TabPane":"4jWis","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"hkO95":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40396,7 +41816,11 @@ const TabContainer = ({ transition , ...props })=>/*#__PURE__*/ (0, _jsxRuntime.
 TabContainer.displayName = "TabContainer";
 exports.default = TabContainer;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@restart/ui/Tabs":"htKQK","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"htKQK":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@restart/ui/Tabs":"htKQK","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"htKQK":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40444,7 +41868,11 @@ const Tabs = (props)=>{
 Tabs.Panel = (0, _tabPanelDefault.default);
 exports.default = Tabs;
 
+<<<<<<< HEAD
+},{"react":"21dqq","uncontrollable":"b3yWY","./ssr":"eaHes","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./TabPanel":"4REJB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4REJB":[function(require,module,exports) {
+=======
 },{"react":"21dqq","uncontrollable":"b3yWY","./ssr":"eaHes","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./TabPanel":"4REJB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"4REJB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useTabPanel", ()=>useTabPanel);
@@ -40564,7 +41992,11 @@ const TabPanel = /*#__PURE__*/ _react.forwardRef(// Need to define the default "
 TabPanel.displayName = "TabPanel";
 exports.default = TabPanel;
 
+<<<<<<< HEAD
+},{"react":"21dqq","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"luUGh":[function(require,module,exports) {
+=======
 },{"react":"21dqq","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"luUGh":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _noopTransition = require("@restart/ui/NoopTransition");
@@ -40577,14 +42009,22 @@ function getTabTransitionComponent(transition) {
 }
 exports.default = getTabTransitionComponent;
 
+<<<<<<< HEAD
+},{"@restart/ui/NoopTransition":"cwnaj","./Fade":"aH18S","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fQxYB":[function(require,module,exports) {
+=======
 },{"@restart/ui/NoopTransition":"cwnaj","./Fade":"aH18S","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"fQxYB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("tab-content");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4jWis":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"4jWis":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40636,7 +42076,11 @@ const TabPane = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , transition , ...pr
 TabPane.displayName = "TabPane";
 exports.default = TabPane;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","@restart/ui/TabContext":"cI3G3","@restart/ui/TabPanel":"4REJB","./ThemeProvider":"dVixI","./Fade":"aH18S","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3UQc3":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","@restart/ui/TabContext":"cI3G3","@restart/ui/TabPanel":"4REJB","./ThemeProvider":"dVixI","./Fade":"aH18S","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"3UQc3":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40664,7 +42108,11 @@ const Table = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , className , striped 
 });
 exports.default = Table;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cq1ML":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"cq1ML":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40749,7 +42197,11 @@ const Tabs = (props)=>{
 Tabs.displayName = "Tabs";
 exports.default = Tabs;
 
+<<<<<<< HEAD
+},{"react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Tabs":"htKQK","./Nav":"cXyL2","./NavLink":"7geL8","./NavItem":"ew05W","./TabContent":"fQxYB","./TabPane":"4jWis","./ElementChildren":"fdyAp","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iyxlo":[function(require,module,exports) {
+=======
 },{"react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Tabs":"htKQK","./Nav":"cXyL2","./NavLink":"7geL8","./NavItem":"ew05W","./TabContent":"fQxYB","./TabPane":"4jWis","./ElementChildren":"fdyAp","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"iyxlo":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40823,7 +42275,11 @@ exports.default = Object.assign(Toast, {
     Header: (0, _toastHeaderDefault.default)
 });
 
+<<<<<<< HEAD
+},{"react":"21dqq","classnames":"jocGM","@restart/hooks/useTimeout":"63wsP","./ToastFade":"krZhx","./ToastHeader":"gsTvK","./ToastBody":"30cvm","./ThemeProvider":"dVixI","./ToastContext":"5lQd3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"krZhx":[function(require,module,exports) {
+=======
 },{"react":"21dqq","classnames":"jocGM","@restart/hooks/useTimeout":"63wsP","./ToastFade":"krZhx","./ToastHeader":"gsTvK","./ToastBody":"30cvm","./ThemeProvider":"dVixI","./ToastContext":"5lQd3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"krZhx":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40843,7 +42299,11 @@ const ToastFade = /*#__PURE__*/ _react.forwardRef((props, ref)=>/*#__PURE__*/ (0
 ToastFade.displayName = "ToastFade";
 exports.default = ToastFade;
 
+<<<<<<< HEAD
+},{"react":"21dqq","react-transition-group/Transition":"cKsrS","./Fade":"aH18S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gsTvK":[function(require,module,exports) {
+=======
 },{"react":"21dqq","react-transition-group/Transition":"cKsrS","./Fade":"aH18S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"gsTvK":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40881,7 +42341,11 @@ const ToastHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , closeLabel ="C
 ToastHeader.displayName = "ToastHeader";
 exports.default = ToastHeader;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./CloseButton":"1wmVl","./ToastContext":"5lQd3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5lQd3":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./CloseButton":"1wmVl","./ToastContext":"5lQd3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"5lQd3":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40891,14 +42355,22 @@ const ToastContext = /*#__PURE__*/ _react.createContext({
 });
 exports.default = ToastContext;
 
+<<<<<<< HEAD
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"30cvm":[function(require,module,exports) {
+=======
 },{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"30cvm":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("toast-body");
 
+<<<<<<< HEAD
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kqOPy":[function(require,module,exports) {
+=======
 },{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"kqOPy":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40929,7 +42401,11 @@ as: Component = "div" , ...props }, ref)=>{
 ToastContainer.displayName = "ToastContainer";
 exports.default = ToastContainer;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dCmeV":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"dCmeV":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40971,7 +42447,11 @@ const ToggleButton = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , name , classN
 ToggleButton.displayName = "ToggleButton";
 exports.default = ToggleButton;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Button":"aPzUt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2t8MV":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Button":"aPzUt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"2t8MV":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -41027,7 +42507,11 @@ exports.default = Object.assign(ToggleButtonGroup, {
     Button: (0, _toggleButtonDefault.default)
 });
 
+<<<<<<< HEAD
+},{"react":"21dqq","invariant":"d1QgR","uncontrollable":"b3yWY","./createChainedFunction":"1KNLM","./ElementChildren":"fdyAp","./ButtonGroup":"gXYCe","./ToggleButton":"dCmeV","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ajjgB":[function(require,module,exports) {
+=======
 },{"react":"21dqq","invariant":"d1QgR","uncontrollable":"b3yWY","./createChainedFunction":"1KNLM","./ElementChildren":"fdyAp","./ButtonGroup":"gXYCe","./ToggleButton":"dCmeV","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"ajjgB":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -41070,7 +42554,5436 @@ const Tooltip = /*#__PURE__*/ _react.forwardRef(({ bsPrefix , placement ="right"
 Tooltip.displayName = "Tooltip";
 exports.default = Tooltip;
 
+<<<<<<< HEAD
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./helpers":"gotcT","./getInitialPopperStyles":"c8j3Q","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9xmpe":[function(require,module,exports) {
+/**
+ * React Router DOM v6.11.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>(0, _reactRouter.AbortedDeferredError));
+parcelHelpers.export(exports, "Await", ()=>(0, _reactRouter.Await));
+parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
+parcelHelpers.export(exports, "Navigate", ()=>(0, _reactRouter.Navigate));
+parcelHelpers.export(exports, "NavigationType", ()=>(0, _reactRouter.NavigationType));
+parcelHelpers.export(exports, "Outlet", ()=>(0, _reactRouter.Outlet));
+parcelHelpers.export(exports, "Route", ()=>(0, _reactRouter.Route));
+parcelHelpers.export(exports, "Router", ()=>(0, _reactRouter.Router));
+parcelHelpers.export(exports, "RouterProvider", ()=>(0, _reactRouter.RouterProvider));
+parcelHelpers.export(exports, "Routes", ()=>(0, _reactRouter.Routes));
+parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>(0, _reactRouter.UNSAFE_DataRouterContext));
+parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>(0, _reactRouter.UNSAFE_DataRouterStateContext));
+parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>(0, _reactRouter.UNSAFE_LocationContext));
+parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>(0, _reactRouter.UNSAFE_NavigationContext));
+parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>(0, _reactRouter.UNSAFE_RouteContext));
+parcelHelpers.export(exports, "UNSAFE_useRouteId", ()=>(0, _reactRouter.UNSAFE_useRouteId));
+parcelHelpers.export(exports, "createMemoryRouter", ()=>(0, _reactRouter.createMemoryRouter));
+parcelHelpers.export(exports, "createPath", ()=>(0, _reactRouter.createPath));
+parcelHelpers.export(exports, "createRoutesFromChildren", ()=>(0, _reactRouter.createRoutesFromChildren));
+parcelHelpers.export(exports, "createRoutesFromElements", ()=>(0, _reactRouter.createRoutesFromElements));
+parcelHelpers.export(exports, "defer", ()=>(0, _reactRouter.defer));
+parcelHelpers.export(exports, "generatePath", ()=>(0, _reactRouter.generatePath));
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _reactRouter.isRouteErrorResponse));
+parcelHelpers.export(exports, "json", ()=>(0, _reactRouter.json));
+parcelHelpers.export(exports, "matchPath", ()=>(0, _reactRouter.matchPath));
+parcelHelpers.export(exports, "matchRoutes", ()=>(0, _reactRouter.matchRoutes));
+parcelHelpers.export(exports, "parsePath", ()=>(0, _reactRouter.parsePath));
+parcelHelpers.export(exports, "redirect", ()=>(0, _reactRouter.redirect));
+parcelHelpers.export(exports, "renderMatches", ()=>(0, _reactRouter.renderMatches));
+parcelHelpers.export(exports, "resolvePath", ()=>(0, _reactRouter.resolvePath));
+parcelHelpers.export(exports, "unstable_useBlocker", ()=>(0, _reactRouter.unstable_useBlocker));
+parcelHelpers.export(exports, "useActionData", ()=>(0, _reactRouter.useActionData));
+parcelHelpers.export(exports, "useAsyncError", ()=>(0, _reactRouter.useAsyncError));
+parcelHelpers.export(exports, "useAsyncValue", ()=>(0, _reactRouter.useAsyncValue));
+parcelHelpers.export(exports, "useHref", ()=>(0, _reactRouter.useHref));
+parcelHelpers.export(exports, "useInRouterContext", ()=>(0, _reactRouter.useInRouterContext));
+parcelHelpers.export(exports, "useLoaderData", ()=>(0, _reactRouter.useLoaderData));
+parcelHelpers.export(exports, "useLocation", ()=>(0, _reactRouter.useLocation));
+parcelHelpers.export(exports, "useMatch", ()=>(0, _reactRouter.useMatch));
+parcelHelpers.export(exports, "useMatches", ()=>(0, _reactRouter.useMatches));
+parcelHelpers.export(exports, "useNavigate", ()=>(0, _reactRouter.useNavigate));
+parcelHelpers.export(exports, "useNavigation", ()=>(0, _reactRouter.useNavigation));
+parcelHelpers.export(exports, "useNavigationType", ()=>(0, _reactRouter.useNavigationType));
+parcelHelpers.export(exports, "useOutlet", ()=>(0, _reactRouter.useOutlet));
+parcelHelpers.export(exports, "useOutletContext", ()=>(0, _reactRouter.useOutletContext));
+parcelHelpers.export(exports, "useParams", ()=>(0, _reactRouter.useParams));
+parcelHelpers.export(exports, "useResolvedPath", ()=>(0, _reactRouter.useResolvedPath));
+parcelHelpers.export(exports, "useRevalidator", ()=>(0, _reactRouter.useRevalidator));
+parcelHelpers.export(exports, "useRouteError", ()=>(0, _reactRouter.useRouteError));
+parcelHelpers.export(exports, "useRouteLoaderData", ()=>(0, _reactRouter.useRouteLoaderData));
+parcelHelpers.export(exports, "useRoutes", ()=>(0, _reactRouter.useRoutes));
+//#endregion
+parcelHelpers.export(exports, "BrowserRouter", ()=>BrowserRouter);
+parcelHelpers.export(exports, "Form", ()=>Form);
+parcelHelpers.export(exports, "HashRouter", ()=>HashRouter);
+parcelHelpers.export(exports, "Link", ()=>Link);
+parcelHelpers.export(exports, "NavLink", ()=>NavLink);
+parcelHelpers.export(exports, "ScrollRestoration", ()=>ScrollRestoration);
+parcelHelpers.export(exports, "UNSAFE_useScrollRestoration", ()=>useScrollRestoration);
+parcelHelpers.export(exports, "createBrowserRouter", ()=>createBrowserRouter);
+parcelHelpers.export(exports, "createHashRouter", ()=>createHashRouter);
+parcelHelpers.export(exports, "createSearchParams", ()=>createSearchParams);
+parcelHelpers.export(exports, "unstable_HistoryRouter", ()=>HistoryRouter);
+parcelHelpers.export(exports, "unstable_usePrompt", ()=>usePrompt);
+parcelHelpers.export(exports, "useBeforeUnload", ()=>useBeforeUnload);
+parcelHelpers.export(exports, "useFetcher", ()=>useFetcher);
+parcelHelpers.export(exports, "useFetchers", ()=>useFetchers);
+parcelHelpers.export(exports, "useFormAction", ()=>useFormAction);
+parcelHelpers.export(exports, "useLinkClickHandler", ()=>useLinkClickHandler);
+parcelHelpers.export(exports, "useSearchParams", ()=>useSearchParams);
+parcelHelpers.export(exports, "useSubmit", ()=>useSubmit);
+var _react = require("react");
+var _reactRouter = require("react-router");
+var _router = require("@remix-run/router");
+function _extends() {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+function _objectWithoutPropertiesLoose(source, excluded) {
+    if (source == null) return {};
+    var target = {};
+    var sourceKeys = Object.keys(source);
+    var key, i;
+    for(i = 0; i < sourceKeys.length; i++){
+        key = sourceKeys[i];
+        if (excluded.indexOf(key) >= 0) continue;
+        target[key] = source[key];
+    }
+    return target;
+}
+const defaultMethod = "get";
+const defaultEncType = "application/x-www-form-urlencoded";
+function isHtmlElement(object) {
+    return object != null && typeof object.tagName === "string";
+}
+function isButtonElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "button";
+}
+function isFormElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "form";
+}
+function isInputElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "input";
+}
+function isModifiedEvent(event) {
+    return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
+}
+function shouldProcessLinkClick(event, target) {
+    return event.button === 0 && (!target || target === "_self") && // Let browser handle "target=_blank" etc.
+    !isModifiedEvent(event) // Ignore clicks with modifier keys
+    ;
+}
+/**
+ * Creates a URLSearchParams object using the given initializer.
+ *
+ * This is identical to `new URLSearchParams(init)` except it also
+ * supports arrays as values in the object form of the initializer
+ * instead of just strings. This is convenient when you need multiple
+ * values for a given key, but don't want to use an array initializer.
+ *
+ * For example, instead of:
+ *
+ *   let searchParams = new URLSearchParams([
+ *     ['sort', 'name'],
+ *     ['sort', 'price']
+ *   ]);
+ *
+ * you can do:
+ *
+ *   let searchParams = createSearchParams({
+ *     sort: ['name', 'price']
+ *   });
+ */ function createSearchParams(init) {
+    if (init === void 0) init = "";
+    return new URLSearchParams(typeof init === "string" || Array.isArray(init) || init instanceof URLSearchParams ? init : Object.keys(init).reduce((memo, key)=>{
+        let value = init[key];
+        return memo.concat(Array.isArray(value) ? value.map((v)=>[
+                key,
+                v
+            ]) : [
+            [
+                key,
+                value
+            ]
+        ]);
+    }, []));
+}
+function getSearchParamsForLocation(locationSearch, defaultSearchParams) {
+    let searchParams = createSearchParams(locationSearch);
+    if (defaultSearchParams) {
+        for (let key of defaultSearchParams.keys())if (!searchParams.has(key)) defaultSearchParams.getAll(key).forEach((value)=>{
+            searchParams.append(key, value);
+        });
+    }
+    return searchParams;
+}
+function getFormSubmissionInfo(target, options, basename) {
+    let method;
+    let action = null;
+    let encType;
+    let formData;
+    if (isFormElement(target)) {
+        let submissionTrigger = options.submissionTrigger;
+        if (options.action) action = options.action;
+        else {
+            // When grabbing the action from the element, it will have had the basename
+            // prefixed to ensure non-JS scenarios work, so strip it since we'll
+            // re-prefix in the router
+            let attr = target.getAttribute("action");
+            action = attr ? (0, _router.stripBasename)(attr, basename) : null;
+        }
+        method = options.method || target.getAttribute("method") || defaultMethod;
+        encType = options.encType || target.getAttribute("enctype") || defaultEncType;
+        formData = new FormData(target);
+        if (submissionTrigger && submissionTrigger.name) formData.append(submissionTrigger.name, submissionTrigger.value);
+    } else if (isButtonElement(target) || isInputElement(target) && (target.type === "submit" || target.type === "image")) {
+        let form = target.form;
+        if (form == null) throw new Error('Cannot submit a <button> or <input type="submit"> without a <form>');
+         // <button>/<input type="submit"> may override attributes of <form>
+        if (options.action) action = options.action;
+        else {
+            // When grabbing the action from the element, it will have had the basename
+            // prefixed to ensure non-JS scenarios work, so strip it since we'll
+            // re-prefix in the router
+            let attr = target.getAttribute("formaction") || form.getAttribute("action");
+            action = attr ? (0, _router.stripBasename)(attr, basename) : null;
+        }
+        method = options.method || target.getAttribute("formmethod") || form.getAttribute("method") || defaultMethod;
+        encType = options.encType || target.getAttribute("formenctype") || form.getAttribute("enctype") || defaultEncType;
+        formData = new FormData(form); // Include name + value from a <button>, appending in case the button name
+        // matches an existing input name
+        if (target.name) formData.append(target.name, target.value);
+    } else if (isHtmlElement(target)) throw new Error('Cannot submit element that is not <form>, <button>, or <input type="submit|image">');
+    else {
+        method = options.method || defaultMethod;
+        action = options.action || null;
+        encType = options.encType || defaultEncType;
+        if (target instanceof FormData) formData = target;
+        else {
+            formData = new FormData();
+            if (target instanceof URLSearchParams) for (let [name, value] of target)formData.append(name, value);
+            else if (target != null) for (let name of Object.keys(target))formData.append(name, target[name]);
+        }
+    }
+    return {
+        action,
+        method: method.toLowerCase(),
+        encType,
+        formData
+    };
+}
+const _excluded = [
+    "onClick",
+    "relative",
+    "reloadDocument",
+    "replace",
+    "state",
+    "target",
+    "to",
+    "preventScrollReset"
+], _excluded2 = [
+    "aria-current",
+    "caseSensitive",
+    "className",
+    "end",
+    "style",
+    "to",
+    "children"
+], _excluded3 = [
+    "reloadDocument",
+    "replace",
+    "method",
+    "action",
+    "onSubmit",
+    "fetcherKey",
+    "routeId",
+    "relative",
+    "preventScrollReset"
+];
+function createBrowserRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createBrowserHistory)({
+            window: opts == null ? void 0 : opts.window
+        }),
+        hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
+        routes,
+        mapRouteProperties: (0, _reactRouter.UNSAFE_mapRouteProperties)
+    }).initialize();
+}
+function createHashRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createHashHistory)({
+            window: opts == null ? void 0 : opts.window
+        }),
+        hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
+        routes,
+        mapRouteProperties: (0, _reactRouter.UNSAFE_mapRouteProperties)
+    }).initialize();
+}
+function parseHydrationData() {
+    var _window;
+    let state = (_window = window) == null ? void 0 : _window.__staticRouterHydrationData;
+    if (state && state.errors) state = _extends({}, state, {
+        errors: deserializeErrors(state.errors)
+    });
+    return state;
+}
+function deserializeErrors(errors) {
+    if (!errors) return null;
+    let entries = Object.entries(errors);
+    let serialized = {};
+    for (let [key, val] of entries){
+        // Hey you!  If you change this, please change the corresponding logic in
+        // serializeErrors in react-router-dom/server.tsx :)
+        if (val && val.__type === "RouteErrorResponse") serialized[key] = new (0, _router.ErrorResponse)(val.status, val.statusText, val.data, val.internal === true);
+        else if (val && val.__type === "Error") {
+            let error = new Error(val.message); // Wipe away the client-side stack trace.  Nothing to fill it in with
+            // because we don't serialize SSR stack traces for security reasons
+            error.stack = "";
+            serialized[key] = error;
+        } else serialized[key] = val;
+    }
+    return serialized;
+}
+/**
+ * A `<Router>` for use in web browsers. Provides the cleanest URLs.
+ */ function BrowserRouter(_ref) {
+    let { basename , children , window: window1  } = _ref;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createBrowserHistory)({
+        window: window1,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setState] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * A `<Router>` for use in web browsers. Stores the location in the hash
+ * portion of the URL so it is not sent to the server.
+ */ function HashRouter(_ref2) {
+    let { basename , children , window: window1  } = _ref2;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createHashHistory)({
+        window: window1,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setState] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * A `<Router>` that accepts a pre-instantiated history object. It's important
+ * to note that using your own history object is highly discouraged and may add
+ * two versions of the history library to your bundles unless you use the same
+ * version of the history library that React Router uses internally.
+ */ function HistoryRouter(_ref3) {
+    let { basename , children , history  } = _ref3;
+    const [state, setState] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+HistoryRouter.displayName = "unstable_HistoryRouter";
+const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
+const ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+/**
+ * The public API for rendering a history-aware <a>.
+ */ const Link = /*#__PURE__*/ _react.forwardRef(function LinkWithRef(_ref4, ref) {
+    let { onClick , relative , reloadDocument , replace , state , target , to , preventScrollReset  } = _ref4, rest = _objectWithoutPropertiesLoose(_ref4, _excluded);
+    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext)); // Rendered into <a href> for absolute URLs
+    let absoluteHref;
+    let isExternal = false;
+    if (typeof to === "string" && ABSOLUTE_URL_REGEX.test(to)) {
+        // Render the absolute href server- and client-side
+        absoluteHref = to; // Only check for external origins client-side
+        if (isBrowser) try {
+            let currentUrl = new URL(window.location.href);
+            let targetUrl = to.startsWith("//") ? new URL(currentUrl.protocol + to) : new URL(to);
+            let path = (0, _router.stripBasename)(targetUrl.pathname, basename);
+            if (targetUrl.origin === currentUrl.origin && path != null) // Strip the protocol/origin/basename for same-origin absolute URLs
+            to = path + targetUrl.search + targetUrl.hash;
+            else isExternal = true;
+        } catch (e) {
+            (0, _router.UNSAFE_warning)(false, '<Link to="' + to + '"> contains an invalid URL which will probably break ' + "when clicked - please update to a valid URL path.");
+        }
+    } // Rendered into <a href> for relative URLs
+    let href = (0, _reactRouter.useHref)(to, {
+        relative
+    });
+    let internalOnClick = useLinkClickHandler(to, {
+        replace,
+        state,
+        target,
+        preventScrollReset,
+        relative
+    });
+    function handleClick(event) {
+        if (onClick) onClick(event);
+        if (!event.defaultPrevented) internalOnClick(event);
+    }
+    return(/*#__PURE__*/ // eslint-disable-next-line jsx-a11y/anchor-has-content
+    _react.createElement("a", _extends({}, rest, {
+        href: absoluteHref || href,
+        onClick: isExternal || reloadDocument ? onClick : handleClick,
+        ref: ref,
+        target: target
+    })));
+});
+Link.displayName = "Link";
+/**
+ * A <Link> wrapper that knows if it's "active" or not.
+ */ const NavLink = /*#__PURE__*/ _react.forwardRef(function NavLinkWithRef(_ref5, ref) {
+    let { "aria-current": ariaCurrentProp = "page" , caseSensitive =false , className: classNameProp = "" , end =false , style: styleProp , to , children  } = _ref5, rest = _objectWithoutPropertiesLoose(_ref5, _excluded2);
+    let path = (0, _reactRouter.useResolvedPath)(to, {
+        relative: rest.relative
+    });
+    let location = (0, _reactRouter.useLocation)();
+    let routerState = _react.useContext((0, _reactRouter.UNSAFE_DataRouterStateContext));
+    let { navigator  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let toPathname = navigator.encodeLocation ? navigator.encodeLocation(path).pathname : path.pathname;
+    let locationPathname = location.pathname;
+    let nextLocationPathname = routerState && routerState.navigation && routerState.navigation.location ? routerState.navigation.location.pathname : null;
+    if (!caseSensitive) {
+        locationPathname = locationPathname.toLowerCase();
+        nextLocationPathname = nextLocationPathname ? nextLocationPathname.toLowerCase() : null;
+        toPathname = toPathname.toLowerCase();
+    }
+    let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(toPathname.length) === "/";
+    let isPending = nextLocationPathname != null && (nextLocationPathname === toPathname || !end && nextLocationPathname.startsWith(toPathname) && nextLocationPathname.charAt(toPathname.length) === "/");
+    let ariaCurrent = isActive ? ariaCurrentProp : undefined;
+    let className;
+    if (typeof classNameProp === "function") className = classNameProp({
+        isActive,
+        isPending
+    });
+    else // If the className prop is not a function, we use a default `active`
+    // class for <NavLink />s that are active. In v5 `active` was the default
+    // value for `activeClassName`, but we are removing that API and can still
+    // use the old default behavior for a cleaner upgrade path and keep the
+    // simple styling rules working as they currently do.
+    className = [
+        classNameProp,
+        isActive ? "active" : null,
+        isPending ? "pending" : null
+    ].filter(Boolean).join(" ");
+    let style = typeof styleProp === "function" ? styleProp({
+        isActive,
+        isPending
+    }) : styleProp;
+    return /*#__PURE__*/ _react.createElement(Link, _extends({}, rest, {
+        "aria-current": ariaCurrent,
+        className: className,
+        ref: ref,
+        style: style,
+        to: to
+    }), typeof children === "function" ? children({
+        isActive,
+        isPending
+    }) : children);
+});
+NavLink.displayName = "NavLink";
+/**
+ * A `@remix-run/router`-aware `<form>`. It behaves like a normal form except
+ * that the interaction with the server is with `fetch` instead of new document
+ * requests, allowing components to add nicer UX to the page as the form is
+ * submitted and returns with data.
+ */ const Form = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+    return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
+        ref: ref
+    }));
+});
+Form.displayName = "Form";
+const FormImpl = /*#__PURE__*/ _react.forwardRef((_ref6, forwardedRef)=>{
+    let { reloadDocument , replace , method =defaultMethod , action , onSubmit , fetcherKey , routeId , relative , preventScrollReset  } = _ref6, props = _objectWithoutPropertiesLoose(_ref6, _excluded3);
+    let submit = useSubmitImpl(fetcherKey, routeId);
+    let formMethod = method.toLowerCase() === "get" ? "get" : "post";
+    let formAction = useFormAction(action, {
+        relative
+    });
+    let submitHandler = (event)=>{
+        onSubmit && onSubmit(event);
+        if (event.defaultPrevented) return;
+        event.preventDefault();
+        let submitter = event.nativeEvent.submitter;
+        let submitMethod = (submitter == null ? void 0 : submitter.getAttribute("formmethod")) || method;
+        submit(submitter || event.currentTarget, {
+            method: submitMethod,
+            replace,
+            relative,
+            preventScrollReset
+        });
+    };
+    return /*#__PURE__*/ _react.createElement("form", _extends({
+        ref: forwardedRef,
+        method: formMethod,
+        action: formAction,
+        onSubmit: reloadDocument ? onSubmit : submitHandler
+    }, props));
+});
+FormImpl.displayName = "FormImpl";
+/**
+ * This component will emulate the browser's scroll restoration on location
+ * changes.
+ */ function ScrollRestoration(_ref7) {
+    let { getKey , storageKey  } = _ref7;
+    useScrollRestoration({
+        getKey,
+        storageKey
+    });
+    return null;
+}
+ScrollRestoration.displayName = "ScrollRestoration";
+////////////////////////////////////////////////////////////////////////////////
+//#region Hooks
+////////////////////////////////////////////////////////////////////////////////
+var DataRouterHook;
+(function(DataRouterHook) {
+    DataRouterHook["UseScrollRestoration"] = "useScrollRestoration";
+    DataRouterHook["UseSubmitImpl"] = "useSubmitImpl";
+    DataRouterHook["UseFetcher"] = "useFetcher";
+})(DataRouterHook || (DataRouterHook = {}));
+var DataRouterStateHook;
+(function(DataRouterStateHook) {
+    DataRouterStateHook["UseFetchers"] = "useFetchers";
+    DataRouterStateHook["UseScrollRestoration"] = "useScrollRestoration";
+})(DataRouterStateHook || (DataRouterStateHook = {}));
+function getDataRouterConsoleError(hookName) {
+    return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
+}
+function useDataRouterContext(hookName) {
+    let ctx = _react.useContext((0, _reactRouter.UNSAFE_DataRouterContext));
+    !ctx && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return ctx;
+}
+function useDataRouterState(hookName) {
+    let state = _react.useContext((0, _reactRouter.UNSAFE_DataRouterStateContext));
+    !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return state;
+}
+/**
+ * Handles the click behavior for router `<Link>` components. This is useful if
+ * you need to create custom `<Link>` components with the same click behavior we
+ * use in our exported `<Link>`.
+ */ function useLinkClickHandler(to, _temp) {
+    let { target , replace: replaceProp , state , preventScrollReset , relative  } = _temp === void 0 ? {} : _temp;
+    let navigate = (0, _reactRouter.useNavigate)();
+    let location = (0, _reactRouter.useLocation)();
+    let path = (0, _reactRouter.useResolvedPath)(to, {
+        relative
+    });
+    return _react.useCallback((event)=>{
+        if (shouldProcessLinkClick(event, target)) {
+            event.preventDefault(); // If the URL hasn't changed, a regular <a> will do a replace instead of
+            // a push, so do the same here unless the replace prop is explicitly set
+            let replace = replaceProp !== undefined ? replaceProp : (0, _reactRouter.createPath)(location) === (0, _reactRouter.createPath)(path);
+            navigate(to, {
+                replace,
+                state,
+                preventScrollReset,
+                relative
+            });
+        }
+    }, [
+        location,
+        navigate,
+        path,
+        replaceProp,
+        state,
+        target,
+        to,
+        preventScrollReset,
+        relative
+    ]);
+}
+/**
+ * A convenient wrapper for reading and writing search parameters via the
+ * URLSearchParams interface.
+ */ function useSearchParams(defaultInit) {
+    (0, _router.UNSAFE_warning)(typeof URLSearchParams !== "undefined", "You cannot use the `useSearchParams` hook in a browser that does not support the URLSearchParams API. If you need to support Internet Explorer 11, we recommend you load a polyfill such as https://github.com/ungap/url-search-params\n\nIf you're unsure how to load polyfills, we recommend you check out https://polyfill.io/v3/ which provides some recommendations about how to load polyfills only for users that need them, instead of for every user.");
+    let defaultSearchParamsRef = _react.useRef(createSearchParams(defaultInit));
+    let hasSetSearchParamsRef = _react.useRef(false);
+    let location = (0, _reactRouter.useLocation)();
+    let searchParams = _react.useMemo(()=>// Once we call that we want those to take precedence, otherwise you can't
+        // remove a param with setSearchParams({}) if it has an initial value
+        getSearchParamsForLocation(location.search, hasSetSearchParamsRef.current ? null : defaultSearchParamsRef.current), [
+        location.search
+    ]);
+    let navigate = (0, _reactRouter.useNavigate)();
+    let setSearchParams = _react.useCallback((nextInit, navigateOptions)=>{
+        const newSearchParams = createSearchParams(typeof nextInit === "function" ? nextInit(searchParams) : nextInit);
+        hasSetSearchParamsRef.current = true;
+        navigate("?" + newSearchParams, navigateOptions);
+    }, [
+        navigate,
+        searchParams
+    ]);
+    return [
+        searchParams,
+        setSearchParams
+    ];
+}
+/**
+ * Returns a function that may be used to programmatically submit a form (or
+ * some arbitrary data) to the server.
+ */ function useSubmit() {
+    return useSubmitImpl();
+}
+function useSubmitImpl(fetcherKey, fetcherRouteId) {
+    let { router  } = useDataRouterContext(DataRouterHook.UseSubmitImpl);
+    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let currentRouteId = (0, _reactRouter.UNSAFE_useRouteId)();
+    return _react.useCallback(function(target, options) {
+        if (options === void 0) options = {};
+        if (typeof document === "undefined") throw new Error("You are calling submit during the server render. Try calling submit within a `useEffect` or callback instead.");
+        let { action , method , encType , formData  } = getFormSubmissionInfo(target, options, basename); // Base options shared between fetch() and navigate()
+        let opts = {
+            preventScrollReset: options.preventScrollReset,
+            formData,
+            formMethod: method,
+            formEncType: encType
+        };
+        if (fetcherKey) {
+            !(fetcherRouteId != null) && (0, _router.UNSAFE_invariant)(false, "No routeId available for useFetcher()");
+            router.fetch(fetcherKey, fetcherRouteId, action, opts);
+        } else router.navigate(action, _extends({}, opts, {
+            replace: options.replace,
+            fromRouteId: currentRouteId
+        }));
+    }, [
+        router,
+        basename,
+        fetcherKey,
+        fetcherRouteId,
+        currentRouteId
+    ]);
+} // v7: Eventually we should deprecate this entirely in favor of using the
+// router method directly?
+function useFormAction(action, _temp2) {
+    let { relative  } = _temp2 === void 0 ? {} : _temp2;
+    let { basename  } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let routeContext = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
+    !routeContext && (0, _router.UNSAFE_invariant)(false, "useFormAction must be used inside a RouteContext");
+    let [match] = routeContext.matches.slice(-1); // Shallow clone path so we can modify it below, otherwise we modify the
+    // object referenced by useMemo inside useResolvedPath
+    let path = _extends({}, (0, _reactRouter.useResolvedPath)(action ? action : ".", {
+        relative
+    })); // Previously we set the default action to ".". The problem with this is that
+    // `useResolvedPath(".")` excludes search params and the hash of the resolved
+    // URL. This is the intended behavior of when "." is specifically provided as
+    // the form action, but inconsistent w/ browsers when the action is omitted.
+    // https://github.com/remix-run/remix/issues/927
+    let location = (0, _reactRouter.useLocation)();
+    if (action == null) {
+        // Safe to write to these directly here since if action was undefined, we
+        // would have called useResolvedPath(".") which will never include a search
+        // or hash
+        path.search = location.search;
+        path.hash = location.hash; // When grabbing search params from the URL, remove the automatically
+        // inserted ?index param so we match the useResolvedPath search behavior
+        // which would not include ?index
+        if (match.route.index) {
+            let params = new URLSearchParams(path.search);
+            params.delete("index");
+            path.search = params.toString() ? "?" + params.toString() : "";
+        }
+    }
+    if ((!action || action === ".") && match.route.index) path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
+     // If we're operating within a basename, prepend it to the pathname prior
+    // to creating the form action.  If this is a root navigation, then just use
+    // the raw basename which allows the basename to have full control over the
+    // presence of a trailing slash on root actions
+    if (basename !== "/") path.pathname = path.pathname === "/" ? basename : (0, _router.joinPaths)([
+        basename,
+        path.pathname
+    ]);
+    return (0, _reactRouter.createPath)(path);
+}
+function createFetcherForm(fetcherKey, routeId) {
+    let FetcherForm = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+        return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
+            ref: ref,
+            fetcherKey: fetcherKey,
+            routeId: routeId
+        }));
+    });
+    FetcherForm.displayName = "fetcher.Form";
+    return FetcherForm;
+}
+let fetcherId = 0;
+/**
+ * Interacts with route loaders and actions without causing a navigation. Great
+ * for any interaction that stays on the same page.
+ */ function useFetcher() {
+    var _route$matches;
+    let { router  } = useDataRouterContext(DataRouterHook.UseFetcher);
+    let route = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
+    !route && (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a RouteContext");
+    let routeId = (_route$matches = route.matches[route.matches.length - 1]) == null ? void 0 : _route$matches.route.id;
+    !(routeId != null) && (0, _router.UNSAFE_invariant)(false, 'useFetcher can only be used on routes that contain a unique "id"');
+    let [fetcherKey] = _react.useState(()=>String(++fetcherId));
+    let [Form] = _react.useState(()=>{
+        !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.Form()");
+        return createFetcherForm(fetcherKey, routeId);
+    });
+    let [load] = _react.useState(()=>(href)=>{
+            !router && (0, _router.UNSAFE_invariant)(false, "No router available for fetcher.load()");
+            !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.load()");
+            router.fetch(fetcherKey, routeId, href);
+        });
+    let submit = useSubmitImpl(fetcherKey, routeId);
+    let fetcher = router.getFetcher(fetcherKey);
+    let fetcherWithComponents = _react.useMemo(()=>_extends({
+            Form,
+            submit,
+            load
+        }, fetcher), [
+        fetcher,
+        Form,
+        submit,
+        load
+    ]);
+    _react.useEffect(()=>{
+        // Is this busted when the React team gets real weird and calls effects
+        // twice on mount?  We really just need to garbage collect here when this
+        // fetcher is no longer around.
+        return ()=>{
+            if (!router) {
+                console.warn("No router available to clean up from useFetcher()");
+                return;
+            }
+            router.deleteFetcher(fetcherKey);
+        };
+    }, [
+        router,
+        fetcherKey
+    ]);
+    return fetcherWithComponents;
+}
+/**
+ * Provides all fetchers currently on the page. Useful for layouts and parent
+ * routes that need to provide pending/optimistic UI regarding the fetch.
+ */ function useFetchers() {
+    let state = useDataRouterState(DataRouterStateHook.UseFetchers);
+    return [
+        ...state.fetchers.values()
+    ];
+}
+const SCROLL_RESTORATION_STORAGE_KEY = "react-router-scroll-positions";
+let savedScrollPositions = {};
+/**
+ * When rendered inside a RouterProvider, will restore scroll positions on navigations
+ */ function useScrollRestoration(_temp3) {
+    let { getKey , storageKey  } = _temp3 === void 0 ? {} : _temp3;
+    let { router  } = useDataRouterContext(DataRouterHook.UseScrollRestoration);
+    let { restoreScrollPosition , preventScrollReset  } = useDataRouterState(DataRouterStateHook.UseScrollRestoration);
+    let location = (0, _reactRouter.useLocation)();
+    let matches = (0, _reactRouter.useMatches)();
+    let navigation = (0, _reactRouter.useNavigation)(); // Trigger manual scroll restoration while we're active
+    _react.useEffect(()=>{
+        window.history.scrollRestoration = "manual";
+        return ()=>{
+            window.history.scrollRestoration = "auto";
+        };
+    }, []); // Save positions on pagehide
+    usePageHide(_react.useCallback(()=>{
+        if (navigation.state === "idle") {
+            let key = (getKey ? getKey(location, matches) : null) || location.key;
+            savedScrollPositions[key] = window.scrollY;
+        }
+        sessionStorage.setItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY, JSON.stringify(savedScrollPositions));
+        window.history.scrollRestoration = "auto";
+    }, [
+        storageKey,
+        getKey,
+        navigation.state,
+        location,
+        matches
+    ])); // Read in any saved scroll locations
+    if (typeof document !== "undefined") {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            try {
+                let sessionPositions = sessionStorage.getItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY);
+                if (sessionPositions) savedScrollPositions = JSON.parse(sessionPositions);
+            } catch (e) {}
+        }, [
+            storageKey
+        ]); // Enable scroll restoration in the router
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            let disableScrollRestoration = router == null ? void 0 : router.enableScrollRestoration(savedScrollPositions, ()=>window.scrollY, getKey);
+            return ()=>disableScrollRestoration && disableScrollRestoration();
+        }, [
+            router,
+            getKey
+        ]); // Restore scrolling when state.restoreScrollPosition changes
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            // Explicit false means don't do anything (used for submissions)
+            if (restoreScrollPosition === false) return;
+             // been here before, scroll to it
+            if (typeof restoreScrollPosition === "number") {
+                window.scrollTo(0, restoreScrollPosition);
+                return;
+            } // try to scroll to the hash
+            if (location.hash) {
+                let el = document.getElementById(location.hash.slice(1));
+                if (el) {
+                    el.scrollIntoView();
+                    return;
+                }
+            } // Don't reset if this navigation opted out
+            if (preventScrollReset === true) return;
+             // otherwise go to the top on new locations
+            window.scrollTo(0, 0);
+        }, [
+            location,
+            restoreScrollPosition,
+            preventScrollReset
+        ]);
+    }
+}
+/**
+ * Setup a callback to be fired on the window's `beforeunload` event. This is
+ * useful for saving some data to `window.localStorage` just before the page
+ * refreshes.
+ *
+ * Note: The `callback` argument should be a function created with
+ * `React.useCallback()`.
+ */ function useBeforeUnload(callback, options) {
+    let { capture  } = options || {};
+    _react.useEffect(()=>{
+        let opts = capture != null ? {
+            capture
+        } : undefined;
+        window.addEventListener("beforeunload", callback, opts);
+        return ()=>{
+            window.removeEventListener("beforeunload", callback, opts);
+        };
+    }, [
+        callback,
+        capture
+    ]);
+}
+/**
+ * Setup a callback to be fired on the window's `pagehide` event. This is
+ * useful for saving some data to `window.localStorage` just before the page
+ * refreshes.  This event is better supported than beforeunload across browsers.
+ *
+ * Note: The `callback` argument should be a function created with
+ * `React.useCallback()`.
+ */ function usePageHide(callback, options) {
+    let { capture  } = options || {};
+    _react.useEffect(()=>{
+        let opts = capture != null ? {
+            capture
+        } : undefined;
+        window.addEventListener("pagehide", callback, opts);
+        return ()=>{
+            window.removeEventListener("pagehide", callback, opts);
+        };
+    }, [
+        callback,
+        capture
+    ]);
+}
+/**
+ * Wrapper around useBlocker to show a window.confirm prompt to users instead
+ * of building a custom UI with useBlocker.
+ *
+ * Warning: This has *a lot of rough edges* and behaves very differently (and
+ * very incorrectly in some cases) across browsers if user click addition
+ * back/forward navigations while the confirm is open.  Use at your own risk.
+ */ function usePrompt(_ref8) {
+    let { when , message  } = _ref8;
+    let blocker = (0, _reactRouter.unstable_useBlocker)(when);
+    _react.useEffect(()=>{
+        if (blocker.state === "blocked" && !when) blocker.reset();
+    }, [
+        blocker,
+        when
+    ]);
+    _react.useEffect(()=>{
+        if (blocker.state === "blocked") {
+            let proceed = window.confirm(message);
+            if (proceed) setTimeout(blocker.proceed, 0);
+            else blocker.reset();
+        }
+    }, [
+        blocker,
+        message
+    ]);
+}
+
+},{"react":"21dqq","react-router":"dbWyW","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dbWyW":[function(require,module,exports) {
+/**
+ * React Router v6.11.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>(0, _router.AbortedDeferredError));
+parcelHelpers.export(exports, "NavigationType", ()=>(0, _router.Action));
+parcelHelpers.export(exports, "createPath", ()=>(0, _router.createPath));
+parcelHelpers.export(exports, "defer", ()=>(0, _router.defer));
+parcelHelpers.export(exports, "generatePath", ()=>(0, _router.generatePath));
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _router.isRouteErrorResponse));
+parcelHelpers.export(exports, "json", ()=>(0, _router.json));
+parcelHelpers.export(exports, "matchPath", ()=>(0, _router.matchPath));
+parcelHelpers.export(exports, "matchRoutes", ()=>(0, _router.matchRoutes));
+parcelHelpers.export(exports, "parsePath", ()=>(0, _router.parsePath));
+parcelHelpers.export(exports, "redirect", ()=>(0, _router.redirect));
+parcelHelpers.export(exports, "resolvePath", ()=>(0, _router.resolvePath));
+parcelHelpers.export(exports, "Await", ()=>Await);
+parcelHelpers.export(exports, "MemoryRouter", ()=>MemoryRouter);
+parcelHelpers.export(exports, "Navigate", ()=>Navigate);
+parcelHelpers.export(exports, "Outlet", ()=>Outlet);
+parcelHelpers.export(exports, "Route", ()=>Route);
+parcelHelpers.export(exports, "Router", ()=>Router);
+parcelHelpers.export(exports, "RouterProvider", ()=>RouterProvider);
+parcelHelpers.export(exports, "Routes", ()=>Routes);
+parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>DataRouterContext);
+parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>DataRouterStateContext);
+parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>LocationContext);
+parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>NavigationContext);
+parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>RouteContext);
+parcelHelpers.export(exports, "UNSAFE_mapRouteProperties", ()=>mapRouteProperties);
+parcelHelpers.export(exports, "UNSAFE_useRouteId", ()=>useRouteId);
+parcelHelpers.export(exports, "UNSAFE_useRoutesImpl", ()=>useRoutesImpl);
+parcelHelpers.export(exports, "createMemoryRouter", ()=>createMemoryRouter);
+parcelHelpers.export(exports, "createRoutesFromChildren", ()=>createRoutesFromChildren);
+parcelHelpers.export(exports, "createRoutesFromElements", ()=>createRoutesFromChildren);
+parcelHelpers.export(exports, "renderMatches", ()=>renderMatches);
+parcelHelpers.export(exports, "unstable_useBlocker", ()=>useBlocker);
+parcelHelpers.export(exports, "useActionData", ()=>useActionData);
+parcelHelpers.export(exports, "useAsyncError", ()=>useAsyncError);
+parcelHelpers.export(exports, "useAsyncValue", ()=>useAsyncValue);
+parcelHelpers.export(exports, "useHref", ()=>useHref);
+parcelHelpers.export(exports, "useInRouterContext", ()=>useInRouterContext);
+parcelHelpers.export(exports, "useLoaderData", ()=>useLoaderData);
+parcelHelpers.export(exports, "useLocation", ()=>useLocation);
+parcelHelpers.export(exports, "useMatch", ()=>useMatch);
+parcelHelpers.export(exports, "useMatches", ()=>useMatches);
+parcelHelpers.export(exports, "useNavigate", ()=>useNavigate);
+parcelHelpers.export(exports, "useNavigation", ()=>useNavigation);
+parcelHelpers.export(exports, "useNavigationType", ()=>useNavigationType);
+parcelHelpers.export(exports, "useOutlet", ()=>useOutlet);
+parcelHelpers.export(exports, "useOutletContext", ()=>useOutletContext);
+parcelHelpers.export(exports, "useParams", ()=>useParams);
+parcelHelpers.export(exports, "useResolvedPath", ()=>useResolvedPath);
+parcelHelpers.export(exports, "useRevalidator", ()=>useRevalidator);
+parcelHelpers.export(exports, "useRouteError", ()=>useRouteError);
+parcelHelpers.export(exports, "useRouteLoaderData", ()=>useRouteLoaderData);
+parcelHelpers.export(exports, "useRoutes", ()=>useRoutes);
+var _react = require("react");
+var _router = require("@remix-run/router");
+function _extends() {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+const DataRouterContext = /*#__PURE__*/ _react.createContext(null);
+DataRouterContext.displayName = "DataRouter";
+const DataRouterStateContext = /*#__PURE__*/ _react.createContext(null);
+DataRouterStateContext.displayName = "DataRouterState";
+const AwaitContext = /*#__PURE__*/ _react.createContext(null);
+AwaitContext.displayName = "Await";
+const NavigationContext = /*#__PURE__*/ _react.createContext(null);
+NavigationContext.displayName = "Navigation";
+const LocationContext = /*#__PURE__*/ _react.createContext(null);
+LocationContext.displayName = "Location";
+const RouteContext = /*#__PURE__*/ _react.createContext({
+    outlet: null,
+    matches: []
+});
+RouteContext.displayName = "Route";
+const RouteErrorContext = /*#__PURE__*/ _react.createContext(null);
+RouteErrorContext.displayName = "RouteError";
+/**
+ * Returns the full href for the given "to" value. This is useful for building
+ * custom links that are also accessible and preserve right-click behavior.
+ *
+ * @see https://reactrouter.com/hooks/use-href
+ */ function useHref(to, _temp) {
+    let { relative  } = _temp === void 0 ? {} : _temp;
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useHref() may be used only in the context of a <Router> component.");
+    let { basename , navigator  } = _react.useContext(NavigationContext);
+    let { hash , pathname , search  } = useResolvedPath(to, {
+        relative
+    });
+    let joinedPathname = pathname; // If we're operating within a basename, prepend it to the pathname prior
+    // to creating the href.  If this is a root navigation, then just use the raw
+    // basename which allows the basename to have full control over the presence
+    // of a trailing slash on root links
+    if (basename !== "/") joinedPathname = pathname === "/" ? basename : (0, _router.joinPaths)([
+        basename,
+        pathname
+    ]);
+    return navigator.createHref({
+        pathname: joinedPathname,
+        search,
+        hash
+    });
+}
+/**
+ * Returns true if this component is a descendant of a <Router>.
+ *
+ * @see https://reactrouter.com/hooks/use-in-router-context
+ */ function useInRouterContext() {
+    return _react.useContext(LocationContext) != null;
+}
+/**
+ * Returns the current location object, which represents the current URL in web
+ * browsers.
+ *
+ * Note: If you're using this it may mean you're doing some of your own
+ * "routing" in your app, and we'd like to know what your use case is. We may
+ * be able to provide something higher-level to better suit your needs.
+ *
+ * @see https://reactrouter.com/hooks/use-location
+ */ function useLocation() {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useLocation() may be used only in the context of a <Router> component.");
+    return _react.useContext(LocationContext).location;
+}
+/**
+ * Returns the current navigation action which describes how the router came to
+ * the current location, either by a pop, push, or replace on the history stack.
+ *
+ * @see https://reactrouter.com/hooks/use-navigation-type
+ */ function useNavigationType() {
+    return _react.useContext(LocationContext).navigationType;
+}
+/**
+ * Returns a PathMatch object if the given pattern matches the current URL.
+ * This is useful for components that need to know "active" state, e.g.
+ * <NavLink>.
+ *
+ * @see https://reactrouter.com/hooks/use-match
+ */ function useMatch(pattern) {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useMatch() may be used only in the context of a <Router> component.");
+    let { pathname  } = useLocation();
+    return _react.useMemo(()=>(0, _router.matchPath)(pattern, pathname), [
+        pathname,
+        pattern
+    ]);
+}
+/**
+ * The interface for the navigate() function returned from useNavigate().
+ */ const navigateEffectWarning = "You should call navigate() in a React.useEffect(), not when your component is first rendered."; // Mute warnings for calls to useNavigate in SSR environments
+function useIsomorphicLayoutEffect(cb) {
+    let isStatic = _react.useContext(NavigationContext).static;
+    if (!isStatic) // We should be able to get rid of this once react 18.3 is released
+    // See: https://github.com/facebook/react/pull/26395
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    _react.useLayoutEffect(cb);
+}
+/**
+ * Returns an imperative method for changing the location. Used by <Link>s, but
+ * may also be used by other elements to change the location.
+ *
+ * @see https://reactrouter.com/hooks/use-navigate
+ */ function useNavigate() {
+    let isDataRouter = _react.useContext(DataRouterContext) != null; // Conditional usage is OK here because the usage of a data router is static
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    return isDataRouter ? useNavigateStable() : useNavigateUnstable();
+}
+function useNavigateUnstable() {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useNavigate() may be used only in the context of a <Router> component.");
+    let { basename , navigator  } = _react.useContext(NavigationContext);
+    let { matches  } = _react.useContext(RouteContext);
+    let { pathname: locationPathname  } = useLocation();
+    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
+    let activeRef = _react.useRef(false);
+    useIsomorphicLayoutEffect(()=>{
+        activeRef.current = true;
+    });
+    let navigate = _react.useCallback(function(to, options) {
+        if (options === void 0) options = {};
+        (0, _router.UNSAFE_warning)(activeRef.current, navigateEffectWarning); // Short circuit here since if this happens on first render the navigate
+        // is useless because we haven't wired up our history listener yet
+        if (!activeRef.current) return;
+        if (typeof to === "number") {
+            navigator.go(to);
+            return;
+        }
+        let path = (0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, options.relative === "path"); // If we're operating within a basename, prepend it to the pathname prior
+        // to handing off to history.  If this is a root navigation, then we
+        // navigate to the raw basename which allows the basename to have full
+        // control over the presence of a trailing slash on root links
+        if (basename !== "/") path.pathname = path.pathname === "/" ? basename : (0, _router.joinPaths)([
+            basename,
+            path.pathname
+        ]);
+        (!!options.replace ? navigator.replace : navigator.push)(path, options.state, options);
+    }, [
+        basename,
+        navigator,
+        routePathnamesJson,
+        locationPathname
+    ]);
+    return navigate;
+}
+const OutletContext = /*#__PURE__*/ _react.createContext(null);
+/**
+ * Returns the context (if provided) for the child route at this level of the route
+ * hierarchy.
+ * @see https://reactrouter.com/hooks/use-outlet-context
+ */ function useOutletContext() {
+    return _react.useContext(OutletContext);
+}
+/**
+ * Returns the element for the child route at this level of the route
+ * hierarchy. Used internally by <Outlet> to render child routes.
+ *
+ * @see https://reactrouter.com/hooks/use-outlet
+ */ function useOutlet(context) {
+    let outlet = _react.useContext(RouteContext).outlet;
+    if (outlet) return /*#__PURE__*/ _react.createElement(OutletContext.Provider, {
+        value: context
+    }, outlet);
+    return outlet;
+}
+/**
+ * Returns an object of key/value pairs of the dynamic params from the current
+ * URL that were matched by the route path.
+ *
+ * @see https://reactrouter.com/hooks/use-params
+ */ function useParams() {
+    let { matches  } = _react.useContext(RouteContext);
+    let routeMatch = matches[matches.length - 1];
+    return routeMatch ? routeMatch.params : {};
+}
+/**
+ * Resolves the pathname of the given `to` value against the current location.
+ *
+ * @see https://reactrouter.com/hooks/use-resolved-path
+ */ function useResolvedPath(to, _temp2) {
+    let { relative  } = _temp2 === void 0 ? {} : _temp2;
+    let { matches  } = _react.useContext(RouteContext);
+    let { pathname: locationPathname  } = useLocation();
+    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
+    return _react.useMemo(()=>(0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, relative === "path"), [
+        to,
+        routePathnamesJson,
+        locationPathname,
+        relative
+    ]);
+}
+/**
+ * Returns the element of the route that matched the current location, prepared
+ * with the correct context to render the remainder of the route tree. Route
+ * elements in the tree must render an <Outlet> to render their child route's
+ * element.
+ *
+ * @see https://reactrouter.com/hooks/use-routes
+ */ function useRoutes(routes, locationArg) {
+    return useRoutesImpl(routes, locationArg);
+} // Internal implementation with accept optional param for RouterProvider usage
+function useRoutesImpl(routes, locationArg, dataRouterState) {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useRoutes() may be used only in the context of a <Router> component.");
+    let { navigator  } = _react.useContext(NavigationContext);
+    let { matches: parentMatches  } = _react.useContext(RouteContext);
+    let routeMatch = parentMatches[parentMatches.length - 1];
+    let parentParams = routeMatch ? routeMatch.params : {};
+    let parentPathname = routeMatch ? routeMatch.pathname : "/";
+    let parentPathnameBase = routeMatch ? routeMatch.pathnameBase : "/";
+    let parentRoute = routeMatch && routeMatch.route;
+    {
+        // You won't get a warning about 2 different <Routes> under a <Route>
+        // without a trailing *, but this is a best-effort warning anyway since we
+        // cannot even give the warning unless they land at the parent route.
+        //
+        // Example:
+        //
+        // <Routes>
+        //   {/* This route path MUST end with /* because otherwise
+        //       it will never match /blog/post/123 */}
+        //   <Route path="blog" element={<Blog />} />
+        //   <Route path="blog/feed" element={<BlogFeed />} />
+        // </Routes>
+        //
+        // function Blog() {
+        //   return (
+        //     <Routes>
+        //       <Route path="post/:id" element={<Post />} />
+        //     </Routes>
+        //   );
+        // }
+        let parentPath = parentRoute && parentRoute.path || "";
+        warningOnce(parentPathname, !parentRoute || parentPath.endsWith("*"), "You rendered descendant <Routes> (or called `useRoutes()`) at " + ('"' + parentPathname + '" (under <Route path="' + parentPath + '">) but the ') + 'parent route path has no trailing "*". This means if you navigate ' + "deeper, the parent won't match anymore and therefore the child " + "routes will never render.\n\n" + ('Please change the parent <Route path="' + parentPath + '"> to <Route ') + ('path="' + (parentPath === "/" ? "*" : parentPath + "/*") + '">.'));
+    }
+    let locationFromContext = useLocation();
+    let location;
+    if (locationArg) {
+        var _parsedLocationArg$pa;
+        let parsedLocationArg = typeof locationArg === "string" ? (0, _router.parsePath)(locationArg) : locationArg;
+        !(parentPathnameBase === "/" || ((_parsedLocationArg$pa = parsedLocationArg.pathname) == null ? void 0 : _parsedLocationArg$pa.startsWith(parentPathnameBase))) && (0, _router.UNSAFE_invariant)(false, "When overriding the location using `<Routes location>` or `useRoutes(routes, location)`, the location pathname must begin with the portion of the URL pathname that was " + ('matched by all parent routes. The current pathname base is "' + parentPathnameBase + '" ') + ('but pathname "' + parsedLocationArg.pathname + '" was given in the `location` prop.'));
+        location = parsedLocationArg;
+    } else location = locationFromContext;
+    let pathname = location.pathname || "/";
+    let remainingPathname = parentPathnameBase === "/" ? pathname : pathname.slice(parentPathnameBase.length) || "/";
+    let matches = (0, _router.matchRoutes)(routes, {
+        pathname: remainingPathname
+    });
+    (0, _router.UNSAFE_warning)(parentRoute || matches != null, 'No routes matched location "' + location.pathname + location.search + location.hash + '" ');
+    (0, _router.UNSAFE_warning)(matches == null || matches[matches.length - 1].route.element !== undefined || matches[matches.length - 1].route.Component !== undefined, 'Matched leaf route at location "' + location.pathname + location.search + location.hash + '" ' + "does not have an element or Component. This means it will render an <Outlet /> with a " + 'null value by default resulting in an "empty" page.');
+    let renderedMatches = _renderMatches(matches && matches.map((match)=>Object.assign({}, match, {
+            params: Object.assign({}, parentParams, match.params),
+            pathname: (0, _router.joinPaths)([
+                parentPathnameBase,
+                navigator.encodeLocation ? navigator.encodeLocation(match.pathname).pathname : match.pathname
+            ]),
+            pathnameBase: match.pathnameBase === "/" ? parentPathnameBase : (0, _router.joinPaths)([
+                parentPathnameBase,
+                navigator.encodeLocation ? navigator.encodeLocation(match.pathnameBase).pathname : match.pathnameBase
+            ])
+        })), parentMatches, dataRouterState); // When a user passes in a `locationArg`, the associated routes need to
+    // be wrapped in a new `LocationContext.Provider` in order for `useLocation`
+    // to use the scoped location instead of the global location.
+    if (locationArg && renderedMatches) return /*#__PURE__*/ _react.createElement(LocationContext.Provider, {
+        value: {
+            location: _extends({
+                pathname: "/",
+                search: "",
+                hash: "",
+                state: null,
+                key: "default"
+            }, location),
+            navigationType: (0, _router.Action).Pop
+        }
+    }, renderedMatches);
+    return renderedMatches;
+}
+function DefaultErrorComponent() {
+    let error = useRouteError();
+    let message = (0, _router.isRouteErrorResponse)(error) ? error.status + " " + error.statusText : error instanceof Error ? error.message : JSON.stringify(error);
+    let stack = error instanceof Error ? error.stack : null;
+    let lightgrey = "rgba(200,200,200, 0.5)";
+    let preStyles = {
+        padding: "0.5rem",
+        backgroundColor: lightgrey
+    };
+    let codeStyles = {
+        padding: "2px 4px",
+        backgroundColor: lightgrey
+    };
+    let devInfo = null;
+    console.error("Error handled by React Router default ErrorBoundary:", error);
+    devInfo = /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement("p", null, "\uD83D\uDCBF Hey developer \uD83D\uDC4B"), /*#__PURE__*/ _react.createElement("p", null, "You can provide a way better UX than this when your app throws errors by providing your own ", /*#__PURE__*/ _react.createElement("code", {
+        style: codeStyles
+    }, "ErrorBoundary"), " or", " ", /*#__PURE__*/ _react.createElement("code", {
+        style: codeStyles
+    }, "errorElement"), " prop on your route."));
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement("h2", null, "Unexpected Application Error!"), /*#__PURE__*/ _react.createElement("h3", {
+        style: {
+            fontStyle: "italic"
+        }
+    }, message), stack ? /*#__PURE__*/ _react.createElement("pre", {
+        style: preStyles
+    }, stack) : null, devInfo);
+}
+const defaultErrorElement = /*#__PURE__*/ _react.createElement(DefaultErrorComponent, null);
+class RenderErrorBoundary extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            location: props.location,
+            revalidation: props.revalidation,
+            error: props.error
+        };
+    }
+    static getDerivedStateFromError(error) {
+        return {
+            error: error
+        };
+    }
+    static getDerivedStateFromProps(props, state) {
+        // When we get into an error state, the user will likely click "back" to the
+        // previous page that didn't have an error. Because this wraps the entire
+        // application, that will have no effect--the error page continues to display.
+        // This gives us a mechanism to recover from the error when the location changes.
+        //
+        // Whether we're in an error state or not, we update the location in state
+        // so that when we are in an error state, it gets reset when a new location
+        // comes in and the user recovers from the error.
+        if (state.location !== props.location || state.revalidation !== "idle" && props.revalidation === "idle") return {
+            error: props.error,
+            location: props.location,
+            revalidation: props.revalidation
+        };
+         // If we're not changing locations, preserve the location but still surface
+        // any new errors that may come through. We retain the existing error, we do
+        // this because the error provided from the app state may be cleared without
+        // the location changing.
+        return {
+            error: props.error || state.error,
+            location: state.location,
+            revalidation: props.revalidation || state.revalidation
+        };
+    }
+    componentDidCatch(error, errorInfo) {
+        console.error("React Router caught the following error during render", error, errorInfo);
+    }
+    render() {
+        return this.state.error ? /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
+            value: this.props.routeContext
+        }, /*#__PURE__*/ _react.createElement(RouteErrorContext.Provider, {
+            value: this.state.error,
+            children: this.props.component
+        })) : this.props.children;
+    }
+}
+function RenderedRoute(_ref) {
+    let { routeContext , match , children  } = _ref;
+    let dataRouterContext = _react.useContext(DataRouterContext); // Track how deep we got in our render pass to emulate SSR componentDidCatch
+    // in a DataStaticRouter
+    if (dataRouterContext && dataRouterContext.static && dataRouterContext.staticContext && (match.route.errorElement || match.route.ErrorBoundary)) dataRouterContext.staticContext._deepestRenderedBoundaryId = match.route.id;
+    return /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
+        value: routeContext
+    }, children);
+}
+function _renderMatches(matches, parentMatches, dataRouterState) {
+    var _dataRouterState2;
+    if (parentMatches === void 0) parentMatches = [];
+    if (dataRouterState === void 0) dataRouterState = null;
+    if (matches == null) {
+        var _dataRouterState;
+        if ((_dataRouterState = dataRouterState) != null && _dataRouterState.errors) // Don't bail if we have data router errors so we can render them in the
+        // boundary.  Use the pre-matched (or shimmed) matches
+        matches = dataRouterState.matches;
+        else return null;
+    }
+    let renderedMatches = matches; // If we have data errors, trim matches to the highest error boundary
+    let errors = (_dataRouterState2 = dataRouterState) == null ? void 0 : _dataRouterState2.errors;
+    if (errors != null) {
+        let errorIndex = renderedMatches.findIndex((m)=>m.route.id && (errors == null ? void 0 : errors[m.route.id]));
+        !(errorIndex >= 0) && (0, _router.UNSAFE_invariant)(false, "Could not find a matching route for errors on route IDs: " + Object.keys(errors).join(","));
+        renderedMatches = renderedMatches.slice(0, Math.min(renderedMatches.length, errorIndex + 1));
+    }
+    return renderedMatches.reduceRight((outlet, match, index)=>{
+        let error = match.route.id ? errors == null ? void 0 : errors[match.route.id] : null; // Only data routers handle errors
+        let errorElement = null;
+        if (dataRouterState) errorElement = match.route.errorElement || defaultErrorElement;
+        let matches = parentMatches.concat(renderedMatches.slice(0, index + 1));
+        let getChildren = ()=>{
+            let children;
+            if (error) children = errorElement;
+            else if (match.route.element) children = match.route.element;
+            else children = outlet;
+            return /*#__PURE__*/ _react.createElement(RenderedRoute, {
+                match: match,
+                routeContext: {
+                    outlet,
+                    matches
+                },
+                children: children
+            });
+        }; // Only wrap in an error boundary within data router usages when we have an
+        // ErrorBoundary/errorElement on this route.  Otherwise let it bubble up to
+        // an ancestor ErrorBoundary/errorElement
+        return dataRouterState && (match.route.ErrorBoundary || match.route.errorElement || index === 0) ? /*#__PURE__*/ _react.createElement(RenderErrorBoundary, {
+            location: dataRouterState.location,
+            revalidation: dataRouterState.revalidation,
+            component: errorElement,
+            error: error,
+            children: getChildren(),
+            routeContext: {
+                outlet: null,
+                matches
+            }
+        }) : getChildren();
+    }, null);
+}
+var DataRouterHook;
+(function(DataRouterHook) {
+    DataRouterHook["UseBlocker"] = "useBlocker";
+    DataRouterHook["UseRevalidator"] = "useRevalidator";
+    DataRouterHook["UseNavigateStable"] = "useNavigate";
+})(DataRouterHook || (DataRouterHook = {}));
+var DataRouterStateHook;
+(function(DataRouterStateHook) {
+    DataRouterStateHook["UseBlocker"] = "useBlocker";
+    DataRouterStateHook["UseLoaderData"] = "useLoaderData";
+    DataRouterStateHook["UseActionData"] = "useActionData";
+    DataRouterStateHook["UseRouteError"] = "useRouteError";
+    DataRouterStateHook["UseNavigation"] = "useNavigation";
+    DataRouterStateHook["UseRouteLoaderData"] = "useRouteLoaderData";
+    DataRouterStateHook["UseMatches"] = "useMatches";
+    DataRouterStateHook["UseRevalidator"] = "useRevalidator";
+    DataRouterStateHook["UseNavigateStable"] = "useNavigate";
+    DataRouterStateHook["UseRouteId"] = "useRouteId";
+})(DataRouterStateHook || (DataRouterStateHook = {}));
+function getDataRouterConsoleError(hookName) {
+    return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
+}
+function useDataRouterContext(hookName) {
+    let ctx = _react.useContext(DataRouterContext);
+    !ctx && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return ctx;
+}
+function useDataRouterState(hookName) {
+    let state = _react.useContext(DataRouterStateContext);
+    !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return state;
+}
+function useRouteContext(hookName) {
+    let route = _react.useContext(RouteContext);
+    !route && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return route;
+} // Internal version with hookName-aware debugging
+function useCurrentRouteId(hookName) {
+    let route = useRouteContext(hookName);
+    let thisRoute = route.matches[route.matches.length - 1];
+    !thisRoute.route.id && (0, _router.UNSAFE_invariant)(false, hookName + ' can only be used on routes that contain a unique "id"');
+    return thisRoute.route.id;
+}
+/**
+ * Returns the ID for the nearest contextual route
+ */ function useRouteId() {
+    return useCurrentRouteId(DataRouterStateHook.UseRouteId);
+}
+/**
+ * Returns the current navigation, defaulting to an "idle" navigation when
+ * no navigation is in progress
+ */ function useNavigation() {
+    let state = useDataRouterState(DataRouterStateHook.UseNavigation);
+    return state.navigation;
+}
+/**
+ * Returns a revalidate function for manually triggering revalidation, as well
+ * as the current state of any manual revalidations
+ */ function useRevalidator() {
+    let dataRouterContext = useDataRouterContext(DataRouterHook.UseRevalidator);
+    let state = useDataRouterState(DataRouterStateHook.UseRevalidator);
+    return {
+        revalidate: dataRouterContext.router.revalidate,
+        state: state.revalidation
+    };
+}
+/**
+ * Returns the active route matches, useful for accessing loaderData for
+ * parent/child routes or the route "handle" property
+ */ function useMatches() {
+    let { matches , loaderData  } = useDataRouterState(DataRouterStateHook.UseMatches);
+    return _react.useMemo(()=>matches.map((match)=>{
+            let { pathname , params  } = match; // Note: This structure matches that created by createUseMatchesMatch
+            // in the @remix-run/router , so if you change this please also change
+            // that :)  Eventually we'll DRY this up
+            return {
+                id: match.route.id,
+                pathname,
+                params,
+                data: loaderData[match.route.id],
+                handle: match.route.handle
+            };
+        }), [
+        matches,
+        loaderData
+    ]);
+}
+/**
+ * Returns the loader data for the nearest ancestor Route loader
+ */ function useLoaderData() {
+    let state = useDataRouterState(DataRouterStateHook.UseLoaderData);
+    let routeId = useCurrentRouteId(DataRouterStateHook.UseLoaderData);
+    if (state.errors && state.errors[routeId] != null) {
+        console.error("You cannot `useLoaderData` in an errorElement (routeId: " + routeId + ")");
+        return undefined;
+    }
+    return state.loaderData[routeId];
+}
+/**
+ * Returns the loaderData for the given routeId
+ */ function useRouteLoaderData(routeId) {
+    let state = useDataRouterState(DataRouterStateHook.UseRouteLoaderData);
+    return state.loaderData[routeId];
+}
+/**
+ * Returns the action data for the nearest ancestor Route action
+ */ function useActionData() {
+    let state = useDataRouterState(DataRouterStateHook.UseActionData);
+    let route = _react.useContext(RouteContext);
+    !route && (0, _router.UNSAFE_invariant)(false, "useActionData must be used inside a RouteContext");
+    return Object.values((state == null ? void 0 : state.actionData) || {})[0];
+}
+/**
+ * Returns the nearest ancestor Route error, which could be a loader/action
+ * error or a render error.  This is intended to be called from your
+ * ErrorBoundary/errorElement to display a proper error message.
+ */ function useRouteError() {
+    var _state$errors;
+    let error = _react.useContext(RouteErrorContext);
+    let state = useDataRouterState(DataRouterStateHook.UseRouteError);
+    let routeId = useCurrentRouteId(DataRouterStateHook.UseRouteError); // If this was a render error, we put it in a RouteError context inside
+    // of RenderErrorBoundary
+    if (error) return error;
+     // Otherwise look for errors from our data router state
+    return (_state$errors = state.errors) == null ? void 0 : _state$errors[routeId];
+}
+/**
+ * Returns the happy-path data from the nearest ancestor <Await /> value
+ */ function useAsyncValue() {
+    let value = _react.useContext(AwaitContext);
+    return value == null ? void 0 : value._data;
+}
+/**
+ * Returns the error from the nearest ancestor <Await /> value
+ */ function useAsyncError() {
+    let value = _react.useContext(AwaitContext);
+    return value == null ? void 0 : value._error;
+}
+let blockerId = 0;
+/**
+ * Allow the application to block navigations within the SPA and present the
+ * user a confirmation dialog to confirm the navigation.  Mostly used to avoid
+ * using half-filled form data.  This does not handle hard-reloads or
+ * cross-origin navigations.
+ */ function useBlocker(shouldBlock) {
+    let { router  } = useDataRouterContext(DataRouterHook.UseBlocker);
+    let state = useDataRouterState(DataRouterStateHook.UseBlocker);
+    let [blockerKey] = _react.useState(()=>String(++blockerId));
+    let blockerFunction = _react.useCallback((args)=>{
+        return typeof shouldBlock === "function" ? !!shouldBlock(args) : !!shouldBlock;
+    }, [
+        shouldBlock
+    ]);
+    let blocker = router.getBlocker(blockerKey, blockerFunction); // Cleanup on unmount
+    _react.useEffect(()=>()=>router.deleteBlocker(blockerKey), [
+        router,
+        blockerKey
+    ]); // Prefer the blocker from state since DataRouterContext is memoized so this
+    // ensures we update on blocker state updates
+    return state.blockers.get(blockerKey) || blocker;
+}
+/**
+ * Stable version of useNavigate that is used when we are in the context of
+ * a RouterProvider.
+ */ function useNavigateStable() {
+    let { router  } = useDataRouterContext(DataRouterHook.UseNavigateStable);
+    let id = useCurrentRouteId(DataRouterStateHook.UseNavigateStable);
+    let activeRef = _react.useRef(false);
+    useIsomorphicLayoutEffect(()=>{
+        activeRef.current = true;
+    });
+    let navigate = _react.useCallback(function(to, options) {
+        if (options === void 0) options = {};
+        (0, _router.UNSAFE_warning)(activeRef.current, navigateEffectWarning); // Short circuit here since if this happens on first render the navigate
+        // is useless because we haven't wired up our router subscriber yet
+        if (!activeRef.current) return;
+        if (typeof to === "number") router.navigate(to);
+        else router.navigate(to, _extends({
+            fromRouteId: id
+        }, options));
+    }, [
+        router,
+        id
+    ]);
+    return navigate;
+}
+const alreadyWarned = {};
+function warningOnce(key, cond, message) {
+    if (!cond && !alreadyWarned[key]) {
+        alreadyWarned[key] = true;
+        (0, _router.UNSAFE_warning)(false, message);
+    }
+}
+/**
+ * Given a Remix Router instance, render the appropriate UI
+ */ function RouterProvider(_ref) {
+    let { fallbackElement , router  } = _ref;
+    // Need to use a layout effect here so we are subscribed early enough to
+    // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
+    let [state, setState] = _react.useState(router.state);
+    _react.useLayoutEffect(()=>router.subscribe(setState), [
+        router,
+        setState
+    ]);
+    let navigator = _react.useMemo(()=>{
+        return {
+            createHref: router.createHref,
+            encodeLocation: router.encodeLocation,
+            go: (n)=>router.navigate(n),
+            push: (to, state, opts)=>router.navigate(to, {
+                    state,
+                    preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
+                }),
+            replace: (to, state, opts)=>router.navigate(to, {
+                    replace: true,
+                    state,
+                    preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
+                })
+        };
+    }, [
+        router
+    ]);
+    let basename = router.basename || "/";
+    let dataRouterContext = _react.useMemo(()=>({
+            router,
+            navigator,
+            static: false,
+            basename
+        }), [
+        router,
+        navigator,
+        basename
+    ]); // The fragment and {null} here are important!  We need them to keep React 18's
+    // useId happy when we are server-rendering since we may have a <script> here
+    // containing the hydrated server-side staticContext (from StaticRouterProvider).
+    // useId relies on the component tree structure to generate deterministic id's
+    // so we need to ensure it remains the same on the client even though
+    // we don't need the <script> tag
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement(DataRouterContext.Provider, {
+        value: dataRouterContext
+    }, /*#__PURE__*/ _react.createElement(DataRouterStateContext.Provider, {
+        value: state
+    }, /*#__PURE__*/ _react.createElement(Router, {
+        basename: router.basename,
+        location: router.state.location,
+        navigationType: router.state.historyAction,
+        navigator: navigator
+    }, router.state.initialized ? /*#__PURE__*/ _react.createElement(DataRoutes, {
+        routes: router.routes,
+        state: state
+    }) : fallbackElement))), null);
+}
+function DataRoutes(_ref2) {
+    let { routes , state  } = _ref2;
+    return useRoutesImpl(routes, undefined, state);
+}
+/**
+ * A <Router> that stores all entries in memory.
+ *
+ * @see https://reactrouter.com/router-components/memory-router
+ */ function MemoryRouter(_ref3) {
+    let { basename , children , initialEntries , initialIndex  } = _ref3;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createMemoryHistory)({
+        initialEntries,
+        initialIndex,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setState] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history
+    ]);
+    return /*#__PURE__*/ _react.createElement(Router, {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * Changes the current location.
+ *
+ * Note: This API is mostly useful in React.Component subclasses that are not
+ * able to use hooks. In functional components, we recommend you use the
+ * `useNavigate` hook instead.
+ *
+ * @see https://reactrouter.com/components/navigate
+ */ function Navigate(_ref4) {
+    let { to , replace , state , relative  } = _ref4;
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // the router loaded. We can help them understand how to avoid that.
+    "<Navigate> may be used only in the context of a <Router> component.");
+    (0, _router.UNSAFE_warning)(!_react.useContext(NavigationContext).static, "<Navigate> must not be used on the initial render in a <StaticRouter>. This is a no-op, but you should modify your code so the <Navigate> is only ever rendered in response to some user interaction or state change.");
+    let dataRouterState = _react.useContext(DataRouterStateContext);
+    let navigate = useNavigate();
+    _react.useEffect(()=>{
+        // Avoid kicking off multiple navigations if we're in the middle of a
+        // data-router navigation, since components get re-rendered when we enter
+        // a submitting/loading state
+        if (dataRouterState && dataRouterState.navigation.state !== "idle") return;
+        navigate(to, {
+            replace,
+            state,
+            relative
+        });
+    });
+    return null;
+}
+/**
+ * Renders the child route's element, if there is one.
+ *
+ * @see https://reactrouter.com/components/outlet
+ */ function Outlet(props) {
+    return useOutlet(props.context);
+}
+/**
+ * Declares an element that should be rendered at a certain URL path.
+ *
+ * @see https://reactrouter.com/components/route
+ */ function Route(_props) {
+    (0, _router.UNSAFE_invariant)(false, "A <Route> is only ever to be used as the child of <Routes> element, never rendered directly. Please wrap your <Route> in a <Routes>.");
+}
+/**
+ * Provides location context for the rest of the app.
+ *
+ * Note: You usually won't render a <Router> directly. Instead, you'll render a
+ * router that is more specific to your environment such as a <BrowserRouter>
+ * in web browsers or a <StaticRouter> for server rendering.
+ *
+ * @see https://reactrouter.com/router-components/router
+ */ function Router(_ref5) {
+    let { basename: basenameProp = "/" , children =null , location: locationProp , navigationType =(0, _router.Action).Pop , navigator , static: staticProp = false  } = _ref5;
+    !!useInRouterContext() && (0, _router.UNSAFE_invariant)(false, "You cannot render a <Router> inside another <Router>. You should never have more than one in your app."); // Preserve trailing slashes on basename, so we can let the user control
+    // the enforcement of trailing slashes throughout the app
+    let basename = basenameProp.replace(/^\/*/, "/");
+    let navigationContext = _react.useMemo(()=>({
+            basename,
+            navigator,
+            static: staticProp
+        }), [
+        basename,
+        navigator,
+        staticProp
+    ]);
+    if (typeof locationProp === "string") locationProp = (0, _router.parsePath)(locationProp);
+    let { pathname ="/" , search ="" , hash ="" , state =null , key ="default"  } = locationProp;
+    let locationContext = _react.useMemo(()=>{
+        let trailingPathname = (0, _router.stripBasename)(pathname, basename);
+        if (trailingPathname == null) return null;
+        return {
+            location: {
+                pathname: trailingPathname,
+                search,
+                hash,
+                state,
+                key
+            },
+            navigationType
+        };
+    }, [
+        basename,
+        pathname,
+        search,
+        hash,
+        state,
+        key,
+        navigationType
+    ]);
+    (0, _router.UNSAFE_warning)(locationContext != null, '<Router basename="' + basename + '"> is not able to match the URL ' + ('"' + pathname + search + hash + '" because it does not start with the ') + "basename, so the <Router> won't render anything.");
+    if (locationContext == null) return null;
+    return /*#__PURE__*/ _react.createElement(NavigationContext.Provider, {
+        value: navigationContext
+    }, /*#__PURE__*/ _react.createElement(LocationContext.Provider, {
+        children: children,
+        value: locationContext
+    }));
+}
+/**
+ * A container for a nested tree of <Route> elements that renders the branch
+ * that best matches the current location.
+ *
+ * @see https://reactrouter.com/components/routes
+ */ function Routes(_ref6) {
+    let { children , location  } = _ref6;
+    return useRoutes(createRoutesFromChildren(children), location);
+}
+/**
+ * Component to use for rendering lazily loaded data from returning defer()
+ * in a loader function
+ */ function Await(_ref7) {
+    let { children , errorElement , resolve  } = _ref7;
+    return /*#__PURE__*/ _react.createElement(AwaitErrorBoundary, {
+        resolve: resolve,
+        errorElement: errorElement
+    }, /*#__PURE__*/ _react.createElement(ResolveAwait, null, children));
+}
+var AwaitRenderStatus;
+(function(AwaitRenderStatus) {
+    AwaitRenderStatus[AwaitRenderStatus["pending"] = 0] = "pending";
+    AwaitRenderStatus[AwaitRenderStatus["success"] = 1] = "success";
+    AwaitRenderStatus[AwaitRenderStatus["error"] = 2] = "error";
+})(AwaitRenderStatus || (AwaitRenderStatus = {}));
+const neverSettledPromise = new Promise(()=>{});
+class AwaitErrorBoundary extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            error: null
+        };
+    }
+    static getDerivedStateFromError(error) {
+        return {
+            error
+        };
+    }
+    componentDidCatch(error, errorInfo) {
+        console.error("<Await> caught the following error during render", error, errorInfo);
+    }
+    render() {
+        let { children , errorElement , resolve  } = this.props;
+        let promise = null;
+        let status = AwaitRenderStatus.pending;
+        if (!(resolve instanceof Promise)) {
+            // Didn't get a promise - provide as a resolved promise
+            status = AwaitRenderStatus.success;
+            promise = Promise.resolve();
+            Object.defineProperty(promise, "_tracked", {
+                get: ()=>true
+            });
+            Object.defineProperty(promise, "_data", {
+                get: ()=>resolve
+            });
+        } else if (this.state.error) {
+            // Caught a render error, provide it as a rejected promise
+            status = AwaitRenderStatus.error;
+            let renderError = this.state.error;
+            promise = Promise.reject().catch(()=>{}); // Avoid unhandled rejection warnings
+            Object.defineProperty(promise, "_tracked", {
+                get: ()=>true
+            });
+            Object.defineProperty(promise, "_error", {
+                get: ()=>renderError
+            });
+        } else if (resolve._tracked) {
+            // Already tracked promise - check contents
+            promise = resolve;
+            status = promise._error !== undefined ? AwaitRenderStatus.error : promise._data !== undefined ? AwaitRenderStatus.success : AwaitRenderStatus.pending;
+        } else {
+            // Raw (untracked) promise - track it
+            status = AwaitRenderStatus.pending;
+            Object.defineProperty(resolve, "_tracked", {
+                get: ()=>true
+            });
+            promise = resolve.then((data)=>Object.defineProperty(resolve, "_data", {
+                    get: ()=>data
+                }), (error)=>Object.defineProperty(resolve, "_error", {
+                    get: ()=>error
+                }));
+        }
+        if (status === AwaitRenderStatus.error && promise._error instanceof (0, _router.AbortedDeferredError)) // Freeze the UI by throwing a never resolved promise
+        throw neverSettledPromise;
+        if (status === AwaitRenderStatus.error && !errorElement) // No errorElement, throw to the nearest route-level error boundary
+        throw promise._error;
+        if (status === AwaitRenderStatus.error) // Render via our errorElement
+        return /*#__PURE__*/ _react.createElement(AwaitContext.Provider, {
+            value: promise,
+            children: errorElement
+        });
+        if (status === AwaitRenderStatus.success) // Render children with resolved value
+        return /*#__PURE__*/ _react.createElement(AwaitContext.Provider, {
+            value: promise,
+            children: children
+        });
+         // Throw to the suspense boundary
+        throw promise;
+    }
+}
+/**
+ * @private
+ * Indirection to leverage useAsyncValue for a render-prop API on <Await>
+ */ function ResolveAwait(_ref8) {
+    let { children  } = _ref8;
+    let data = useAsyncValue();
+    let toRender = typeof children === "function" ? children(data) : children;
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, toRender);
+} ///////////////////////////////////////////////////////////////////////////////
+// UTILS
+///////////////////////////////////////////////////////////////////////////////
+/**
+ * Creates a route config from a React "children" object, which is usually
+ * either a `<Route>` element or an array of them. Used internally by
+ * `<Routes>` to create a route config from its children.
+ *
+ * @see https://reactrouter.com/utils/create-routes-from-children
+ */ function createRoutesFromChildren(children, parentPath) {
+    if (parentPath === void 0) parentPath = [];
+    let routes = [];
+    _react.Children.forEach(children, (element, index)=>{
+        if (!/*#__PURE__*/ _react.isValidElement(element)) // Ignore non-elements. This allows people to more easily inline
+        // conditionals in their route config.
+        return;
+        let treePath = [
+            ...parentPath,
+            index
+        ];
+        if (element.type === _react.Fragment) {
+            // Transparently support React.Fragment and its children.
+            routes.push.apply(routes, createRoutesFromChildren(element.props.children, treePath));
+            return;
+        }
+        !(element.type === Route) && (0, _router.UNSAFE_invariant)(false, "[" + (typeof element.type === "string" ? element.type : element.type.name) + "] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>");
+        !(!element.props.index || !element.props.children) && (0, _router.UNSAFE_invariant)(false, "An index route cannot have child routes.");
+        let route = {
+            id: element.props.id || treePath.join("-"),
+            caseSensitive: element.props.caseSensitive,
+            element: element.props.element,
+            Component: element.props.Component,
+            index: element.props.index,
+            path: element.props.path,
+            loader: element.props.loader,
+            action: element.props.action,
+            errorElement: element.props.errorElement,
+            ErrorBoundary: element.props.ErrorBoundary,
+            hasErrorBoundary: element.props.ErrorBoundary != null || element.props.errorElement != null,
+            shouldRevalidate: element.props.shouldRevalidate,
+            handle: element.props.handle,
+            lazy: element.props.lazy
+        };
+        if (element.props.children) route.children = createRoutesFromChildren(element.props.children, treePath);
+        routes.push(route);
+    });
+    return routes;
+}
+/**
+ * Renders the result of `matchRoutes()` into a React element.
+ */ function renderMatches(matches) {
+    return _renderMatches(matches);
+}
+function mapRouteProperties(route) {
+    let updates = {
+        // Note: this check also occurs in createRoutesFromChildren so update
+        // there if you change this -- please and thank you!
+        hasErrorBoundary: route.ErrorBoundary != null || route.errorElement != null
+    };
+    if (route.Component) {
+        if (route.element) (0, _router.UNSAFE_warning)(false, "You should not include both `Component` and `element` on your route - `Component` will be used.");
+        Object.assign(updates, {
+            element: /*#__PURE__*/ _react.createElement(route.Component),
+            Component: undefined
+        });
+    }
+    if (route.ErrorBoundary) {
+        if (route.errorElement) (0, _router.UNSAFE_warning)(false, "You should not include both `ErrorBoundary` and `errorElement` on your route - `ErrorBoundary` will be used.");
+        Object.assign(updates, {
+            errorElement: /*#__PURE__*/ _react.createElement(route.ErrorBoundary),
+            ErrorBoundary: undefined
+        });
+    }
+    return updates;
+}
+function createMemoryRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createMemoryHistory)({
+            initialEntries: opts == null ? void 0 : opts.initialEntries,
+            initialIndex: opts == null ? void 0 : opts.initialIndex
+        }),
+        hydrationData: opts == null ? void 0 : opts.hydrationData,
+        routes,
+        mapRouteProperties
+    }).initialize();
+} ///////////////////////////////////////////////////////////////////////////////
+
+},{"react":"21dqq","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ncDG":[function(require,module,exports) {
+/**
+ * @remix-run/router v1.6.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>AbortedDeferredError);
+parcelHelpers.export(exports, "Action", ()=>Action);
+parcelHelpers.export(exports, "ErrorResponse", ()=>ErrorResponse);
+parcelHelpers.export(exports, "IDLE_BLOCKER", ()=>IDLE_BLOCKER);
+parcelHelpers.export(exports, "IDLE_FETCHER", ()=>IDLE_FETCHER);
+parcelHelpers.export(exports, "IDLE_NAVIGATION", ()=>IDLE_NAVIGATION);
+parcelHelpers.export(exports, "UNSAFE_DEFERRED_SYMBOL", ()=>UNSAFE_DEFERRED_SYMBOL);
+parcelHelpers.export(exports, "UNSAFE_DeferredData", ()=>DeferredData);
+parcelHelpers.export(exports, "UNSAFE_convertRoutesToDataRoutes", ()=>convertRoutesToDataRoutes);
+parcelHelpers.export(exports, "UNSAFE_getPathContributingMatches", ()=>getPathContributingMatches);
+parcelHelpers.export(exports, "UNSAFE_invariant", ()=>invariant);
+parcelHelpers.export(exports, "UNSAFE_warning", ()=>warning);
+parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory);
+parcelHelpers.export(exports, "createHashHistory", ()=>createHashHistory);
+parcelHelpers.export(exports, "createMemoryHistory", ()=>createMemoryHistory);
+parcelHelpers.export(exports, "createPath", ()=>createPath);
+parcelHelpers.export(exports, "createRouter", ()=>createRouter);
+parcelHelpers.export(exports, "createStaticHandler", ()=>createStaticHandler);
+parcelHelpers.export(exports, "defer", ()=>defer);
+parcelHelpers.export(exports, "generatePath", ()=>generatePath);
+parcelHelpers.export(exports, "getStaticContextFromError", ()=>getStaticContextFromError);
+parcelHelpers.export(exports, "getToPathname", ()=>getToPathname);
+parcelHelpers.export(exports, "isDeferredData", ()=>isDeferredData);
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>isRouteErrorResponse);
+parcelHelpers.export(exports, "joinPaths", ()=>joinPaths);
+parcelHelpers.export(exports, "json", ()=>json);
+parcelHelpers.export(exports, "matchPath", ()=>matchPath);
+parcelHelpers.export(exports, "matchRoutes", ()=>matchRoutes);
+parcelHelpers.export(exports, "normalizePathname", ()=>normalizePathname);
+parcelHelpers.export(exports, "parsePath", ()=>parsePath);
+parcelHelpers.export(exports, "redirect", ()=>redirect);
+parcelHelpers.export(exports, "resolvePath", ()=>resolvePath);
+parcelHelpers.export(exports, "resolveTo", ()=>resolveTo);
+parcelHelpers.export(exports, "stripBasename", ()=>stripBasename);
+function _extends() {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+////////////////////////////////////////////////////////////////////////////////
+//#region Types and Constants
+////////////////////////////////////////////////////////////////////////////////
+/**
+ * Actions represent the type of change to a location value.
+ */ var Action;
+(function(Action) {
+    /**
+   * A POP indicates a change to an arbitrary index in the history stack, such
+   * as a back or forward navigation. It does not describe the direction of the
+   * navigation, only that the current index changed.
+   *
+   * Note: This is the default action for newly created history objects.
+   */ Action["Pop"] = "POP";
+    /**
+   * A PUSH indicates a new entry being added to the history stack, such as when
+   * a link is clicked and a new page loads. When this happens, all subsequent
+   * entries in the stack are lost.
+   */ Action["Push"] = "PUSH";
+    /**
+   * A REPLACE indicates the entry at the current index in the history stack
+   * being replaced by a new one.
+   */ Action["Replace"] = "REPLACE";
+})(Action || (Action = {}));
+const PopStateEventType = "popstate";
+/**
+ * Memory history stores the current location in memory. It is designed for use
+ * in stateful non-browser environments like tests and React Native.
+ */ function createMemoryHistory(options) {
+    if (options === void 0) options = {};
+    let { initialEntries =[
+        "/"
+    ] , initialIndex , v5Compat =false  } = options;
+    let entries; // Declare so we can access from createMemoryLocation
+    entries = initialEntries.map((entry, index)=>createMemoryLocation(entry, typeof entry === "string" ? null : entry.state, index === 0 ? "default" : undefined));
+    let index = clampIndex(initialIndex == null ? entries.length - 1 : initialIndex);
+    let action = Action.Pop;
+    let listener = null;
+    function clampIndex(n) {
+        return Math.min(Math.max(n, 0), entries.length - 1);
+    }
+    function getCurrentLocation() {
+        return entries[index];
+    }
+    function createMemoryLocation(to, state, key) {
+        if (state === void 0) state = null;
+        let location = createLocation(entries ? getCurrentLocation().pathname : "/", to, state, key);
+        warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in memory history: " + JSON.stringify(to));
+        return location;
+    }
+    function createHref(to) {
+        return typeof to === "string" ? to : createPath(to);
+    }
+    let history = {
+        get index () {
+            return index;
+        },
+        get action () {
+            return action;
+        },
+        get location () {
+            return getCurrentLocation();
+        },
+        createHref,
+        createURL (to) {
+            return new URL(createHref(to), "http://localhost");
+        },
+        encodeLocation (to) {
+            let path = typeof to === "string" ? parsePath(to) : to;
+            return {
+                pathname: path.pathname || "",
+                search: path.search || "",
+                hash: path.hash || ""
+            };
+        },
+        push (to, state) {
+            action = Action.Push;
+            let nextLocation = createMemoryLocation(to, state);
+            index += 1;
+            entries.splice(index, entries.length, nextLocation);
+            if (v5Compat && listener) listener({
+                action,
+                location: nextLocation,
+                delta: 1
+            });
+        },
+        replace (to, state) {
+            action = Action.Replace;
+            let nextLocation = createMemoryLocation(to, state);
+            entries[index] = nextLocation;
+            if (v5Compat && listener) listener({
+                action,
+                location: nextLocation,
+                delta: 0
+            });
+        },
+        go (delta) {
+            action = Action.Pop;
+            let nextIndex = clampIndex(index + delta);
+            let nextLocation = entries[nextIndex];
+            index = nextIndex;
+            if (listener) listener({
+                action,
+                location: nextLocation,
+                delta
+            });
+        },
+        listen (fn) {
+            listener = fn;
+            return ()=>{
+                listener = null;
+            };
+        }
+    };
+    return history;
+}
+/**
+ * Browser history stores the location in regular URLs. This is the standard for
+ * most web apps, but it requires some configuration on the server to ensure you
+ * serve the same app at multiple URLs.
+ *
+ * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createbrowserhistory
+ */ function createBrowserHistory(options) {
+    if (options === void 0) options = {};
+    function createBrowserLocation(window1, globalHistory) {
+        let { pathname , search , hash  } = window1.location;
+        return createLocation("", {
+            pathname,
+            search,
+            hash
+        }, globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
+    }
+    function createBrowserHref(window1, to) {
+        return typeof to === "string" ? to : createPath(to);
+    }
+    return getUrlBasedHistory(createBrowserLocation, createBrowserHref, null, options);
+}
+/**
+ * Hash history stores the location in window.location.hash. This makes it ideal
+ * for situations where you don't want to send the location to the server for
+ * some reason, either because you do cannot configure it or the URL space is
+ * reserved for something else.
+ *
+ * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createhashhistory
+ */ function createHashHistory(options) {
+    if (options === void 0) options = {};
+    function createHashLocation(window1, globalHistory) {
+        let { pathname ="/" , search ="" , hash =""  } = parsePath(window1.location.hash.substr(1));
+        return createLocation("", {
+            pathname,
+            search,
+            hash
+        }, globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
+    }
+    function createHashHref(window1, to) {
+        let base = window1.document.querySelector("base");
+        let href = "";
+        if (base && base.getAttribute("href")) {
+            let url = window1.location.href;
+            let hashIndex = url.indexOf("#");
+            href = hashIndex === -1 ? url : url.slice(0, hashIndex);
+        }
+        return href + "#" + (typeof to === "string" ? to : createPath(to));
+    }
+    function validateHashLocation(location, to) {
+        warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in hash history.push(" + JSON.stringify(to) + ")");
+    }
+    return getUrlBasedHistory(createHashLocation, createHashHref, validateHashLocation, options);
+}
+function invariant(value, message) {
+    if (value === false || value === null || typeof value === "undefined") throw new Error(message);
+}
+function warning(cond, message) {
+    if (!cond) {
+        // eslint-disable-next-line no-console
+        if (typeof console !== "undefined") console.warn(message);
+        try {
+            // Welcome to debugging history!
+            //
+            // This error is thrown as a convenience so you can more easily
+            // find the source for a warning that appears in the console by
+            // enabling "pause on exceptions" in your JavaScript debugger.
+            throw new Error(message); // eslint-disable-next-line no-empty
+        } catch (e) {}
+    }
+}
+function createKey() {
+    return Math.random().toString(36).substr(2, 8);
+}
+/**
+ * For browser-based histories, we combine the state and key into an object
+ */ function getHistoryState(location, index) {
+    return {
+        usr: location.state,
+        key: location.key,
+        idx: index
+    };
+}
+/**
+ * Creates a Location object with a unique key from the given Path
+ */ function createLocation(current, to, state, key) {
+    if (state === void 0) state = null;
+    let location = _extends({
+        pathname: typeof current === "string" ? current : current.pathname,
+        search: "",
+        hash: ""
+    }, typeof to === "string" ? parsePath(to) : to, {
+        state,
+        // TODO: This could be cleaned up.  push/replace should probably just take
+        // full Locations now and avoid the need to run through this flow at all
+        // But that's a pretty big refactor to the current test suite so going to
+        // keep as is for the time being and just let any incoming keys take precedence
+        key: to && to.key || key || createKey()
+    });
+    return location;
+}
+/**
+ * Creates a string URL path from the given pathname, search, and hash components.
+ */ function createPath(_ref) {
+    let { pathname ="/" , search ="" , hash =""  } = _ref;
+    if (search && search !== "?") pathname += search.charAt(0) === "?" ? search : "?" + search;
+    if (hash && hash !== "#") pathname += hash.charAt(0) === "#" ? hash : "#" + hash;
+    return pathname;
+}
+/**
+ * Parses a string URL path into its separate pathname, search, and hash components.
+ */ function parsePath(path) {
+    let parsedPath = {};
+    if (path) {
+        let hashIndex = path.indexOf("#");
+        if (hashIndex >= 0) {
+            parsedPath.hash = path.substr(hashIndex);
+            path = path.substr(0, hashIndex);
+        }
+        let searchIndex = path.indexOf("?");
+        if (searchIndex >= 0) {
+            parsedPath.search = path.substr(searchIndex);
+            path = path.substr(0, searchIndex);
+        }
+        if (path) parsedPath.pathname = path;
+    }
+    return parsedPath;
+}
+function getUrlBasedHistory(getLocation, createHref, validateLocation, options) {
+    if (options === void 0) options = {};
+    let { window: window1 = document.defaultView , v5Compat =false  } = options;
+    let globalHistory = window1.history;
+    let action = Action.Pop;
+    let listener = null;
+    let index = getIndex(); // Index should only be null when we initialize. If not, it's because the
+    // user called history.pushState or history.replaceState directly, in which
+    // case we should log a warning as it will result in bugs.
+    if (index == null) {
+        index = 0;
+        globalHistory.replaceState(_extends({}, globalHistory.state, {
+            idx: index
+        }), "");
+    }
+    function getIndex() {
+        let state = globalHistory.state || {
+            idx: null
+        };
+        return state.idx;
+    }
+    function handlePop() {
+        action = Action.Pop;
+        let nextIndex = getIndex();
+        let delta = nextIndex == null ? null : nextIndex - index;
+        index = nextIndex;
+        if (listener) listener({
+            action,
+            location: history.location,
+            delta
+        });
+    }
+    function push(to, state) {
+        action = Action.Push;
+        let location = createLocation(history.location, to, state);
+        if (validateLocation) validateLocation(location, to);
+        index = getIndex() + 1;
+        let historyState = getHistoryState(location, index);
+        let url = history.createHref(location); // try...catch because iOS limits us to 100 pushState calls :/
+        try {
+            globalHistory.pushState(historyState, "", url);
+        } catch (error) {
+            // They are going to lose state here, but there is no real
+            // way to warn them about it since the page will refresh...
+            window1.location.assign(url);
+        }
+        if (v5Compat && listener) listener({
+            action,
+            location: history.location,
+            delta: 1
+        });
+    }
+    function replace(to, state) {
+        action = Action.Replace;
+        let location = createLocation(history.location, to, state);
+        if (validateLocation) validateLocation(location, to);
+        index = getIndex();
+        let historyState = getHistoryState(location, index);
+        let url = history.createHref(location);
+        globalHistory.replaceState(historyState, "", url);
+        if (v5Compat && listener) listener({
+            action,
+            location: history.location,
+            delta: 0
+        });
+    }
+    function createURL(to) {
+        // window.location.origin is "null" (the literal string value) in Firefox
+        // under certain conditions, notably when serving from a local HTML file
+        // See https://bugzilla.mozilla.org/show_bug.cgi?id=878297
+        let base = window1.location.origin !== "null" ? window1.location.origin : window1.location.href;
+        let href = typeof to === "string" ? to : createPath(to);
+        invariant(base, "No window.location.(origin|href) available to create URL for href: " + href);
+        return new URL(href, base);
+    }
+    let history = {
+        get action () {
+            return action;
+        },
+        get location () {
+            return getLocation(window1, globalHistory);
+        },
+        listen (fn) {
+            if (listener) throw new Error("A history only accepts one active listener");
+            window1.addEventListener(PopStateEventType, handlePop);
+            listener = fn;
+            return ()=>{
+                window1.removeEventListener(PopStateEventType, handlePop);
+                listener = null;
+            };
+        },
+        createHref (to) {
+            return createHref(window1, to);
+        },
+        createURL,
+        encodeLocation (to) {
+            // Encode a Location the same way window.location would
+            let url = createURL(to);
+            return {
+                pathname: url.pathname,
+                search: url.search,
+                hash: url.hash
+            };
+        },
+        push,
+        replace,
+        go (n) {
+            return globalHistory.go(n);
+        }
+    };
+    return history;
+} //#endregion
+var ResultType;
+(function(ResultType) {
+    ResultType["data"] = "data";
+    ResultType["deferred"] = "deferred";
+    ResultType["redirect"] = "redirect";
+    ResultType["error"] = "error";
+})(ResultType || (ResultType = {}));
+const immutableRouteKeys = new Set([
+    "lazy",
+    "caseSensitive",
+    "path",
+    "id",
+    "index",
+    "children"
+]);
+function isIndexRoute(route) {
+    return route.index === true;
+} // Walk the route tree generating unique IDs where necessary so we are working
+// solely with AgnosticDataRouteObject's within the Router
+function convertRoutesToDataRoutes(routes, mapRouteProperties, parentPath, manifest) {
+    if (parentPath === void 0) parentPath = [];
+    if (manifest === void 0) manifest = {};
+    return routes.map((route, index)=>{
+        let treePath = [
+            ...parentPath,
+            index
+        ];
+        let id = typeof route.id === "string" ? route.id : treePath.join("-");
+        invariant(route.index !== true || !route.children, "Cannot specify children on an index route");
+        invariant(!manifest[id], 'Found a route id collision on id "' + id + '".  Route ' + "id's must be globally unique within Data Router usages");
+        if (isIndexRoute(route)) {
+            let indexRoute = _extends({}, route, mapRouteProperties(route), {
+                id
+            });
+            manifest[id] = indexRoute;
+            return indexRoute;
+        } else {
+            let pathOrLayoutRoute = _extends({}, route, mapRouteProperties(route), {
+                id,
+                children: undefined
+            });
+            manifest[id] = pathOrLayoutRoute;
+            if (route.children) pathOrLayoutRoute.children = convertRoutesToDataRoutes(route.children, mapRouteProperties, treePath, manifest);
+            return pathOrLayoutRoute;
+        }
+    });
+}
+/**
+ * Matches the given routes to a location and returns the match data.
+ *
+ * @see https://reactrouter.com/utils/match-routes
+ */ function matchRoutes(routes, locationArg, basename) {
+    if (basename === void 0) basename = "/";
+    let location = typeof locationArg === "string" ? parsePath(locationArg) : locationArg;
+    let pathname = stripBasename(location.pathname || "/", basename);
+    if (pathname == null) return null;
+    let branches = flattenRoutes(routes);
+    rankRouteBranches(branches);
+    let matches = null;
+    for(let i = 0; matches == null && i < branches.length; ++i)matches = matchRouteBranch(branches[i], // or from router.navigate, but we want to match against the unencoded
+    // paths in the route definitions.  Memory router locations won't be
+    // encoded here but there also shouldn't be anything to decode so this
+    // should be a safe operation.  This avoids needing matchRoutes to be
+    // history-aware.
+    safelyDecodeURI(pathname));
+    return matches;
+}
+function flattenRoutes(routes, branches, parentsMeta, parentPath) {
+    if (branches === void 0) branches = [];
+    if (parentsMeta === void 0) parentsMeta = [];
+    if (parentPath === void 0) parentPath = "";
+    let flattenRoute = (route, index, relativePath)=>{
+        let meta = {
+            relativePath: relativePath === undefined ? route.path || "" : relativePath,
+            caseSensitive: route.caseSensitive === true,
+            childrenIndex: index,
+            route
+        };
+        if (meta.relativePath.startsWith("/")) {
+            invariant(meta.relativePath.startsWith(parentPath), 'Absolute route path "' + meta.relativePath + '" nested under path ' + ('"' + parentPath + '" is not valid. An absolute child route path ') + "must start with the combined path of all its parent routes.");
+            meta.relativePath = meta.relativePath.slice(parentPath.length);
+        }
+        let path = joinPaths([
+            parentPath,
+            meta.relativePath
+        ]);
+        let routesMeta = parentsMeta.concat(meta); // Add the children before adding this route to the array so we traverse the
+        // route tree depth-first and child routes appear before their parents in
+        // the "flattened" version.
+        if (route.children && route.children.length > 0) {
+            invariant(// @ts-expect-error
+            route.index !== true, "Index routes must not have child routes. Please remove " + ('all child routes from route path "' + path + '".'));
+            flattenRoutes(route.children, branches, routesMeta, path);
+        } // Routes without a path shouldn't ever match by themselves unless they are
+        // index routes, so don't add them to the list of possible branches.
+        if (route.path == null && !route.index) return;
+        branches.push({
+            path,
+            score: computeScore(path, route.index),
+            routesMeta
+        });
+    };
+    routes.forEach((route, index)=>{
+        var _route$path;
+        // coarse-grain check for optional params
+        if (route.path === "" || !((_route$path = route.path) != null && _route$path.includes("?"))) flattenRoute(route, index);
+        else for (let exploded of explodeOptionalSegments(route.path))flattenRoute(route, index, exploded);
+    });
+    return branches;
+}
+/**
+ * Computes all combinations of optional path segments for a given path,
+ * excluding combinations that are ambiguous and of lower priority.
+ *
+ * For example, `/one/:two?/three/:four?/:five?` explodes to:
+ * - `/one/three`
+ * - `/one/:two/three`
+ * - `/one/three/:four`
+ * - `/one/three/:five`
+ * - `/one/:two/three/:four`
+ * - `/one/:two/three/:five`
+ * - `/one/three/:four/:five`
+ * - `/one/:two/three/:four/:five`
+ */ function explodeOptionalSegments(path) {
+    let segments = path.split("/");
+    if (segments.length === 0) return [];
+    let [first, ...rest] = segments; // Optional path segments are denoted by a trailing `?`
+    let isOptional = first.endsWith("?"); // Compute the corresponding required segment: `foo?` -> `foo`
+    let required = first.replace(/\?$/, "");
+    if (rest.length === 0) // Intepret empty string as omitting an optional segment
+    // `["one", "", "three"]` corresponds to omitting `:two` from `/one/:two?/three` -> `/one/three`
+    return isOptional ? [
+        required,
+        ""
+    ] : [
+        required
+    ];
+    let restExploded = explodeOptionalSegments(rest.join("/"));
+    let result = []; // All child paths with the prefix.  Do this for all children before the
+    // optional version for all children so we get consistent ordering where the
+    // parent optional aspect is preferred as required.  Otherwise, we can get
+    // child sections interspersed where deeper optional segments are higher than
+    // parent optional segments, where for example, /:two would explodes _earlier_
+    // then /:one.  By always including the parent as required _for all children_
+    // first, we avoid this issue
+    result.push(...restExploded.map((subpath)=>subpath === "" ? required : [
+            required,
+            subpath
+        ].join("/"))); // Then if this is an optional value, add all child versions without
+    if (isOptional) result.push(...restExploded);
+     // for absolute paths, ensure `/` instead of empty segment
+    return result.map((exploded)=>path.startsWith("/") && exploded === "" ? "/" : exploded);
+}
+function rankRouteBranches(branches) {
+    branches.sort((a, b)=>a.score !== b.score ? b.score - a.score // Higher score first
+         : compareIndexes(a.routesMeta.map((meta)=>meta.childrenIndex), b.routesMeta.map((meta)=>meta.childrenIndex)));
+}
+const paramRe = /^:\w+$/;
+const dynamicSegmentValue = 3;
+const indexRouteValue = 2;
+const emptySegmentValue = 1;
+const staticSegmentValue = 10;
+const splatPenalty = -2;
+const isSplat = (s)=>s === "*";
+function computeScore(path, index) {
+    let segments = path.split("/");
+    let initialScore = segments.length;
+    if (segments.some(isSplat)) initialScore += splatPenalty;
+    if (index) initialScore += indexRouteValue;
+    return segments.filter((s)=>!isSplat(s)).reduce((score, segment)=>score + (paramRe.test(segment) ? dynamicSegmentValue : segment === "" ? emptySegmentValue : staticSegmentValue), initialScore);
+}
+function compareIndexes(a, b) {
+    let siblings = a.length === b.length && a.slice(0, -1).every((n, i)=>n === b[i]);
+    return siblings ? // first. This allows people to have fine-grained control over the matching
+    // behavior by simply putting routes with identical paths in the order they
+    // want them tried.
+    a[a.length - 1] - b[b.length - 1] : // so they sort equally.
+    0;
+}
+function matchRouteBranch(branch, pathname) {
+    let { routesMeta  } = branch;
+    let matchedParams = {};
+    let matchedPathname = "/";
+    let matches = [];
+    for(let i = 0; i < routesMeta.length; ++i){
+        let meta = routesMeta[i];
+        let end = i === routesMeta.length - 1;
+        let remainingPathname = matchedPathname === "/" ? pathname : pathname.slice(matchedPathname.length) || "/";
+        let match = matchPath({
+            path: meta.relativePath,
+            caseSensitive: meta.caseSensitive,
+            end
+        }, remainingPathname);
+        if (!match) return null;
+        Object.assign(matchedParams, match.params);
+        let route = meta.route;
+        matches.push({
+            // TODO: Can this as be avoided?
+            params: matchedParams,
+            pathname: joinPaths([
+                matchedPathname,
+                match.pathname
+            ]),
+            pathnameBase: normalizePathname(joinPaths([
+                matchedPathname,
+                match.pathnameBase
+            ])),
+            route
+        });
+        if (match.pathnameBase !== "/") matchedPathname = joinPaths([
+            matchedPathname,
+            match.pathnameBase
+        ]);
+    }
+    return matches;
+}
+/**
+ * Returns a path with params interpolated.
+ *
+ * @see https://reactrouter.com/utils/generate-path
+ */ function generatePath(originalPath, params) {
+    if (params === void 0) params = {};
+    let path = originalPath;
+    if (path.endsWith("*") && path !== "*" && !path.endsWith("/*")) {
+        warning(false, 'Route path "' + path + '" will be treated as if it were ' + ('"' + path.replace(/\*$/, "/*") + '" because the `*` character must ') + "always follow a `/` in the pattern. To get rid of this warning, " + ('please change the route path to "' + path.replace(/\*$/, "/*") + '".'));
+        path = path.replace(/\*$/, "/*");
+    } // ensure `/` is added at the beginning if the path is absolute
+    const prefix = path.startsWith("/") ? "/" : "";
+    const segments = path.split(/\/+/).map((segment, index, array)=>{
+        const isLastSegment = index === array.length - 1; // only apply the splat if it's the last segment
+        if (isLastSegment && segment === "*") {
+            const star = "*";
+            const starParam = params[star]; // Apply the splat
+            return starParam;
+        }
+        const keyMatch = segment.match(/^:(\w+)(\??)$/);
+        if (keyMatch) {
+            const [, key, optional] = keyMatch;
+            let param = params[key];
+            if (optional === "?") return param == null ? "" : param;
+            if (param == null) invariant(false, 'Missing ":' + key + '" param');
+            return param;
+        } // Remove any optional markers from optional static segments
+        return segment.replace(/\?$/g, "");
+    }) // Remove empty segments
+    .filter((segment)=>!!segment);
+    return prefix + segments.join("/");
+}
+/**
+ * Performs pattern matching on a URL pathname and returns information about
+ * the match.
+ *
+ * @see https://reactrouter.com/utils/match-path
+ */ function matchPath(pattern, pathname) {
+    if (typeof pattern === "string") pattern = {
+        path: pattern,
+        caseSensitive: false,
+        end: true
+    };
+    let [matcher, paramNames] = compilePath(pattern.path, pattern.caseSensitive, pattern.end);
+    let match = pathname.match(matcher);
+    if (!match) return null;
+    let matchedPathname = match[0];
+    let pathnameBase = matchedPathname.replace(/(.)\/+$/, "$1");
+    let captureGroups = match.slice(1);
+    let params = paramNames.reduce((memo, paramName, index)=>{
+        // We need to compute the pathnameBase here using the raw splat value
+        // instead of using params["*"] later because it will be decoded then
+        if (paramName === "*") {
+            let splatValue = captureGroups[index] || "";
+            pathnameBase = matchedPathname.slice(0, matchedPathname.length - splatValue.length).replace(/(.)\/+$/, "$1");
+        }
+        memo[paramName] = safelyDecodeURIComponent(captureGroups[index] || "", paramName);
+        return memo;
+    }, {});
+    return {
+        params,
+        pathname: matchedPathname,
+        pathnameBase,
+        pattern
+    };
+}
+function compilePath(path, caseSensitive, end) {
+    if (caseSensitive === void 0) caseSensitive = false;
+    if (end === void 0) end = true;
+    warning(path === "*" || !path.endsWith("*") || path.endsWith("/*"), 'Route path "' + path + '" will be treated as if it were ' + ('"' + path.replace(/\*$/, "/*") + '" because the `*` character must ') + "always follow a `/` in the pattern. To get rid of this warning, " + ('please change the route path to "' + path.replace(/\*$/, "/*") + '".'));
+    let paramNames = [];
+    let regexpSource = "^" + path.replace(/\/*\*?$/, "") // Ignore trailing / and /*, we'll handle it below
+    .replace(/^\/*/, "/") // Make sure it has a leading /
+    .replace(/[\\.*+^$?{}|()[\]]/g, "\\$&") // Escape special regex chars
+    .replace(/\/:(\w+)/g, (_, paramName)=>{
+        paramNames.push(paramName);
+        return "/([^\\/]+)";
+    });
+    if (path.endsWith("*")) {
+        paramNames.push("*");
+        regexpSource += path === "*" || path === "/*" ? "(.*)$" // Already matched the initial /, just match the rest
+         : "(?:\\/(.+)|\\/*)$"; // Don't include the / in params["*"]
+    } else if (end) // When matching to the end, ignore trailing slashes
+    regexpSource += "\\/*$";
+    else if (path !== "" && path !== "/") // If our path is non-empty and contains anything beyond an initial slash,
+    // then we have _some_ form of path in our regex so we should expect to
+    // match only if we find the end of this path segment.  Look for an optional
+    // non-captured trailing slash (to match a portion of the URL) or the end
+    // of the path (if we've matched to the end).  We used to do this with a
+    // word boundary but that gives false positives on routes like
+    // /user-preferences since `-` counts as a word boundary.
+    regexpSource += "(?:(?=\\/|$))";
+    let matcher = new RegExp(regexpSource, caseSensitive ? undefined : "i");
+    return [
+        matcher,
+        paramNames
+    ];
+}
+function safelyDecodeURI(value) {
+    try {
+        return decodeURI(value);
+    } catch (error) {
+        warning(false, 'The URL path "' + value + '" could not be decoded because it is is a ' + "malformed URL segment. This is probably due to a bad percent " + ("encoding (" + error + ")."));
+        return value;
+    }
+}
+function safelyDecodeURIComponent(value, paramName) {
+    try {
+        return decodeURIComponent(value);
+    } catch (error) {
+        warning(false, 'The value for the URL param "' + paramName + '" will not be decoded because' + (' the string "' + value + '" is a malformed URL segment. This is probably') + (" due to a bad percent encoding (" + error + ")."));
+        return value;
+    }
+}
+/**
+ * @private
+ */ function stripBasename(pathname, basename) {
+    if (basename === "/") return pathname;
+    if (!pathname.toLowerCase().startsWith(basename.toLowerCase())) return null;
+     // We want to leave trailing slash behavior in the user's control, so if they
+    // specify a basename with a trailing slash, we should support it
+    let startIndex = basename.endsWith("/") ? basename.length - 1 : basename.length;
+    let nextChar = pathname.charAt(startIndex);
+    if (nextChar && nextChar !== "/") // pathname does not start with basename/
+    return null;
+    return pathname.slice(startIndex) || "/";
+}
+/**
+ * Returns a resolved path object relative to the given pathname.
+ *
+ * @see https://reactrouter.com/utils/resolve-path
+ */ function resolvePath(to, fromPathname) {
+    if (fromPathname === void 0) fromPathname = "/";
+    let { pathname: toPathname , search ="" , hash =""  } = typeof to === "string" ? parsePath(to) : to;
+    let pathname = toPathname ? toPathname.startsWith("/") ? toPathname : resolvePathname(toPathname, fromPathname) : fromPathname;
+    return {
+        pathname,
+        search: normalizeSearch(search),
+        hash: normalizeHash(hash)
+    };
+}
+function resolvePathname(relativePath, fromPathname) {
+    let segments = fromPathname.replace(/\/+$/, "").split("/");
+    let relativeSegments = relativePath.split("/");
+    relativeSegments.forEach((segment)=>{
+        if (segment === "..") // Keep the root "" segment so the pathname starts at /
+        {
+            if (segments.length > 1) segments.pop();
+        } else if (segment !== ".") segments.push(segment);
+    });
+    return segments.length > 1 ? segments.join("/") : "/";
+}
+function getInvalidPathError(char, field, dest, path) {
+    return "Cannot include a '" + char + "' character in a manually specified " + ("`to." + field + "` field [" + JSON.stringify(path) + "].  Please separate it out to the ") + ("`to." + dest + "` field. Alternatively you may provide the full path as ") + 'a string in <Link to="..."> and the router will parse it for you.';
+}
+/**
+ * @private
+ *
+ * When processing relative navigation we want to ignore ancestor routes that
+ * do not contribute to the path, such that index/pathless layout routes don't
+ * interfere.
+ *
+ * For example, when moving a route element into an index route and/or a
+ * pathless layout route, relative link behavior contained within should stay
+ * the same.  Both of the following examples should link back to the root:
+ *
+ *   <Route path="/">
+ *     <Route path="accounts" element={<Link to=".."}>
+ *   </Route>
+ *
+ *   <Route path="/">
+ *     <Route path="accounts">
+ *       <Route element={<AccountsLayout />}>       // <-- Does not contribute
+ *         <Route index element={<Link to=".."} />  // <-- Does not contribute
+ *       </Route
+ *     </Route>
+ *   </Route>
+ */ function getPathContributingMatches(matches) {
+    return matches.filter((match, index)=>index === 0 || match.route.path && match.route.path.length > 0);
+}
+/**
+ * @private
+ */ function resolveTo(toArg, routePathnames, locationPathname, isPathRelative) {
+    if (isPathRelative === void 0) isPathRelative = false;
+    let to;
+    if (typeof toArg === "string") to = parsePath(toArg);
+    else {
+        to = _extends({}, toArg);
+        invariant(!to.pathname || !to.pathname.includes("?"), getInvalidPathError("?", "pathname", "search", to));
+        invariant(!to.pathname || !to.pathname.includes("#"), getInvalidPathError("#", "pathname", "hash", to));
+        invariant(!to.search || !to.search.includes("#"), getInvalidPathError("#", "search", "hash", to));
+    }
+    let isEmptyPath = toArg === "" || to.pathname === "";
+    let toPathname = isEmptyPath ? "/" : to.pathname;
+    let from; // Routing is relative to the current pathname if explicitly requested.
+    //
+    // If a pathname is explicitly provided in `to`, it should be relative to the
+    // route context. This is explained in `Note on `<Link to>` values` in our
+    // migration guide from v5 as a means of disambiguation between `to` values
+    // that begin with `/` and those that do not. However, this is problematic for
+    // `to` values that do not provide a pathname. `to` can simply be a search or
+    // hash string, in which case we should assume that the navigation is relative
+    // to the current location's pathname and *not* the route pathname.
+    if (isPathRelative || toPathname == null) from = locationPathname;
+    else {
+        let routePathnameIndex = routePathnames.length - 1;
+        if (toPathname.startsWith("..")) {
+            let toSegments = toPathname.split("/"); // Each leading .. segment means "go up one route" instead of "go up one
+            // URL segment".  This is a key difference from how <a href> works and a
+            // major reason we call this a "to" value instead of a "href".
+            while(toSegments[0] === ".."){
+                toSegments.shift();
+                routePathnameIndex -= 1;
+            }
+            to.pathname = toSegments.join("/");
+        } // If there are more ".." segments than parent routes, resolve relative to
+        // the root / URL.
+        from = routePathnameIndex >= 0 ? routePathnames[routePathnameIndex] : "/";
+    }
+    let path = resolvePath(to, from); // Ensure the pathname has a trailing slash if the original "to" had one
+    let hasExplicitTrailingSlash = toPathname && toPathname !== "/" && toPathname.endsWith("/"); // Or if this was a link to the current path which has a trailing slash
+    let hasCurrentTrailingSlash = (isEmptyPath || toPathname === ".") && locationPathname.endsWith("/");
+    if (!path.pathname.endsWith("/") && (hasExplicitTrailingSlash || hasCurrentTrailingSlash)) path.pathname += "/";
+    return path;
+}
+/**
+ * @private
+ */ function getToPathname(to) {
+    // Empty strings should be treated the same as / paths
+    return to === "" || to.pathname === "" ? "/" : typeof to === "string" ? parsePath(to).pathname : to.pathname;
+}
+/**
+ * @private
+ */ const joinPaths = (paths)=>paths.join("/").replace(/\/\/+/g, "/");
+/**
+ * @private
+ */ const normalizePathname = (pathname)=>pathname.replace(/\/+$/, "").replace(/^\/*/, "/");
+/**
+ * @private
+ */ const normalizeSearch = (search)=>!search || search === "?" ? "" : search.startsWith("?") ? search : "?" + search;
+/**
+ * @private
+ */ const normalizeHash = (hash)=>!hash || hash === "#" ? "" : hash.startsWith("#") ? hash : "#" + hash;
+/**
+ * This is a shortcut for creating `application/json` responses. Converts `data`
+ * to JSON and sets the `Content-Type` header.
+ */ const json = function json(data, init) {
+    if (init === void 0) init = {};
+    let responseInit = typeof init === "number" ? {
+        status: init
+    } : init;
+    let headers = new Headers(responseInit.headers);
+    if (!headers.has("Content-Type")) headers.set("Content-Type", "application/json; charset=utf-8");
+    return new Response(JSON.stringify(data), _extends({}, responseInit, {
+        headers
+    }));
+};
+class AbortedDeferredError extends Error {
+}
+class DeferredData {
+    constructor(data, responseInit){
+        this.pendingKeysSet = new Set();
+        this.subscribers = new Set();
+        this.deferredKeys = [];
+        invariant(data && typeof data === "object" && !Array.isArray(data), "defer() only accepts plain objects"); // Set up an AbortController + Promise we can race against to exit early
+        // cancellation
+        let reject;
+        this.abortPromise = new Promise((_, r)=>reject = r);
+        this.controller = new AbortController();
+        let onAbort = ()=>reject(new AbortedDeferredError("Deferred data aborted"));
+        this.unlistenAbortSignal = ()=>this.controller.signal.removeEventListener("abort", onAbort);
+        this.controller.signal.addEventListener("abort", onAbort);
+        this.data = Object.entries(data).reduce((acc, _ref)=>{
+            let [key, value] = _ref;
+            return Object.assign(acc, {
+                [key]: this.trackPromise(key, value)
+            });
+        }, {});
+        if (this.done) // All incoming values were resolved
+        this.unlistenAbortSignal();
+        this.init = responseInit;
+    }
+    trackPromise(key, value) {
+        if (!(value instanceof Promise)) return value;
+        this.deferredKeys.push(key);
+        this.pendingKeysSet.add(key); // We store a little wrapper promise that will be extended with
+        // _data/_error props upon resolve/reject
+        let promise = Promise.race([
+            value,
+            this.abortPromise
+        ]).then((data)=>this.onSettle(promise, key, null, data), (error)=>this.onSettle(promise, key, error)); // Register rejection listeners to avoid uncaught promise rejections on
+        // errors or aborted deferred values
+        promise.catch(()=>{});
+        Object.defineProperty(promise, "_tracked", {
+            get: ()=>true
+        });
+        return promise;
+    }
+    onSettle(promise, key, error, data) {
+        if (this.controller.signal.aborted && error instanceof AbortedDeferredError) {
+            this.unlistenAbortSignal();
+            Object.defineProperty(promise, "_error", {
+                get: ()=>error
+            });
+            return Promise.reject(error);
+        }
+        this.pendingKeysSet.delete(key);
+        if (this.done) // Nothing left to abort!
+        this.unlistenAbortSignal();
+        if (error) {
+            Object.defineProperty(promise, "_error", {
+                get: ()=>error
+            });
+            this.emit(false, key);
+            return Promise.reject(error);
+        }
+        Object.defineProperty(promise, "_data", {
+            get: ()=>data
+        });
+        this.emit(false, key);
+        return data;
+    }
+    emit(aborted, settledKey) {
+        this.subscribers.forEach((subscriber)=>subscriber(aborted, settledKey));
+    }
+    subscribe(fn) {
+        this.subscribers.add(fn);
+        return ()=>this.subscribers.delete(fn);
+    }
+    cancel() {
+        this.controller.abort();
+        this.pendingKeysSet.forEach((v, k)=>this.pendingKeysSet.delete(k));
+        this.emit(true);
+    }
+    async resolveData(signal) {
+        let aborted = false;
+        if (!this.done) {
+            let onAbort = ()=>this.cancel();
+            signal.addEventListener("abort", onAbort);
+            aborted = await new Promise((resolve)=>{
+                this.subscribe((aborted)=>{
+                    signal.removeEventListener("abort", onAbort);
+                    if (aborted || this.done) resolve(aborted);
+                });
+            });
+        }
+        return aborted;
+    }
+    get done() {
+        return this.pendingKeysSet.size === 0;
+    }
+    get unwrappedData() {
+        invariant(this.data !== null && this.done, "Can only unwrap data on initialized and settled deferreds");
+        return Object.entries(this.data).reduce((acc, _ref2)=>{
+            let [key, value] = _ref2;
+            return Object.assign(acc, {
+                [key]: unwrapTrackedPromise(value)
+            });
+        }, {});
+    }
+    get pendingKeys() {
+        return Array.from(this.pendingKeysSet);
+    }
+}
+function isTrackedPromise(value) {
+    return value instanceof Promise && value._tracked === true;
+}
+function unwrapTrackedPromise(value) {
+    if (!isTrackedPromise(value)) return value;
+    if (value._error) throw value._error;
+    return value._data;
+}
+const defer = function defer(data, init) {
+    if (init === void 0) init = {};
+    let responseInit = typeof init === "number" ? {
+        status: init
+    } : init;
+    return new DeferredData(data, responseInit);
+};
+/**
+ * A redirect response. Sets the status code and the `Location` header.
+ * Defaults to "302 Found".
+ */ const redirect = function redirect(url, init) {
+    if (init === void 0) init = 302;
+    let responseInit = init;
+    if (typeof responseInit === "number") responseInit = {
+        status: responseInit
+    };
+    else if (typeof responseInit.status === "undefined") responseInit.status = 302;
+    let headers = new Headers(responseInit.headers);
+    headers.set("Location", url);
+    return new Response(null, _extends({}, responseInit, {
+        headers
+    }));
+};
+/**
+ * @private
+ * Utility class we use to hold auto-unwrapped 4xx/5xx Response bodies
+ */ class ErrorResponse {
+    constructor(status, statusText, data, internal){
+        if (internal === void 0) internal = false;
+        this.status = status;
+        this.statusText = statusText || "";
+        this.internal = internal;
+        if (data instanceof Error) {
+            this.data = data.toString();
+            this.error = data;
+        } else this.data = data;
+    }
+}
+/**
+ * Check if the given error is an ErrorResponse generated from a 4xx/5xx
+ * Response thrown from an action/loader
+ */ function isRouteErrorResponse(error) {
+    return error != null && typeof error.status === "number" && typeof error.statusText === "string" && typeof error.internal === "boolean" && "data" in error;
+}
+const validMutationMethodsArr = [
+    "post",
+    "put",
+    "patch",
+    "delete"
+];
+const validMutationMethods = new Set(validMutationMethodsArr);
+const validRequestMethodsArr = [
+    "get",
+    ...validMutationMethodsArr
+];
+const validRequestMethods = new Set(validRequestMethodsArr);
+const redirectStatusCodes = new Set([
+    301,
+    302,
+    303,
+    307,
+    308
+]);
+const redirectPreserveMethodStatusCodes = new Set([
+    307,
+    308
+]);
+const IDLE_NAVIGATION = {
+    state: "idle",
+    location: undefined,
+    formMethod: undefined,
+    formAction: undefined,
+    formEncType: undefined,
+    formData: undefined
+};
+const IDLE_FETCHER = {
+    state: "idle",
+    data: undefined,
+    formMethod: undefined,
+    formAction: undefined,
+    formEncType: undefined,
+    formData: undefined
+};
+const IDLE_BLOCKER = {
+    state: "unblocked",
+    proceed: undefined,
+    reset: undefined,
+    location: undefined
+};
+const ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
+const isServer = !isBrowser;
+const defaultMapRouteProperties = (route)=>({
+        hasErrorBoundary: Boolean(route.hasErrorBoundary)
+    }); //#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region createRouter
+////////////////////////////////////////////////////////////////////////////////
+/**
+ * Create a router and listen to history POP navigations
+ */ function createRouter(init) {
+    invariant(init.routes.length > 0, "You must provide a non-empty routes array to createRouter");
+    let mapRouteProperties;
+    if (init.mapRouteProperties) mapRouteProperties = init.mapRouteProperties;
+    else if (init.detectErrorBoundary) {
+        // If they are still using the deprecated version, wrap it with the new API
+        let detectErrorBoundary = init.detectErrorBoundary;
+        mapRouteProperties = (route)=>({
+                hasErrorBoundary: detectErrorBoundary(route)
+            });
+    } else mapRouteProperties = defaultMapRouteProperties;
+     // Routes keyed by ID
+    let manifest = {}; // Routes in tree format for matching
+    let dataRoutes = convertRoutesToDataRoutes(init.routes, mapRouteProperties, undefined, manifest);
+    let inFlightDataRoutes;
+    let basename = init.basename || "/"; // Config driven behavior flags
+    let future = _extends({
+        v7_normalizeFormMethod: false,
+        v7_prependBasename: false
+    }, init.future); // Cleanup function for history
+    let unlistenHistory = null; // Externally-provided functions to call on all state changes
+    let subscribers = new Set(); // Externally-provided object to hold scroll restoration locations during routing
+    let savedScrollPositions = null; // Externally-provided function to get scroll restoration keys
+    let getScrollRestorationKey = null; // Externally-provided function to get current scroll position
+    let getScrollPosition = null; // One-time flag to control the initial hydration scroll restoration.  Because
+    // we don't get the saved positions from <ScrollRestoration /> until _after_
+    // the initial render, we need to manually trigger a separate updateState to
+    // send along the restoreScrollPosition
+    // Set to true if we have `hydrationData` since we assume we were SSR'd and that
+    // SSR did the initial scroll restoration.
+    let initialScrollRestored = init.hydrationData != null;
+    let initialMatches = matchRoutes(dataRoutes, init.history.location, basename);
+    let initialErrors = null;
+    if (initialMatches == null) {
+        // If we do not match a user-provided-route, fall back to the root
+        // to allow the error boundary to take over
+        let error = getInternalRouterError(404, {
+            pathname: init.history.location.pathname
+        });
+        let { matches , route  } = getShortCircuitMatches(dataRoutes);
+        initialMatches = matches;
+        initialErrors = {
+            [route.id]: error
+        };
+    }
+    let initialized = // functions around still then we'll need to run them in initialize()
+    !initialMatches.some((m)=>m.route.lazy) && (!initialMatches.some((m)=>m.route.loader) || init.hydrationData != null);
+    let router;
+    let state = {
+        historyAction: init.history.action,
+        location: init.history.location,
+        matches: initialMatches,
+        initialized,
+        navigation: IDLE_NAVIGATION,
+        // Don't restore on initial updateState() if we were SSR'd
+        restoreScrollPosition: init.hydrationData != null ? false : null,
+        preventScrollReset: false,
+        revalidation: "idle",
+        loaderData: init.hydrationData && init.hydrationData.loaderData || {},
+        actionData: init.hydrationData && init.hydrationData.actionData || null,
+        errors: init.hydrationData && init.hydrationData.errors || initialErrors,
+        fetchers: new Map(),
+        blockers: new Map()
+    }; // -- Stateful internal variables to manage navigations --
+    // Current navigation in progress (to be committed in completeNavigation)
+    let pendingAction = Action.Pop; // Should the current navigation prevent the scroll reset if scroll cannot
+    // be restored?
+    let pendingPreventScrollReset = false; // AbortController for the active navigation
+    let pendingNavigationController; // We use this to avoid touching history in completeNavigation if a
+    // revalidation is entirely uninterrupted
+    let isUninterruptedRevalidation = false; // Use this internal flag to force revalidation of all loaders:
+    //  - submissions (completed or interrupted)
+    //  - useRevalidator()
+    //  - X-Remix-Revalidate (from redirect)
+    let isRevalidationRequired = false; // Use this internal array to capture routes that require revalidation due
+    // to a cancelled deferred on action submission
+    let cancelledDeferredRoutes = []; // Use this internal array to capture fetcher loads that were cancelled by an
+    // action navigation and require revalidation
+    let cancelledFetcherLoads = []; // AbortControllers for any in-flight fetchers
+    let fetchControllers = new Map(); // Track loads based on the order in which they started
+    let incrementingLoadId = 0; // Track the outstanding pending navigation data load to be compared against
+    // the globally incrementing load when a fetcher load lands after a completed
+    // navigation
+    let pendingNavigationLoadId = -1; // Fetchers that triggered data reloads as a result of their actions
+    let fetchReloadIds = new Map(); // Fetchers that triggered redirect navigations
+    let fetchRedirectIds = new Set(); // Most recent href/match for fetcher.load calls for fetchers
+    let fetchLoadMatches = new Map(); // Store DeferredData instances for active route matches.  When a
+    // route loader returns defer() we stick one in here.  Then, when a nested
+    // promise resolves we update loaderData.  If a new navigation starts we
+    // cancel active deferreds for eliminated routes.
+    let activeDeferreds = new Map(); // Store blocker functions in a separate Map outside of router state since
+    // we don't need to update UI state if they change
+    let blockerFunctions = new Map(); // Flag to ignore the next history update, so we can revert the URL change on
+    // a POP navigation that was blocked by the user without touching router state
+    let ignoreNextHistoryUpdate = false; // Initialize the router, all side effects should be kicked off from here.
+    // Implemented as a Fluent API for ease of:
+    //   let router = createRouter(init).initialize();
+    function initialize() {
+        // If history informs us of a POP navigation, start the navigation but do not update
+        // state.  We'll update our own state once the navigation completes
+        unlistenHistory = init.history.listen((_ref)=>{
+            let { action: historyAction , location , delta  } = _ref;
+            // Ignore this event if it was just us resetting the URL from a
+            // blocked POP navigation
+            if (ignoreNextHistoryUpdate) {
+                ignoreNextHistoryUpdate = false;
+                return;
+            }
+            warning(blockerFunctions.size === 0 || delta != null, "You are trying to use a blocker on a POP navigation to a location that was not created by @remix-run/router. This will fail silently in production. This can happen if you are navigating outside the router via `window.history.pushState`/`window.location.hash` instead of using router navigation APIs.  This can also happen if you are using createHashRouter and the user manually changes the URL.");
+            let blockerKey = shouldBlockNavigation({
+                currentLocation: state.location,
+                nextLocation: location,
+                historyAction
+            });
+            if (blockerKey && delta != null) {
+                // Restore the URL to match the current UI, but don't update router state
+                ignoreNextHistoryUpdate = true;
+                init.history.go(delta * -1); // Put the blocker into a blocked state
+                updateBlocker(blockerKey, {
+                    state: "blocked",
+                    location,
+                    proceed () {
+                        updateBlocker(blockerKey, {
+                            state: "proceeding",
+                            proceed: undefined,
+                            reset: undefined,
+                            location
+                        }); // Re-do the same POP navigation we just blocked
+                        init.history.go(delta);
+                    },
+                    reset () {
+                        deleteBlocker(blockerKey);
+                        updateState({
+                            blockers: new Map(router.state.blockers)
+                        });
+                    }
+                });
+                return;
+            }
+            return startNavigation(historyAction, location);
+        }); // Kick off initial data load if needed.  Use Pop to avoid modifying history
+        // Note we don't do any handling of lazy here.  For SPA's it'll get handled
+        // in the normal navigation flow.  For SSR it's expected that lazy modules are
+        // resolved prior to router creation since we can't go into a fallbackElement
+        // UI for SSR'd apps
+        if (!state.initialized) startNavigation(Action.Pop, state.location);
+        return router;
+    } // Clean up a router and it's side effects
+    function dispose() {
+        if (unlistenHistory) unlistenHistory();
+        subscribers.clear();
+        pendingNavigationController && pendingNavigationController.abort();
+        state.fetchers.forEach((_, key)=>deleteFetcher(key));
+        state.blockers.forEach((_, key)=>deleteBlocker(key));
+    } // Subscribe to state updates for the router
+    function subscribe(fn) {
+        subscribers.add(fn);
+        return ()=>subscribers.delete(fn);
+    } // Update our state and notify the calling context of the change
+    function updateState(newState) {
+        state = _extends({}, state, newState);
+        subscribers.forEach((subscriber)=>subscriber(state));
+    } // Complete a navigation returning the state.navigation back to the IDLE_NAVIGATION
+    // and setting state.[historyAction/location/matches] to the new route.
+    // - Location is a required param
+    // - Navigation will always be set to IDLE_NAVIGATION
+    // - Can pass any other state in newState
+    function completeNavigation(location, newState) {
+        var _location$state, _location$state2;
+        // Deduce if we're in a loading/actionReload state:
+        // - We have committed actionData in the store
+        // - The current navigation was a mutation submission
+        // - We're past the submitting state and into the loading state
+        // - The location being loaded is not the result of a redirect
+        let isActionReload = state.actionData != null && state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && state.navigation.state === "loading" && ((_location$state = location.state) == null ? void 0 : _location$state._isRedirect) !== true;
+        let actionData;
+        if (newState.actionData) {
+            if (Object.keys(newState.actionData).length > 0) actionData = newState.actionData;
+            else // Empty actionData -> clear prior actionData due to an action error
+            actionData = null;
+        } else if (isActionReload) // Keep the current data if we're wrapping up the action reload
+        actionData = state.actionData;
+        else // Clear actionData on any other completed navigations
+        actionData = null;
+         // Always preserve any existing loaderData from re-used routes
+        let loaderData = newState.loaderData ? mergeLoaderData(state.loaderData, newState.loaderData, newState.matches || [], newState.errors) : state.loaderData; // On a successful navigation we can assume we got through all blockers
+        // so we can start fresh
+        for (let [key] of blockerFunctions)deleteBlocker(key);
+         // Always respect the user flag.  Otherwise don't reset on mutation
+        // submission navigations unless they redirect
+        let preventScrollReset = pendingPreventScrollReset === true || state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && ((_location$state2 = location.state) == null ? void 0 : _location$state2._isRedirect) !== true;
+        if (inFlightDataRoutes) {
+            dataRoutes = inFlightDataRoutes;
+            inFlightDataRoutes = undefined;
+        }
+        updateState(_extends({}, newState, {
+            actionData,
+            loaderData,
+            historyAction: pendingAction,
+            location,
+            initialized: true,
+            navigation: IDLE_NAVIGATION,
+            revalidation: "idle",
+            restoreScrollPosition: getSavedScrollPosition(location, newState.matches || state.matches),
+            preventScrollReset,
+            blockers: new Map(state.blockers)
+        }));
+        if (isUninterruptedRevalidation) ;
+        else if (pendingAction === Action.Pop) ;
+        else if (pendingAction === Action.Push) init.history.push(location, location.state);
+        else if (pendingAction === Action.Replace) init.history.replace(location, location.state);
+         // Reset stateful navigation vars
+        pendingAction = Action.Pop;
+        pendingPreventScrollReset = false;
+        isUninterruptedRevalidation = false;
+        isRevalidationRequired = false;
+        cancelledDeferredRoutes = [];
+        cancelledFetcherLoads = [];
+    } // Trigger a navigation event, which can either be a numerical POP or a PUSH
+    // replace with an optional submission
+    async function navigate(to, opts) {
+        if (typeof to === "number") {
+            init.history.go(to);
+            return;
+        }
+        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, to, opts == null ? void 0 : opts.fromRouteId, opts == null ? void 0 : opts.relative);
+        let { path , submission , error  } = normalizeNavigateOptions(future.v7_normalizeFormMethod, false, normalizedPath, opts);
+        let currentLocation = state.location;
+        let nextLocation = createLocation(state.location, path, opts && opts.state); // When using navigate as a PUSH/REPLACE we aren't reading an already-encoded
+        // URL from window.location, so we need to encode it here so the behavior
+        // remains the same as POP and non-data-router usages.  new URL() does all
+        // the same encoding we'd get from a history.pushState/window.location read
+        // without having to touch history
+        nextLocation = _extends({}, nextLocation, init.history.encodeLocation(nextLocation));
+        let userReplace = opts && opts.replace != null ? opts.replace : undefined;
+        let historyAction = Action.Push;
+        if (userReplace === true) historyAction = Action.Replace;
+        else if (userReplace === false) ;
+        else if (submission != null && isMutationMethod(submission.formMethod) && submission.formAction === state.location.pathname + state.location.search) // By default on submissions to the current location we REPLACE so that
+        // users don't have to double-click the back button to get to the prior
+        // location.  If the user redirects to a different location from the
+        // action/loader this will be ignored and the redirect will be a PUSH
+        historyAction = Action.Replace;
+        let preventScrollReset = opts && "preventScrollReset" in opts ? opts.preventScrollReset === true : undefined;
+        let blockerKey = shouldBlockNavigation({
+            currentLocation,
+            nextLocation,
+            historyAction
+        });
+        if (blockerKey) {
+            // Put the blocker into a blocked state
+            updateBlocker(blockerKey, {
+                state: "blocked",
+                location: nextLocation,
+                proceed () {
+                    updateBlocker(blockerKey, {
+                        state: "proceeding",
+                        proceed: undefined,
+                        reset: undefined,
+                        location: nextLocation
+                    }); // Send the same navigation through
+                    navigate(to, opts);
+                },
+                reset () {
+                    deleteBlocker(blockerKey);
+                    updateState({
+                        blockers: new Map(state.blockers)
+                    });
+                }
+            });
+            return;
+        }
+        return await startNavigation(historyAction, nextLocation, {
+            submission,
+            // Send through the formData serialization error if we have one so we can
+            // render at the right error boundary after we match routes
+            pendingError: error,
+            preventScrollReset,
+            replace: opts && opts.replace
+        });
+    } // Revalidate all current loaders.  If a navigation is in progress or if this
+    // is interrupted by a navigation, allow this to "succeed" by calling all
+    // loaders during the next loader round
+    function revalidate() {
+        interruptActiveLoads();
+        updateState({
+            revalidation: "loading"
+        }); // If we're currently submitting an action, we don't need to start a new
+        // navigation, we'll just let the follow up loader execution call all loaders
+        if (state.navigation.state === "submitting") return;
+         // If we're currently in an idle state, start a new navigation for the current
+        // action/location and mark it as uninterrupted, which will skip the history
+        // update in completeNavigation
+        if (state.navigation.state === "idle") {
+            startNavigation(state.historyAction, state.location, {
+                startUninterruptedRevalidation: true
+            });
+            return;
+        } // Otherwise, if we're currently in a loading state, just start a new
+        // navigation to the navigation.location but do not trigger an uninterrupted
+        // revalidation so that history correctly updates once the navigation completes
+        startNavigation(pendingAction || state.historyAction, state.navigation.location, {
+            overrideNavigation: state.navigation
+        });
+    } // Start a navigation to the given action/location.  Can optionally provide a
+    // overrideNavigation which will override the normalLoad in the case of a redirect
+    // navigation
+    async function startNavigation(historyAction, location, opts) {
+        // Abort any in-progress navigations and start a new one. Unset any ongoing
+        // uninterrupted revalidations unless told otherwise, since we want this
+        // new navigation to update history normally
+        pendingNavigationController && pendingNavigationController.abort();
+        pendingNavigationController = null;
+        pendingAction = historyAction;
+        isUninterruptedRevalidation = (opts && opts.startUninterruptedRevalidation) === true; // Save the current scroll position every time we start a new navigation,
+        // and track whether we should reset scroll on completion
+        saveScrollPosition(state.location, state.matches);
+        pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let loadingNavigation = opts && opts.overrideNavigation;
+        let matches = matchRoutes(routesToUse, location, basename); // Short circuit with a 404 on the root error boundary if we match nothing
+        if (!matches) {
+            let error = getInternalRouterError(404, {
+                pathname: location.pathname
+            });
+            let { matches: notFoundMatches , route  } = getShortCircuitMatches(routesToUse); // Cancel all pending deferred on 404s since we don't keep any routes
+            cancelActiveDeferreds();
+            completeNavigation(location, {
+                matches: notFoundMatches,
+                loaderData: {},
+                errors: {
+                    [route.id]: error
+                }
+            });
+            return;
+        } // Short circuit if it's only a hash change and not a mutation submission
+        // For example, on /page#hash and submit a <Form method="post"> which will
+        // default to a navigation to /page
+        if (isHashChangeOnly(state.location, location) && !(opts && opts.submission && isMutationMethod(opts.submission.formMethod))) {
+            completeNavigation(location, {
+                matches
+            });
+            return;
+        } // Create a controller/Request for this navigation
+        pendingNavigationController = new AbortController();
+        let request = createClientSideRequest(init.history, location, pendingNavigationController.signal, opts && opts.submission);
+        let pendingActionData;
+        let pendingError;
+        if (opts && opts.pendingError) // If we have a pendingError, it means the user attempted a GET submission
+        // with binary FormData so assign here and skip to handleLoaders.  That
+        // way we handle calling loaders above the boundary etc.  It's not really
+        // different from an actionError in that sense.
+        pendingError = {
+            [findNearestBoundary(matches).route.id]: opts.pendingError
+        };
+        else if (opts && opts.submission && isMutationMethod(opts.submission.formMethod)) {
+            // Call action if we received an action submission
+            let actionOutput = await handleAction(request, location, opts.submission, matches, {
+                replace: opts.replace
+            });
+            if (actionOutput.shortCircuited) return;
+            pendingActionData = actionOutput.pendingActionData;
+            pendingError = actionOutput.pendingActionError;
+            let navigation = _extends({
+                state: "loading",
+                location
+            }, opts.submission);
+            loadingNavigation = navigation; // Create a GET request for the loaders
+            request = new Request(request.url, {
+                signal: request.signal
+            });
+        } // Call loaders
+        let { shortCircuited , loaderData , errors  } = await handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, pendingActionData, pendingError);
+        if (shortCircuited) return;
+         // Clean up now that the action/loaders have completed.  Don't clean up if
+        // we short circuited because pendingNavigationController will have already
+        // been assigned to a new controller for the next navigation
+        pendingNavigationController = null;
+        completeNavigation(location, _extends({
+            matches
+        }, pendingActionData ? {
+            actionData: pendingActionData
+        } : {}, {
+            loaderData,
+            errors
+        }));
+    } // Call the action matched by the leaf route for this navigation and handle
+    // redirects/errors
+    async function handleAction(request, location, submission, matches, opts) {
+        interruptActiveLoads(); // Put us in a submitting state
+        let navigation = _extends({
+            state: "submitting",
+            location
+        }, submission);
+        updateState({
+            navigation
+        }); // Call our action and get the result
+        let result;
+        let actionMatch = getTargetMatch(matches, location);
+        if (!actionMatch.route.action && !actionMatch.route.lazy) result = {
+            type: ResultType.error,
+            error: getInternalRouterError(405, {
+                method: request.method,
+                pathname: location.pathname,
+                routeId: actionMatch.route.id
+            })
+        };
+        else {
+            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename);
+            if (request.signal.aborted) return {
+                shortCircuited: true
+            };
+        }
+        if (isRedirectResult(result)) {
+            let replace;
+            if (opts && opts.replace != null) replace = opts.replace;
+            else // If the user didn't explicity indicate replace behavior, replace if
+            // we redirected to the exact same location we're currently at to avoid
+            // double back-buttons
+            replace = result.location === state.location.pathname + state.location.search;
+            await startRedirectNavigation(state, result, {
+                submission,
+                replace
+            });
+            return {
+                shortCircuited: true
+            };
+        }
+        if (isErrorResult(result)) {
+            // Store off the pending error - we use it to determine which loaders
+            // to call and will commit it when we complete the navigation
+            let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id); // By default, all submissions are REPLACE navigations, but if the
+            // action threw an error that'll be rendered in an errorElement, we fall
+            // back to PUSH so that the user can use the back button to get back to
+            // the pre-submission form location to try again
+            if ((opts && opts.replace) !== true) pendingAction = Action.Push;
+            return {
+                // Send back an empty object we can use to clear out any prior actionData
+                pendingActionData: {},
+                pendingActionError: {
+                    [boundaryMatch.route.id]: result.error
+                }
+            };
+        }
+        if (isDeferredResult(result)) throw getInternalRouterError(400, {
+            type: "defer-action"
+        });
+        return {
+            pendingActionData: {
+                [actionMatch.route.id]: result.data
+            }
+        };
+    } // Call all applicable loaders for the given matches, handling redirects,
+    // errors, etc.
+    async function handleLoaders(request, location, matches, overrideNavigation, submission, fetcherSubmission, replace, pendingActionData, pendingError) {
+        // Figure out the right navigation we want to use for data loading
+        let loadingNavigation = overrideNavigation;
+        if (!loadingNavigation) {
+            let navigation = _extends({
+                state: "loading",
+                location,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined
+            }, submission);
+            loadingNavigation = navigation;
+        } // If this was a redirect from an action we don't have a "submission" but
+        // we have it on the loading navigation so use that if available
+        let activeSubmission = submission || fetcherSubmission ? submission || fetcherSubmission : loadingNavigation.formMethod && loadingNavigation.formAction && loadingNavigation.formData && loadingNavigation.formEncType ? {
+            formMethod: loadingNavigation.formMethod,
+            formAction: loadingNavigation.formAction,
+            formData: loadingNavigation.formData,
+            formEncType: loadingNavigation.formEncType
+        } : undefined;
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, pendingActionData, pendingError); // Cancel pending deferreds for no-longer-matched routes or routes we're
+        // about to reload.  Note that if this is an action reload we would have
+        // already cancelled all pending deferreds so this would be a no-op
+        cancelActiveDeferreds((routeId)=>!(matches && matches.some((m)=>m.route.id === routeId)) || matchesToLoad && matchesToLoad.some((m)=>m.route.id === routeId)); // Short circuit if we have no loaders to run
+        if (matchesToLoad.length === 0 && revalidatingFetchers.length === 0) {
+            let updatedFetchers = markFetchRedirectsDone();
+            completeNavigation(location, _extends({
+                matches,
+                loaderData: {},
+                // Commit pending error if we're short circuiting
+                errors: pendingError || null
+            }, pendingActionData ? {
+                actionData: pendingActionData
+            } : {}, updatedFetchers ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+            return {
+                shortCircuited: true
+            };
+        } // If this is an uninterrupted revalidation, we remain in our current idle
+        // state.  If not, we need to switch to our loading state and load data,
+        // preserving any new action data or existing action data (in the case of
+        // a revalidation interrupting an actionReload)
+        if (!isUninterruptedRevalidation) {
+            revalidatingFetchers.forEach((rf)=>{
+                let fetcher = state.fetchers.get(rf.key);
+                let revalidatingFetcher = {
+                    state: "loading",
+                    data: fetcher && fetcher.data,
+                    formMethod: undefined,
+                    formAction: undefined,
+                    formEncType: undefined,
+                    formData: undefined,
+                    " _hasFetcherDoneAnything ": true
+                };
+                state.fetchers.set(rf.key, revalidatingFetcher);
+            });
+            let actionData = pendingActionData || state.actionData;
+            updateState(_extends({
+                navigation: loadingNavigation
+            }, actionData ? Object.keys(actionData).length === 0 ? {
+                actionData: null
+            } : {
+                actionData
+            } : {}, revalidatingFetchers.length > 0 ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+        }
+        pendingNavigationLoadId = ++incrementingLoadId;
+        revalidatingFetchers.forEach((rf)=>{
+            if (rf.controller) // Fetchers use an independent AbortController so that aborting a fetcher
+            // (via deleteFetcher) does not abort the triggering navigation that
+            // triggered the revalidation
+            fetchControllers.set(rf.key, rf.controller);
+        }); // Proxy navigation abort through to revalidation fetchers
+        let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((f)=>abortFetcher(f.key));
+        if (pendingNavigationController) pendingNavigationController.signal.addEventListener("abort", abortPendingFetchRevalidations);
+        let { results , loaderResults , fetcherResults  } = await callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, request);
+        if (request.signal.aborted) return {
+            shortCircuited: true
+        };
+         // Clean up _after_ loaders have completed.  Don't clean up if we short
+        // circuited because fetchControllers would have been aborted and
+        // reassigned to new controllers for the next navigation
+        if (pendingNavigationController) pendingNavigationController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
+        revalidatingFetchers.forEach((rf)=>fetchControllers.delete(rf.key)); // If any loaders returned a redirect Response, start a new REPLACE navigation
+        let redirect = findRedirect(results);
+        if (redirect) {
+            await startRedirectNavigation(state, redirect, {
+                replace
+            });
+            return {
+                shortCircuited: true
+            };
+        } // Process and commit output from loaders
+        let { loaderData , errors  } = processLoaderData(state, matches, matchesToLoad, loaderResults, pendingError, revalidatingFetchers, fetcherResults, activeDeferreds); // Wire up subscribers to update loaderData as promises settle
+        activeDeferreds.forEach((deferredData, routeId)=>{
+            deferredData.subscribe((aborted)=>{
+                // Note: No need to updateState here since the TrackedPromise on
+                // loaderData is stable across resolve/reject
+                // Remove this instance if we were aborted or if promises have settled
+                if (aborted || deferredData.done) activeDeferreds.delete(routeId);
+            });
+        });
+        let updatedFetchers = markFetchRedirectsDone();
+        let didAbortFetchLoads = abortStaleFetchLoads(pendingNavigationLoadId);
+        let shouldUpdateFetchers = updatedFetchers || didAbortFetchLoads || revalidatingFetchers.length > 0;
+        return _extends({
+            loaderData,
+            errors
+        }, shouldUpdateFetchers ? {
+            fetchers: new Map(state.fetchers)
+        } : {});
+    }
+    function getFetcher(key) {
+        return state.fetchers.get(key) || IDLE_FETCHER;
+    } // Trigger a fetcher load/submit for the given fetcher key
+    function fetch(key, routeId, href, opts) {
+        if (isServer) throw new Error("router.fetch() was called during the server render, but it shouldn't be. You are likely calling a useFetcher() method in the body of your component. Try moving it to a useEffect or a callback.");
+        if (fetchControllers.has(key)) abortFetcher(key);
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, href, routeId, opts == null ? void 0 : opts.relative);
+        let matches = matchRoutes(routesToUse, normalizedPath, basename);
+        if (!matches) {
+            setFetcherError(key, routeId, getInternalRouterError(404, {
+                pathname: normalizedPath
+            }));
+            return;
+        }
+        let { path , submission  } = normalizeNavigateOptions(future.v7_normalizeFormMethod, true, normalizedPath, opts);
+        let match = getTargetMatch(matches, path);
+        pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
+        if (submission && isMutationMethod(submission.formMethod)) {
+            handleFetcherAction(key, routeId, path, match, matches, submission);
+            return;
+        } // Store off the match so we can call it's shouldRevalidate on subsequent
+        // revalidations
+        fetchLoadMatches.set(key, {
+            routeId,
+            path
+        });
+        handleFetcherLoader(key, routeId, path, match, matches, submission);
+    } // Call the action for the matched fetcher.submit(), and then handle redirects,
+    // errors, and revalidation
+    async function handleFetcherAction(key, routeId, path, match, requestMatches, submission) {
+        interruptActiveLoads();
+        fetchLoadMatches.delete(key);
+        if (!match.route.action && !match.route.lazy) {
+            let error = getInternalRouterError(405, {
+                method: submission.formMethod,
+                pathname: path,
+                routeId: routeId
+            });
+            setFetcherError(key, routeId, error);
+            return;
+        } // Put this fetcher into it's submitting state
+        let existingFetcher = state.fetchers.get(key);
+        let fetcher = _extends({
+            state: "submitting"
+        }, submission, {
+            data: existingFetcher && existingFetcher.data,
+            " _hasFetcherDoneAnything ": true
+        });
+        state.fetchers.set(key, fetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        }); // Call the action for the fetcher
+        let abortController = new AbortController();
+        let fetchRequest = createClientSideRequest(init.history, path, abortController.signal, submission);
+        fetchControllers.set(key, abortController);
+        let actionResult = await callLoaderOrAction("action", fetchRequest, match, requestMatches, manifest, mapRouteProperties, basename);
+        if (fetchRequest.signal.aborted) {
+            // We can delete this so long as we weren't aborted by ou our own fetcher
+            // re-submit which would have put _new_ controller is in fetchControllers
+            if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
+            return;
+        }
+        if (isRedirectResult(actionResult)) {
+            fetchControllers.delete(key);
+            fetchRedirectIds.add(key);
+            let loadingFetcher = _extends({
+                state: "loading"
+            }, submission, {
+                data: undefined,
+                " _hasFetcherDoneAnything ": true
+            });
+            state.fetchers.set(key, loadingFetcher);
+            updateState({
+                fetchers: new Map(state.fetchers)
+            });
+            return startRedirectNavigation(state, actionResult, {
+                submission,
+                isFetchActionRedirect: true
+            });
+        } // Process any non-redirect errors thrown
+        if (isErrorResult(actionResult)) {
+            setFetcherError(key, routeId, actionResult.error);
+            return;
+        }
+        if (isDeferredResult(actionResult)) throw getInternalRouterError(400, {
+            type: "defer-action"
+        });
+         // Start the data load for current matches, or the next location if we're
+        // in the middle of a navigation
+        let nextLocation = state.navigation.location || state.location;
+        let revalidationRequest = createClientSideRequest(init.history, nextLocation, abortController.signal);
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let matches = state.navigation.state !== "idle" ? matchRoutes(routesToUse, state.navigation.location, basename) : state.matches;
+        invariant(matches, "Didn't find any matches after fetcher action");
+        let loadId = ++incrementingLoadId;
+        fetchReloadIds.set(key, loadId);
+        let loadFetcher = _extends({
+            state: "loading",
+            data: actionResult.data
+        }, submission, {
+            " _hasFetcherDoneAnything ": true
+        });
+        state.fetchers.set(key, loadFetcher);
+        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, {
+            [match.route.id]: actionResult.data
+        }, undefined // No need to send through errors since we short circuit above
+        ); // Put all revalidating fetchers into the loading state, except for the
+        // current fetcher which we want to keep in it's current loading state which
+        // contains it's action submission info + action data
+        revalidatingFetchers.filter((rf)=>rf.key !== key).forEach((rf)=>{
+            let staleKey = rf.key;
+            let existingFetcher = state.fetchers.get(staleKey);
+            let revalidatingFetcher = {
+                state: "loading",
+                data: existingFetcher && existingFetcher.data,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined,
+                " _hasFetcherDoneAnything ": true
+            };
+            state.fetchers.set(staleKey, revalidatingFetcher);
+            if (rf.controller) fetchControllers.set(staleKey, rf.controller);
+        });
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
+        let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((rf)=>abortFetcher(rf.key));
+        abortController.signal.addEventListener("abort", abortPendingFetchRevalidations);
+        let { results , loaderResults , fetcherResults  } = await callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, revalidationRequest);
+        if (abortController.signal.aborted) return;
+        abortController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
+        fetchReloadIds.delete(key);
+        fetchControllers.delete(key);
+        revalidatingFetchers.forEach((r)=>fetchControllers.delete(r.key));
+        let redirect = findRedirect(results);
+        if (redirect) return startRedirectNavigation(state, redirect);
+         // Process and commit output from loaders
+        let { loaderData , errors  } = processLoaderData(state, state.matches, matchesToLoad, loaderResults, undefined, revalidatingFetchers, fetcherResults, activeDeferreds);
+        let doneFetcher = {
+            state: "idle",
+            data: actionResult.data,
+            formMethod: undefined,
+            formAction: undefined,
+            formEncType: undefined,
+            formData: undefined,
+            " _hasFetcherDoneAnything ": true
+        };
+        state.fetchers.set(key, doneFetcher);
+        let didAbortFetchLoads = abortStaleFetchLoads(loadId); // If we are currently in a navigation loading state and this fetcher is
+        // more recent than the navigation, we want the newer data so abort the
+        // navigation and complete it with the fetcher data
+        if (state.navigation.state === "loading" && loadId > pendingNavigationLoadId) {
+            invariant(pendingAction, "Expected pending action");
+            pendingNavigationController && pendingNavigationController.abort();
+            completeNavigation(state.navigation.location, {
+                matches,
+                loaderData,
+                errors,
+                fetchers: new Map(state.fetchers)
+            });
+        } else {
+            // otherwise just update with the fetcher data, preserving any existing
+            // loaderData for loaders that did not need to reload.  We have to
+            // manually merge here since we aren't going through completeNavigation
+            updateState(_extends({
+                errors,
+                loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors)
+            }, didAbortFetchLoads ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+            isRevalidationRequired = false;
+        }
+    } // Call the matched loader for fetcher.load(), handling redirects, errors, etc.
+    async function handleFetcherLoader(key, routeId, path, match, matches, submission) {
+        let existingFetcher = state.fetchers.get(key); // Put this fetcher into it's loading state
+        let loadingFetcher = _extends({
+            state: "loading",
+            formMethod: undefined,
+            formAction: undefined,
+            formEncType: undefined,
+            formData: undefined
+        }, submission, {
+            data: existingFetcher && existingFetcher.data,
+            " _hasFetcherDoneAnything ": true
+        });
+        state.fetchers.set(key, loadingFetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        }); // Call the loader for this fetcher route match
+        let abortController = new AbortController();
+        let fetchRequest = createClientSideRequest(init.history, path, abortController.signal);
+        fetchControllers.set(key, abortController);
+        let result = await callLoaderOrAction("loader", fetchRequest, match, matches, manifest, mapRouteProperties, basename); // Deferred isn't supported for fetcher loads, await everything and treat it
+        // as a normal load.  resolveDeferredData will return undefined if this
+        // fetcher gets aborted, so we just leave result untouched and short circuit
+        // below if that happens
+        if (isDeferredResult(result)) result = await resolveDeferredData(result, fetchRequest.signal, true) || result;
+         // We can delete this so long as we weren't aborted by our our own fetcher
+        // re-load which would have put _new_ controller is in fetchControllers
+        if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
+        if (fetchRequest.signal.aborted) return;
+         // If the loader threw a redirect Response, start a new REPLACE navigation
+        if (isRedirectResult(result)) {
+            fetchRedirectIds.add(key);
+            await startRedirectNavigation(state, result);
+            return;
+        } // Process any non-redirect errors thrown
+        if (isErrorResult(result)) {
+            let boundaryMatch = findNearestBoundary(state.matches, routeId);
+            state.fetchers.delete(key); // TODO: In remix, this would reset to IDLE_NAVIGATION if it was a catch -
+            // do we need to behave any differently with our non-redirect errors?
+            // What if it was a non-redirect Response?
+            updateState({
+                fetchers: new Map(state.fetchers),
+                errors: {
+                    [boundaryMatch.route.id]: result.error
+                }
+            });
+            return;
+        }
+        invariant(!isDeferredResult(result), "Unhandled fetcher deferred data"); // Put the fetcher back into an idle state
+        let doneFetcher = {
+            state: "idle",
+            data: result.data,
+            formMethod: undefined,
+            formAction: undefined,
+            formEncType: undefined,
+            formData: undefined,
+            " _hasFetcherDoneAnything ": true
+        };
+        state.fetchers.set(key, doneFetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
+    }
+    /**
+   * Utility function to handle redirects returned from an action or loader.
+   * Normally, a redirect "replaces" the navigation that triggered it.  So, for
+   * example:
+   *
+   *  - user is on /a
+   *  - user clicks a link to /b
+   *  - loader for /b redirects to /c
+   *
+   * In a non-JS app the browser would track the in-flight navigation to /b and
+   * then replace it with /c when it encountered the redirect response.  In
+   * the end it would only ever update the URL bar with /c.
+   *
+   * In client-side routing using pushState/replaceState, we aim to emulate
+   * this behavior and we also do not update history until the end of the
+   * navigation (including processed redirects).  This means that we never
+   * actually touch history until we've processed redirects, so we just use
+   * the history action from the original navigation (PUSH or REPLACE).
+   */ async function startRedirectNavigation(state, redirect, _temp) {
+        var _window;
+        let { submission , replace , isFetchActionRedirect  } = _temp === void 0 ? {} : _temp;
+        if (redirect.revalidate) isRevalidationRequired = true;
+        let redirectLocation = createLocation(state.location, redirect.location, _extends({
+            _isRedirect: true
+        }, isFetchActionRedirect ? {
+            _isFetchActionRedirect: true
+        } : {}));
+        invariant(redirectLocation, "Expected a location on the redirect navigation"); // Check if this an absolute external redirect that goes to a new origin
+        if (ABSOLUTE_URL_REGEX.test(redirect.location) && isBrowser && typeof ((_window = window) == null ? void 0 : _window.location) !== "undefined") {
+            let url = init.history.createURL(redirect.location);
+            let isDifferentBasename = stripBasename(url.pathname, basename) == null;
+            if (window.location.origin !== url.origin || isDifferentBasename) {
+                if (replace) window.location.replace(redirect.location);
+                else window.location.assign(redirect.location);
+                return;
+            }
+        } // There's no need to abort on redirects, since we don't detect the
+        // redirect until the action/loaders have settled
+        pendingNavigationController = null;
+        let redirectHistoryAction = replace === true ? Action.Replace : Action.Push; // Use the incoming submission if provided, fallback on the active one in
+        // state.navigation
+        let { formMethod , formAction , formEncType , formData  } = state.navigation;
+        if (!submission && formMethod && formAction && formData && formEncType) submission = {
+            formMethod,
+            formAction,
+            formEncType,
+            formData
+        };
+         // If this was a 307/308 submission we want to preserve the HTTP method and
+        // re-submit the GET/POST/PUT/PATCH/DELETE as a submission navigation to the
+        // redirected location
+        if (redirectPreserveMethodStatusCodes.has(redirect.status) && submission && isMutationMethod(submission.formMethod)) await startNavigation(redirectHistoryAction, redirectLocation, {
+            submission: _extends({}, submission, {
+                formAction: redirect.location
+            }),
+            // Preserve this flag across redirects
+            preventScrollReset: pendingPreventScrollReset
+        });
+        else if (isFetchActionRedirect) // For a fetch action redirect, we kick off a new loading navigation
+        // without the fetcher submission, but we send it along for shouldRevalidate
+        await startNavigation(redirectHistoryAction, redirectLocation, {
+            overrideNavigation: {
+                state: "loading",
+                location: redirectLocation,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined
+            },
+            fetcherSubmission: submission,
+            // Preserve this flag across redirects
+            preventScrollReset: pendingPreventScrollReset
+        });
+        else // Otherwise, we kick off a new loading navigation, preserving the
+        // submission info for the duration of this navigation
+        await startNavigation(redirectHistoryAction, redirectLocation, {
+            overrideNavigation: {
+                state: "loading",
+                location: redirectLocation,
+                formMethod: submission ? submission.formMethod : undefined,
+                formAction: submission ? submission.formAction : undefined,
+                formEncType: submission ? submission.formEncType : undefined,
+                formData: submission ? submission.formData : undefined
+            },
+            // Preserve this flag across redirects
+            preventScrollReset: pendingPreventScrollReset
+        });
+    }
+    async function callLoadersAndMaybeResolveData(currentMatches, matches, matchesToLoad, fetchersToLoad, request) {
+        // Call all navigation loaders and revalidating fetcher loaders in parallel,
+        // then slice off the results into separate arrays so we can handle them
+        // accordingly
+        let results = await Promise.all([
+            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename)),
+            ...fetchersToLoad.map((f)=>{
+                if (f.matches && f.match && f.controller) return callLoaderOrAction("loader", createClientSideRequest(init.history, f.path, f.controller.signal), f.match, f.matches, manifest, mapRouteProperties, basename);
+                else {
+                    let error = {
+                        type: ResultType.error,
+                        error: getInternalRouterError(404, {
+                            pathname: f.path
+                        })
+                    };
+                    return error;
+                }
+            })
+        ]);
+        let loaderResults = results.slice(0, matchesToLoad.length);
+        let fetcherResults = results.slice(matchesToLoad.length);
+        await Promise.all([
+            resolveDeferredResults(currentMatches, matchesToLoad, loaderResults, loaderResults.map(()=>request.signal), false, state.loaderData),
+            resolveDeferredResults(currentMatches, fetchersToLoad.map((f)=>f.match), fetcherResults, fetchersToLoad.map((f)=>f.controller ? f.controller.signal : null), true)
+        ]);
+        return {
+            results,
+            loaderResults,
+            fetcherResults
+        };
+    }
+    function interruptActiveLoads() {
+        // Every interruption triggers a revalidation
+        isRevalidationRequired = true; // Cancel pending route-level deferreds and mark cancelled routes for
+        // revalidation
+        cancelledDeferredRoutes.push(...cancelActiveDeferreds()); // Abort in-flight fetcher loads
+        fetchLoadMatches.forEach((_, key)=>{
+            if (fetchControllers.has(key)) {
+                cancelledFetcherLoads.push(key);
+                abortFetcher(key);
+            }
+        });
+    }
+    function setFetcherError(key, routeId, error) {
+        let boundaryMatch = findNearestBoundary(state.matches, routeId);
+        deleteFetcher(key);
+        updateState({
+            errors: {
+                [boundaryMatch.route.id]: error
+            },
+            fetchers: new Map(state.fetchers)
+        });
+    }
+    function deleteFetcher(key) {
+        if (fetchControllers.has(key)) abortFetcher(key);
+        fetchLoadMatches.delete(key);
+        fetchReloadIds.delete(key);
+        fetchRedirectIds.delete(key);
+        state.fetchers.delete(key);
+    }
+    function abortFetcher(key) {
+        let controller = fetchControllers.get(key);
+        invariant(controller, "Expected fetch controller: " + key);
+        controller.abort();
+        fetchControllers.delete(key);
+    }
+    function markFetchersDone(keys) {
+        for (let key of keys){
+            let fetcher = getFetcher(key);
+            let doneFetcher = {
+                state: "idle",
+                data: fetcher.data,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined,
+                " _hasFetcherDoneAnything ": true
+            };
+            state.fetchers.set(key, doneFetcher);
+        }
+    }
+    function markFetchRedirectsDone() {
+        let doneKeys = [];
+        let updatedFetchers = false;
+        for (let key of fetchRedirectIds){
+            let fetcher = state.fetchers.get(key);
+            invariant(fetcher, "Expected fetcher: " + key);
+            if (fetcher.state === "loading") {
+                fetchRedirectIds.delete(key);
+                doneKeys.push(key);
+                updatedFetchers = true;
+            }
+        }
+        markFetchersDone(doneKeys);
+        return updatedFetchers;
+    }
+    function abortStaleFetchLoads(landedId) {
+        let yeetedKeys = [];
+        for (let [key, id] of fetchReloadIds)if (id < landedId) {
+            let fetcher = state.fetchers.get(key);
+            invariant(fetcher, "Expected fetcher: " + key);
+            if (fetcher.state === "loading") {
+                abortFetcher(key);
+                fetchReloadIds.delete(key);
+                yeetedKeys.push(key);
+            }
+        }
+        markFetchersDone(yeetedKeys);
+        return yeetedKeys.length > 0;
+    }
+    function getBlocker(key, fn) {
+        let blocker = state.blockers.get(key) || IDLE_BLOCKER;
+        if (blockerFunctions.get(key) !== fn) blockerFunctions.set(key, fn);
+        return blocker;
+    }
+    function deleteBlocker(key) {
+        state.blockers.delete(key);
+        blockerFunctions.delete(key);
+    } // Utility function to update blockers, ensuring valid state transitions
+    function updateBlocker(key, newBlocker) {
+        let blocker = state.blockers.get(key) || IDLE_BLOCKER; // Poor mans state machine :)
+        // https://mermaid.live/edit#pako:eNqVkc9OwzAMxl8l8nnjAYrEtDIOHEBIgwvKJTReGy3_lDpIqO27k6awMG0XcrLlnz87nwdonESogKXXBuE79rq75XZO3-yHds0RJVuv70YrPlUrCEe2HfrORS3rubqZfuhtpg5C9wk5tZ4VKcRUq88q9Z8RS0-48cE1iHJkL0ugbHuFLus9L6spZy8nX9MP2CNdomVaposqu3fGayT8T8-jJQwhepo_UtpgBQaDEUom04dZhAN1aJBDlUKJBxE1ceB2Smj0Mln-IBW5AFU2dwUiktt_2Qaq2dBfaKdEup85UV7Yd-dKjlnkabl2Pvr0DTkTreM
+        invariant(blocker.state === "unblocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "proceeding" || blocker.state === "blocked" && newBlocker.state === "unblocked" || blocker.state === "proceeding" && newBlocker.state === "unblocked", "Invalid blocker state transition: " + blocker.state + " -> " + newBlocker.state);
+        state.blockers.set(key, newBlocker);
+        updateState({
+            blockers: new Map(state.blockers)
+        });
+    }
+    function shouldBlockNavigation(_ref2) {
+        let { currentLocation , nextLocation , historyAction  } = _ref2;
+        if (blockerFunctions.size === 0) return;
+         // We ony support a single active blocker at the moment since we don't have
+        // any compelling use cases for multi-blocker yet
+        if (blockerFunctions.size > 1) warning(false, "A router only supports one blocker at a time");
+        let entries = Array.from(blockerFunctions.entries());
+        let [blockerKey, blockerFunction] = entries[entries.length - 1];
+        let blocker = state.blockers.get(blockerKey);
+        if (blocker && blocker.state === "proceeding") // If the blocker is currently proceeding, we don't need to re-check
+        // it and can let this navigation continue
+        return;
+         // At this point, we know we're unblocked/blocked so we need to check the
+        // user-provided blocker function
+        if (blockerFunction({
+            currentLocation,
+            nextLocation,
+            historyAction
+        })) return blockerKey;
+    }
+    function cancelActiveDeferreds(predicate) {
+        let cancelledRouteIds = [];
+        activeDeferreds.forEach((dfd, routeId)=>{
+            if (!predicate || predicate(routeId)) {
+                // Cancel the deferred - but do not remove from activeDeferreds here -
+                // we rely on the subscribers to do that so our tests can assert proper
+                // cleanup via _internalActiveDeferreds
+                dfd.cancel();
+                cancelledRouteIds.push(routeId);
+                activeDeferreds.delete(routeId);
+            }
+        });
+        return cancelledRouteIds;
+    } // Opt in to capturing and reporting scroll positions during navigations,
+    // used by the <ScrollRestoration> component
+    function enableScrollRestoration(positions, getPosition, getKey) {
+        savedScrollPositions = positions;
+        getScrollPosition = getPosition;
+        getScrollRestorationKey = getKey || ((location)=>location.key); // Perform initial hydration scroll restoration, since we miss the boat on
+        // the initial updateState() because we've not yet rendered <ScrollRestoration/>
+        // and therefore have no savedScrollPositions available
+        if (!initialScrollRestored && state.navigation === IDLE_NAVIGATION) {
+            initialScrollRestored = true;
+            let y = getSavedScrollPosition(state.location, state.matches);
+            if (y != null) updateState({
+                restoreScrollPosition: y
+            });
+        }
+        return ()=>{
+            savedScrollPositions = null;
+            getScrollPosition = null;
+            getScrollRestorationKey = null;
+        };
+    }
+    function saveScrollPosition(location, matches) {
+        if (savedScrollPositions && getScrollRestorationKey && getScrollPosition) {
+            let userMatches = matches.map((m)=>createUseMatchesMatch(m, state.loaderData));
+            let key = getScrollRestorationKey(location, userMatches) || location.key;
+            savedScrollPositions[key] = getScrollPosition();
+        }
+    }
+    function getSavedScrollPosition(location, matches) {
+        if (savedScrollPositions && getScrollRestorationKey && getScrollPosition) {
+            let userMatches = matches.map((m)=>createUseMatchesMatch(m, state.loaderData));
+            let key = getScrollRestorationKey(location, userMatches) || location.key;
+            let y = savedScrollPositions[key];
+            if (typeof y === "number") return y;
+        }
+        return null;
+    }
+    function _internalSetRoutes(newRoutes) {
+        inFlightDataRoutes = newRoutes;
+    }
+    router = {
+        get basename () {
+            return basename;
+        },
+        get state () {
+            return state;
+        },
+        get routes () {
+            return dataRoutes;
+        },
+        initialize,
+        subscribe,
+        enableScrollRestoration,
+        navigate,
+        fetch,
+        revalidate,
+        // Passthrough to history-aware createHref used by useHref so we get proper
+        // hash-aware URLs in DOM paths
+        createHref: (to)=>init.history.createHref(to),
+        encodeLocation: (to)=>init.history.encodeLocation(to),
+        getFetcher,
+        deleteFetcher,
+        dispose,
+        getBlocker,
+        deleteBlocker,
+        _internalFetchControllers: fetchControllers,
+        _internalActiveDeferreds: activeDeferreds,
+        // TODO: Remove setRoutes, it's temporary to avoid dealing with
+        // updating the tree while validating the update algorithm.
+        _internalSetRoutes
+    };
+    return router;
+} //#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region createStaticHandler
+////////////////////////////////////////////////////////////////////////////////
+const UNSAFE_DEFERRED_SYMBOL = Symbol("deferred");
+function createStaticHandler(routes, opts) {
+    invariant(routes.length > 0, "You must provide a non-empty routes array to createStaticHandler");
+    let manifest = {};
+    let basename = (opts ? opts.basename : null) || "/";
+    let mapRouteProperties;
+    if (opts != null && opts.mapRouteProperties) mapRouteProperties = opts.mapRouteProperties;
+    else if (opts != null && opts.detectErrorBoundary) {
+        // If they are still using the deprecated version, wrap it with the new API
+        let detectErrorBoundary = opts.detectErrorBoundary;
+        mapRouteProperties = (route)=>({
+                hasErrorBoundary: detectErrorBoundary(route)
+            });
+    } else mapRouteProperties = defaultMapRouteProperties;
+    let dataRoutes = convertRoutesToDataRoutes(routes, mapRouteProperties, undefined, manifest);
+    /**
+   * The query() method is intended for document requests, in which we want to
+   * call an optional action and potentially multiple loaders for all nested
+   * routes.  It returns a StaticHandlerContext object, which is very similar
+   * to the router state (location, loaderData, actionData, errors, etc.) and
+   * also adds SSR-specific information such as the statusCode and headers
+   * from action/loaders Responses.
+   *
+   * It _should_ never throw and should report all errors through the
+   * returned context.errors object, properly associating errors to their error
+   * boundary.  Additionally, it tracks _deepestRenderedBoundaryId which can be
+   * used to emulate React error boundaries during SSr by performing a second
+   * pass only down to the boundaryId.
+   *
+   * The one exception where we do not return a StaticHandlerContext is when a
+   * redirect response is returned or thrown from any action/loader.  We
+   * propagate that out and return the raw Response so the HTTP server can
+   * return it directly.
+   */ async function query(request, _temp2) {
+        let { requestContext  } = _temp2 === void 0 ? {} : _temp2;
+        let url = new URL(request.url);
+        let method = request.method;
+        let location = createLocation("", createPath(url), null, "default");
+        let matches = matchRoutes(dataRoutes, location, basename); // SSR supports HEAD requests while SPA doesn't
+        if (!isValidMethod(method) && method !== "HEAD") {
+            let error = getInternalRouterError(405, {
+                method
+            });
+            let { matches: methodNotAllowedMatches , route  } = getShortCircuitMatches(dataRoutes);
+            return {
+                basename,
+                location,
+                matches: methodNotAllowedMatches,
+                loaderData: {},
+                actionData: null,
+                errors: {
+                    [route.id]: error
+                },
+                statusCode: error.status,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        } else if (!matches) {
+            let error = getInternalRouterError(404, {
+                pathname: location.pathname
+            });
+            let { matches: notFoundMatches , route  } = getShortCircuitMatches(dataRoutes);
+            return {
+                basename,
+                location,
+                matches: notFoundMatches,
+                loaderData: {},
+                actionData: null,
+                errors: {
+                    [route.id]: error
+                },
+                statusCode: error.status,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        }
+        let result = await queryImpl(request, location, matches, requestContext);
+        if (isResponse(result)) return result;
+         // When returning StaticHandlerContext, we patch back in the location here
+        // since we need it for React Context.  But this helps keep our submit and
+        // loadRouteData operating on a Request instead of a Location
+        return _extends({
+            location,
+            basename
+        }, result);
+    }
+    /**
+   * The queryRoute() method is intended for targeted route requests, either
+   * for fetch ?_data requests or resource route requests.  In this case, we
+   * are only ever calling a single action or loader, and we are returning the
+   * returned value directly.  In most cases, this will be a Response returned
+   * from the action/loader, but it may be a primitive or other value as well -
+   * and in such cases the calling context should handle that accordingly.
+   *
+   * We do respect the throw/return differentiation, so if an action/loader
+   * throws, then this method will throw the value.  This is important so we
+   * can do proper boundary identification in Remix where a thrown Response
+   * must go to the Catch Boundary but a returned Response is happy-path.
+   *
+   * One thing to note is that any Router-initiated Errors that make sense
+   * to associate with a status code will be thrown as an ErrorResponse
+   * instance which include the raw Error, such that the calling context can
+   * serialize the error as they see fit while including the proper response
+   * code.  Examples here are 404 and 405 errors that occur prior to reaching
+   * any user-defined loaders.
+   */ async function queryRoute(request, _temp3) {
+        let { routeId , requestContext  } = _temp3 === void 0 ? {} : _temp3;
+        let url = new URL(request.url);
+        let method = request.method;
+        let location = createLocation("", createPath(url), null, "default");
+        let matches = matchRoutes(dataRoutes, location, basename); // SSR supports HEAD requests while SPA doesn't
+        if (!isValidMethod(method) && method !== "HEAD" && method !== "OPTIONS") throw getInternalRouterError(405, {
+            method
+        });
+        else if (!matches) throw getInternalRouterError(404, {
+            pathname: location.pathname
+        });
+        let match = routeId ? matches.find((m)=>m.route.id === routeId) : getTargetMatch(matches, location);
+        if (routeId && !match) throw getInternalRouterError(403, {
+            pathname: location.pathname,
+            routeId
+        });
+        else if (!match) // This should never hit I don't think?
+        throw getInternalRouterError(404, {
+            pathname: location.pathname
+        });
+        let result = await queryImpl(request, location, matches, requestContext, match);
+        if (isResponse(result)) return result;
+        let error = result.errors ? Object.values(result.errors)[0] : undefined;
+        if (error !== undefined) // If we got back result.errors, that means the loader/action threw
+        // _something_ that wasn't a Response, but it's not guaranteed/required
+        // to be an `instanceof Error` either, so we have to use throw here to
+        // preserve the "error" state outside of queryImpl.
+        throw error;
+         // Pick off the right state value to return
+        if (result.actionData) return Object.values(result.actionData)[0];
+        if (result.loaderData) {
+            var _result$activeDeferre;
+            let data = Object.values(result.loaderData)[0];
+            if ((_result$activeDeferre = result.activeDeferreds) != null && _result$activeDeferre[match.route.id]) data[UNSAFE_DEFERRED_SYMBOL] = result.activeDeferreds[match.route.id];
+            return data;
+        }
+        return undefined;
+    }
+    async function queryImpl(request, location, matches, requestContext, routeMatch) {
+        invariant(request.signal, "query()/queryRoute() requests must contain an AbortController signal");
+        try {
+            if (isMutationMethod(request.method.toLowerCase())) {
+                let result = await submit(request, matches, routeMatch || getTargetMatch(matches, location), requestContext, routeMatch != null);
+                return result;
+            }
+            let result = await loadRouteData(request, matches, requestContext, routeMatch);
+            return isResponse(result) ? result : _extends({}, result, {
+                actionData: null,
+                actionHeaders: {}
+            });
+        } catch (e) {
+            // If the user threw/returned a Response in callLoaderOrAction, we throw
+            // it to bail out and then return or throw here based on whether the user
+            // returned or threw
+            if (isQueryRouteResponse(e)) {
+                if (e.type === ResultType.error && !isRedirectResponse(e.response)) throw e.response;
+                return e.response;
+            } // Redirects are always returned since they don't propagate to catch
+            // boundaries
+            if (isRedirectResponse(e)) return e;
+            throw e;
+        }
+    }
+    async function submit(request, matches, actionMatch, requestContext, isRouteRequest) {
+        let result;
+        if (!actionMatch.route.action && !actionMatch.route.lazy) {
+            let error = getInternalRouterError(405, {
+                method: request.method,
+                pathname: new URL(request.url).pathname,
+                routeId: actionMatch.route.id
+            });
+            if (isRouteRequest) throw error;
+            result = {
+                type: ResultType.error,
+                error
+            };
+        } else {
+            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, true, isRouteRequest, requestContext);
+            if (request.signal.aborted) {
+                let method = isRouteRequest ? "queryRoute" : "query";
+                throw new Error(method + "() call aborted");
+            }
+        }
+        if (isRedirectResult(result)) // Uhhhh - this should never happen, we should always throw these from
+        // callLoaderOrAction, but the type narrowing here keeps TS happy and we
+        // can get back on the "throw all redirect responses" train here should
+        // this ever happen :/
+        throw new Response(null, {
+            status: result.status,
+            headers: {
+                Location: result.location
+            }
+        });
+        if (isDeferredResult(result)) {
+            let error = getInternalRouterError(400, {
+                type: "defer-action"
+            });
+            if (isRouteRequest) throw error;
+            result = {
+                type: ResultType.error,
+                error
+            };
+        }
+        if (isRouteRequest) {
+            // Note: This should only be non-Response values if we get here, since
+            // isRouteRequest should throw any Response received in callLoaderOrAction
+            if (isErrorResult(result)) throw result.error;
+            return {
+                matches: [
+                    actionMatch
+                ],
+                loaderData: {},
+                actionData: {
+                    [actionMatch.route.id]: result.data
+                },
+                errors: null,
+                // Note: statusCode + headers are unused here since queryRoute will
+                // return the raw Response or value
+                statusCode: 200,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        }
+        if (isErrorResult(result)) {
+            // Store off the pending error - we use it to determine which loaders
+            // to call and will commit it when we complete the navigation
+            let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id);
+            let context = await loadRouteData(request, matches, requestContext, undefined, {
+                [boundaryMatch.route.id]: result.error
+            }); // action status codes take precedence over loader status codes
+            return _extends({}, context, {
+                statusCode: isRouteErrorResponse(result.error) ? result.error.status : 500,
+                actionData: null,
+                actionHeaders: _extends({}, result.headers ? {
+                    [actionMatch.route.id]: result.headers
+                } : {})
+            });
+        } // Create a GET request for the loaders
+        let loaderRequest = new Request(request.url, {
+            headers: request.headers,
+            redirect: request.redirect,
+            signal: request.signal
+        });
+        let context = await loadRouteData(loaderRequest, matches, requestContext);
+        return _extends({}, context, result.statusCode ? {
+            statusCode: result.statusCode
+        } : {}, {
+            actionData: {
+                [actionMatch.route.id]: result.data
+            },
+            actionHeaders: _extends({}, result.headers ? {
+                [actionMatch.route.id]: result.headers
+            } : {})
+        });
+    }
+    async function loadRouteData(request, matches, requestContext, routeMatch, pendingActionError) {
+        let isRouteRequest = routeMatch != null; // Short circuit if we have no loaders to run (queryRoute())
+        if (isRouteRequest && !(routeMatch != null && routeMatch.route.loader) && !(routeMatch != null && routeMatch.route.lazy)) throw getInternalRouterError(400, {
+            method: request.method,
+            pathname: new URL(request.url).pathname,
+            routeId: routeMatch == null ? void 0 : routeMatch.route.id
+        });
+        let requestMatches = routeMatch ? [
+            routeMatch
+        ] : getLoaderMatchesUntilBoundary(matches, Object.keys(pendingActionError || {})[0]);
+        let matchesToLoad = requestMatches.filter((m)=>m.route.loader || m.route.lazy); // Short circuit if we have no loaders to run (query())
+        if (matchesToLoad.length === 0) return {
+            matches,
+            // Add a null for all matched routes for proper revalidation on the client
+            loaderData: matches.reduce((acc, m)=>Object.assign(acc, {
+                    [m.route.id]: null
+                }), {}),
+            errors: pendingActionError || null,
+            statusCode: 200,
+            loaderHeaders: {},
+            activeDeferreds: null
+        };
+        let results = await Promise.all([
+            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, true, isRouteRequest, requestContext))
+        ]);
+        if (request.signal.aborted) {
+            let method = isRouteRequest ? "queryRoute" : "query";
+            throw new Error(method + "() call aborted");
+        } // Process and commit output from loaders
+        let activeDeferreds = new Map();
+        let context = processRouteLoaderData(matches, matchesToLoad, results, pendingActionError, activeDeferreds); // Add a null for any non-loader matches for proper revalidation on the client
+        let executedLoaders = new Set(matchesToLoad.map((match)=>match.route.id));
+        matches.forEach((match)=>{
+            if (!executedLoaders.has(match.route.id)) context.loaderData[match.route.id] = null;
+        });
+        return _extends({}, context, {
+            matches,
+            activeDeferreds: activeDeferreds.size > 0 ? Object.fromEntries(activeDeferreds.entries()) : null
+        });
+    }
+    return {
+        dataRoutes,
+        query,
+        queryRoute
+    };
+} //#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region Helpers
+////////////////////////////////////////////////////////////////////////////////
+/**
+ * Given an existing StaticHandlerContext and an error thrown at render time,
+ * provide an updated StaticHandlerContext suitable for a second SSR render
+ */ function getStaticContextFromError(routes, context, error) {
+    let newContext = _extends({}, context, {
+        statusCode: 500,
+        errors: {
+            [context._deepestRenderedBoundaryId || routes[0].id]: error
+        }
+    });
+    return newContext;
+}
+function isSubmissionNavigation(opts) {
+    return opts != null && "formData" in opts;
+}
+function normalizeTo(location, matches, basename, prependBasename, to, fromRouteId, relative) {
+    let contextualMatches;
+    let activeRouteMatch;
+    if (fromRouteId != null && relative !== "path") {
+        // Grab matches up to the calling route so our route-relative logic is
+        // relative to the correct source route.  When using relative:path,
+        // fromRouteId is ignored since that is always relative to the current
+        // location path
+        contextualMatches = [];
+        for (let match of matches){
+            contextualMatches.push(match);
+            if (match.route.id === fromRouteId) {
+                activeRouteMatch = match;
+                break;
+            }
+        }
+    } else {
+        contextualMatches = matches;
+        activeRouteMatch = matches[matches.length - 1];
+    } // Resolve the relative path
+    let path = resolveTo(to ? to : ".", getPathContributingMatches(contextualMatches).map((m)=>m.pathnameBase), location.pathname, relative === "path"); // When `to` is not specified we inherit search/hash from the current
+    // location, unlike when to="." and we just inherit the path.
+    // See https://github.com/remix-run/remix/issues/927
+    if (to == null) {
+        path.search = location.search;
+        path.hash = location.hash;
+    } // Add an ?index param for matched index routes if we don't already have one
+    if ((to == null || to === "" || to === ".") && activeRouteMatch && activeRouteMatch.route.index && !hasNakedIndexQuery(path.search)) path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
+     // If we're operating within a basename, prepend it to the pathname.  If
+    // this is a root navigation, then just use the raw basename which allows
+    // the basename to have full control over the presence of a trailing slash
+    // on root actions
+    if (prependBasename && basename !== "/") path.pathname = path.pathname === "/" ? basename : joinPaths([
+        basename,
+        path.pathname
+    ]);
+    return createPath(path);
+} // Normalize navigation options by converting formMethod=GET formData objects to
+// URLSearchParams so they behave identically to links with query params
+function normalizeNavigateOptions(normalizeFormMethod, isFetcher, path, opts) {
+    // Return location verbatim on non-submission navigations
+    if (!opts || !isSubmissionNavigation(opts)) return {
+        path
+    };
+    if (opts.formMethod && !isValidMethod(opts.formMethod)) return {
+        path,
+        error: getInternalRouterError(405, {
+            method: opts.formMethod
+        })
+    };
+     // Create a Submission on non-GET navigations
+    let submission;
+    if (opts.formData) {
+        let formMethod = opts.formMethod || "get";
+        submission = {
+            formMethod: normalizeFormMethod ? formMethod.toUpperCase() : formMethod.toLowerCase(),
+            formAction: stripHashFromPath(path),
+            formEncType: opts && opts.formEncType || "application/x-www-form-urlencoded",
+            formData: opts.formData
+        };
+        if (isMutationMethod(submission.formMethod)) return {
+            path,
+            submission
+        };
+    } // Flatten submission onto URLSearchParams for GET submissions
+    let parsedPath = parsePath(path);
+    let searchParams = convertFormDataToSearchParams(opts.formData); // On GET navigation submissions we can drop the ?index param from the
+    // resulting location since all loaders will run.  But fetcher GET submissions
+    // only run a single loader so we need to preserve any incoming ?index params
+    if (isFetcher && parsedPath.search && hasNakedIndexQuery(parsedPath.search)) searchParams.append("index", "");
+    parsedPath.search = "?" + searchParams;
+    return {
+        path: createPath(parsedPath),
+        submission
+    };
+} // Filter out all routes below any caught error as they aren't going to
+// render so we don't need to load them
+function getLoaderMatchesUntilBoundary(matches, boundaryId) {
+    let boundaryMatches = matches;
+    if (boundaryId) {
+        let index = matches.findIndex((m)=>m.route.id === boundaryId);
+        if (index >= 0) boundaryMatches = matches.slice(0, index);
+    }
+    return boundaryMatches;
+}
+function getMatchesToLoad(history, state, matches, submission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, routesToUse, basename, pendingActionData, pendingError) {
+    let actionResult = pendingError ? Object.values(pendingError)[0] : pendingActionData ? Object.values(pendingActionData)[0] : undefined;
+    let currentUrl = history.createURL(state.location);
+    let nextUrl = history.createURL(location); // Pick navigation matches that are net-new or qualify for revalidation
+    let boundaryId = pendingError ? Object.keys(pendingError)[0] : undefined;
+    let boundaryMatches = getLoaderMatchesUntilBoundary(matches, boundaryId);
+    let navigationMatches = boundaryMatches.filter((match, index)=>{
+        if (match.route.lazy) // We haven't loaded this route yet so we don't know if it's got a loader!
+        return true;
+        if (match.route.loader == null) return false;
+         // Always call the loader on new route instances and pending defer cancellations
+        if (isNewLoader(state.loaderData, state.matches[index], match) || cancelledDeferredRoutes.some((id)=>id === match.route.id)) return true;
+         // This is the default implementation for when we revalidate.  If the route
+        // provides it's own implementation, then we give them full control but
+        // provide this value so they can leverage it if needed after they check
+        // their own specific use cases
+        let currentRouteMatch = state.matches[index];
+        let nextRouteMatch = match;
+        return shouldRevalidateLoader(match, _extends({
+            currentUrl,
+            currentParams: currentRouteMatch.params,
+            nextUrl,
+            nextParams: nextRouteMatch.params
+        }, submission, {
+            actionResult,
+            defaultShouldRevalidate: isRevalidationRequired || // Clicked the same link, resubmitted a GET form
+            currentUrl.toString() === nextUrl.toString() || // Search params affect all loaders
+            currentUrl.search !== nextUrl.search || isNewRouteInstance(currentRouteMatch, nextRouteMatch)
+        }));
+    }); // Pick fetcher.loads that need to be revalidated
+    let revalidatingFetchers = [];
+    fetchLoadMatches.forEach((f, key)=>{
+        // Don't revalidate if fetcher won't be present in the subsequent render
+        if (!matches.some((m)=>m.route.id === f.routeId)) return;
+        let fetcherMatches = matchRoutes(routesToUse, f.path, basename); // If the fetcher path no longer matches, push it in with null matches so
+        // we can trigger a 404 in callLoadersAndMaybeResolveData
+        if (!fetcherMatches) {
+            revalidatingFetchers.push({
+                key,
+                routeId: f.routeId,
+                path: f.path,
+                matches: null,
+                match: null,
+                controller: null
+            });
+            return;
+        }
+        let fetcherMatch = getTargetMatch(fetcherMatches, f.path);
+        if (cancelledFetcherLoads.includes(key)) {
+            revalidatingFetchers.push({
+                key,
+                routeId: f.routeId,
+                path: f.path,
+                matches: fetcherMatches,
+                match: fetcherMatch,
+                controller: new AbortController()
+            });
+            return;
+        } // Revalidating fetchers are decoupled from the route matches since they
+        // hit a static href, so they _always_ check shouldRevalidate and the
+        // default is strictly if a revalidation is explicitly required (action
+        // submissions, useRevalidator, X-Remix-Revalidate).
+        let shouldRevalidate = shouldRevalidateLoader(fetcherMatch, _extends({
+            currentUrl,
+            currentParams: state.matches[state.matches.length - 1].params,
+            nextUrl,
+            nextParams: matches[matches.length - 1].params
+        }, submission, {
+            actionResult,
+            // Forced revalidation due to submission, useRevalidator, or X-Remix-Revalidate
+            defaultShouldRevalidate: isRevalidationRequired
+        }));
+        if (shouldRevalidate) revalidatingFetchers.push({
+            key,
+            routeId: f.routeId,
+            path: f.path,
+            matches: fetcherMatches,
+            match: fetcherMatch,
+            controller: new AbortController()
+        });
+    });
+    return [
+        navigationMatches,
+        revalidatingFetchers
+    ];
+}
+function isNewLoader(currentLoaderData, currentMatch, match) {
+    let isNew = !currentMatch || // [a, b] -> [a, c]
+    match.route.id !== currentMatch.route.id; // Handle the case that we don't have data for a re-used route, potentially
+    // from a prior error or from a cancelled pending deferred
+    let isMissingData = currentLoaderData[match.route.id] === undefined; // Always load if this is a net-new route or we don't yet have data
+    return isNew || isMissingData;
+}
+function isNewRouteInstance(currentMatch, match) {
+    let currentPath = currentMatch.route.path;
+    return currentMatch.pathname !== match.pathname || // splat param changed, which is not present in match.path
+    // e.g. /files/images/avatar.jpg -> files/finances.xls
+    currentPath != null && currentPath.endsWith("*") && currentMatch.params["*"] !== match.params["*"];
+}
+function shouldRevalidateLoader(loaderMatch, arg) {
+    if (loaderMatch.route.shouldRevalidate) {
+        let routeChoice = loaderMatch.route.shouldRevalidate(arg);
+        if (typeof routeChoice === "boolean") return routeChoice;
+    }
+    return arg.defaultShouldRevalidate;
+}
+/**
+ * Execute route.lazy() methods to lazily load route modules (loader, action,
+ * shouldRevalidate) and update the routeManifest in place which shares objects
+ * with dataRoutes so those get updated as well.
+ */ async function loadLazyRouteModule(route, mapRouteProperties, manifest) {
+    if (!route.lazy) return;
+    let lazyRoute = await route.lazy(); // If the lazy route function was executed and removed by another parallel
+    // call then we can return - first lazy() to finish wins because the return
+    // value of lazy is expected to be static
+    if (!route.lazy) return;
+    let routeToUpdate = manifest[route.id];
+    invariant(routeToUpdate, "No route found in manifest"); // Update the route in place.  This should be safe because there's no way
+    // we could yet be sitting on this route as we can't get there without
+    // resolving lazy() first.
+    //
+    // This is different than the HMR "update" use-case where we may actively be
+    // on the route being updated.  The main concern boils down to "does this
+    // mutation affect any ongoing navigations or any current state.matches
+    // values?".  If not, it should be safe to update in place.
+    let routeUpdates = {};
+    for(let lazyRouteProperty in lazyRoute){
+        let staticRouteValue = routeToUpdate[lazyRouteProperty];
+        let isPropertyStaticallyDefined = staticRouteValue !== undefined && // This property isn't static since it should always be updated based
+        // on the route updates
+        lazyRouteProperty !== "hasErrorBoundary";
+        warning(!isPropertyStaticallyDefined, 'Route "' + routeToUpdate.id + '" has a static property "' + lazyRouteProperty + '" ' + "defined but its lazy function is also returning a value for this property. " + ('The lazy route property "' + lazyRouteProperty + '" will be ignored.'));
+        if (!isPropertyStaticallyDefined && !immutableRouteKeys.has(lazyRouteProperty)) routeUpdates[lazyRouteProperty] = lazyRoute[lazyRouteProperty];
+    } // Mutate the route with the provided updates.  Do this first so we pass
+    // the updated version to mapRouteProperties
+    Object.assign(routeToUpdate, routeUpdates); // Mutate the `hasErrorBoundary` property on the route based on the route
+    // updates and remove the `lazy` function so we don't resolve the lazy
+    // route again.
+    Object.assign(routeToUpdate, _extends({}, mapRouteProperties(routeToUpdate), {
+        lazy: undefined
+    }));
+}
+async function callLoaderOrAction(type, request, match, matches, manifest, mapRouteProperties, basename, isStaticRequest, isRouteRequest, requestContext) {
+    if (isStaticRequest === void 0) isStaticRequest = false;
+    if (isRouteRequest === void 0) isRouteRequest = false;
+    let resultType;
+    let result;
+    let onReject;
+    let runHandler = (handler)=>{
+        // Setup a promise we can race against so that abort signals short circuit
+        let reject;
+        let abortPromise = new Promise((_, r)=>reject = r);
+        onReject = ()=>reject();
+        request.signal.addEventListener("abort", onReject);
+        return Promise.race([
+            handler({
+                request,
+                params: match.params,
+                context: requestContext
+            }),
+            abortPromise
+        ]);
+    };
+    try {
+        let handler = match.route[type];
+        if (match.route.lazy) {
+            if (handler) {
+                // Run statically defined handler in parallel with lazy()
+                let values = await Promise.all([
+                    runHandler(handler),
+                    loadLazyRouteModule(match.route, mapRouteProperties, manifest)
+                ]);
+                result = values[0];
+            } else {
+                // Load lazy route module, then run any returned handler
+                await loadLazyRouteModule(match.route, mapRouteProperties, manifest);
+                handler = match.route[type];
+                if (handler) // Handler still run even if we got interrupted to maintain consistency
+                // with un-abortable behavior of handler execution on non-lazy or
+                // previously-lazy-loaded routes
+                result = await runHandler(handler);
+                else if (type === "action") {
+                    let url = new URL(request.url);
+                    let pathname = url.pathname + url.search;
+                    throw getInternalRouterError(405, {
+                        method: request.method,
+                        pathname,
+                        routeId: match.route.id
+                    });
+                } else // lazy() route has no loader to run.  Short circuit here so we don't
+                // hit the invariant below that errors on returning undefined.
+                return {
+                    type: ResultType.data,
+                    data: undefined
+                };
+            }
+        } else if (!handler) {
+            let url = new URL(request.url);
+            let pathname = url.pathname + url.search;
+            throw getInternalRouterError(404, {
+                pathname
+            });
+        } else result = await runHandler(handler);
+        invariant(result !== undefined, "You defined " + (type === "action" ? "an action" : "a loader") + " for route " + ('"' + match.route.id + "\" but didn't return anything from your `" + type + "` ") + "function. Please return a value or `null`.");
+    } catch (e) {
+        resultType = ResultType.error;
+        result = e;
+    } finally{
+        if (onReject) request.signal.removeEventListener("abort", onReject);
+    }
+    if (isResponse(result)) {
+        let status = result.status; // Process redirects
+        if (redirectStatusCodes.has(status)) {
+            let location = result.headers.get("Location");
+            invariant(location, "Redirects returned/thrown from loaders/actions must have a Location header"); // Support relative routing in internal redirects
+            if (!ABSOLUTE_URL_REGEX.test(location)) location = normalizeTo(new URL(request.url), matches.slice(0, matches.indexOf(match) + 1), basename, true, location);
+            else if (!isStaticRequest) {
+                // Strip off the protocol+origin for same-origin + same-basename absolute
+                // redirects. If this is a static request, we can let it go back to the
+                // browser as-is
+                let currentUrl = new URL(request.url);
+                let url = location.startsWith("//") ? new URL(currentUrl.protocol + location) : new URL(location);
+                let isSameBasename = stripBasename(url.pathname, basename) != null;
+                if (url.origin === currentUrl.origin && isSameBasename) location = url.pathname + url.search + url.hash;
+            } // Don't process redirects in the router during static requests requests.
+            // Instead, throw the Response and let the server handle it with an HTTP
+            // redirect.  We also update the Location header in place in this flow so
+            // basename and relative routing is taken into account
+            if (isStaticRequest) {
+                result.headers.set("Location", location);
+                throw result;
+            }
+            return {
+                type: ResultType.redirect,
+                status,
+                location,
+                revalidate: result.headers.get("X-Remix-Revalidate") !== null
+            };
+        } // For SSR single-route requests, we want to hand Responses back directly
+        // without unwrapping.  We do this with the QueryRouteResponse wrapper
+        // interface so we can know whether it was returned or thrown
+        if (isRouteRequest) // eslint-disable-next-line no-throw-literal
+        throw {
+            type: resultType || ResultType.data,
+            response: result
+        };
+        let data;
+        let contentType = result.headers.get("Content-Type"); // Check between word boundaries instead of startsWith() due to the last
+        // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
+        if (contentType && /\bapplication\/json\b/.test(contentType)) data = await result.json();
+        else data = await result.text();
+        if (resultType === ResultType.error) return {
+            type: resultType,
+            error: new ErrorResponse(status, result.statusText, data),
+            headers: result.headers
+        };
+        return {
+            type: ResultType.data,
+            data,
+            statusCode: result.status,
+            headers: result.headers
+        };
+    }
+    if (resultType === ResultType.error) return {
+        type: resultType,
+        error: result
+    };
+    if (isDeferredData(result)) {
+        var _result$init, _result$init2;
+        return {
+            type: ResultType.deferred,
+            deferredData: result,
+            statusCode: (_result$init = result.init) == null ? void 0 : _result$init.status,
+            headers: ((_result$init2 = result.init) == null ? void 0 : _result$init2.headers) && new Headers(result.init.headers)
+        };
+    }
+    return {
+        type: ResultType.data,
+        data: result
+    };
+} // Utility method for creating the Request instances for loaders/actions during
+// client-side navigations and fetches.  During SSR we will always have a
+// Request instance from the static handler (query/queryRoute)
+function createClientSideRequest(history, location, signal, submission) {
+    let url = history.createURL(stripHashFromPath(location)).toString();
+    let init = {
+        signal
+    };
+    if (submission && isMutationMethod(submission.formMethod)) {
+        let { formMethod , formEncType , formData  } = submission; // Didn't think we needed this but it turns out unlike other methods, patch
+        // won't be properly normalized to uppercase and results in a 405 error.
+        // See: https://fetch.spec.whatwg.org/#concept-method
+        init.method = formMethod.toUpperCase();
+        init.body = formEncType === "application/x-www-form-urlencoded" ? convertFormDataToSearchParams(formData) : formData;
+    } // Content-Type is inferred (https://fetch.spec.whatwg.org/#dom-request)
+    return new Request(url, init);
+}
+function convertFormDataToSearchParams(formData) {
+    let searchParams = new URLSearchParams();
+    for (let [key, value] of formData.entries())// https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#converting-an-entry-list-to-a-list-of-name-value-pairs
+    searchParams.append(key, value instanceof File ? value.name : value);
+    return searchParams;
+}
+function processRouteLoaderData(matches, matchesToLoad, results, pendingError, activeDeferreds) {
+    // Fill in loaderData/errors from our loaders
+    let loaderData = {};
+    let errors = null;
+    let statusCode;
+    let foundError = false;
+    let loaderHeaders = {}; // Process loader results into state.loaderData/state.errors
+    results.forEach((result, index)=>{
+        let id = matchesToLoad[index].route.id;
+        invariant(!isRedirectResult(result), "Cannot handle redirect results in processLoaderData");
+        if (isErrorResult(result)) {
+            // Look upwards from the matched route for the closest ancestor
+            // error boundary, defaulting to the root match
+            let boundaryMatch = findNearestBoundary(matches, id);
+            let error = result.error; // If we have a pending action error, we report it at the highest-route
+            // that throws a loader error, and then clear it out to indicate that
+            // it was consumed
+            if (pendingError) {
+                error = Object.values(pendingError)[0];
+                pendingError = undefined;
+            }
+            errors = errors || {}; // Prefer higher error values if lower errors bubble to the same boundary
+            if (errors[boundaryMatch.route.id] == null) errors[boundaryMatch.route.id] = error;
+             // Clear our any prior loaderData for the throwing route
+            loaderData[id] = undefined; // Once we find our first (highest) error, we set the status code and
+            // prevent deeper status codes from overriding
+            if (!foundError) {
+                foundError = true;
+                statusCode = isRouteErrorResponse(result.error) ? result.error.status : 500;
+            }
+            if (result.headers) loaderHeaders[id] = result.headers;
+        } else {
+            if (isDeferredResult(result)) {
+                activeDeferreds.set(id, result.deferredData);
+                loaderData[id] = result.deferredData.data;
+            } else loaderData[id] = result.data;
+             // Error status codes always override success status codes, but if all
+            // loaders are successful we take the deepest status code.
+            if (result.statusCode != null && result.statusCode !== 200 && !foundError) statusCode = result.statusCode;
+            if (result.headers) loaderHeaders[id] = result.headers;
+        }
+    }); // If we didn't consume the pending action error (i.e., all loaders
+    // resolved), then consume it here.  Also clear out any loaderData for the
+    // throwing route
+    if (pendingError) {
+        errors = pendingError;
+        loaderData[Object.keys(pendingError)[0]] = undefined;
+    }
+    return {
+        loaderData,
+        errors,
+        statusCode: statusCode || 200,
+        loaderHeaders
+    };
+}
+function processLoaderData(state, matches, matchesToLoad, results, pendingError, revalidatingFetchers, fetcherResults, activeDeferreds) {
+    let { loaderData , errors  } = processRouteLoaderData(matches, matchesToLoad, results, pendingError, activeDeferreds); // Process results from our revalidating fetchers
+    for(let index = 0; index < revalidatingFetchers.length; index++){
+        let { key , match , controller  } = revalidatingFetchers[index];
+        invariant(fetcherResults !== undefined && fetcherResults[index] !== undefined, "Did not find corresponding fetcher result");
+        let result = fetcherResults[index]; // Process fetcher non-redirect errors
+        if (controller && controller.signal.aborted) continue;
+        else if (isErrorResult(result)) {
+            let boundaryMatch = findNearestBoundary(state.matches, match == null ? void 0 : match.route.id);
+            if (!(errors && errors[boundaryMatch.route.id])) errors = _extends({}, errors, {
+                [boundaryMatch.route.id]: result.error
+            });
+            state.fetchers.delete(key);
+        } else if (isRedirectResult(result)) // Should never get here, redirects should get processed above, but we
+        // keep this to type narrow to a success result in the else
+        invariant(false, "Unhandled fetcher revalidation redirect");
+        else if (isDeferredResult(result)) // Should never get here, deferred data should be awaited for fetchers
+        // in resolveDeferredResults
+        invariant(false, "Unhandled fetcher deferred data");
+        else {
+            let doneFetcher = {
+                state: "idle",
+                data: result.data,
+                formMethod: undefined,
+                formAction: undefined,
+                formEncType: undefined,
+                formData: undefined,
+                " _hasFetcherDoneAnything ": true
+            };
+            state.fetchers.set(key, doneFetcher);
+        }
+    }
+    return {
+        loaderData,
+        errors
+    };
+}
+function mergeLoaderData(loaderData, newLoaderData, matches, errors) {
+    let mergedLoaderData = _extends({}, newLoaderData);
+    for (let match of matches){
+        let id = match.route.id;
+        if (newLoaderData.hasOwnProperty(id)) {
+            if (newLoaderData[id] !== undefined) mergedLoaderData[id] = newLoaderData[id];
+        } else if (loaderData[id] !== undefined && match.route.loader) // Preserve existing keys not included in newLoaderData and where a loader
+        // wasn't removed by HMR
+        mergedLoaderData[id] = loaderData[id];
+        if (errors && errors.hasOwnProperty(id)) break;
+    }
+    return mergedLoaderData;
+} // Find the nearest error boundary, looking upwards from the leaf route (or the
+// route specified by routeId) for the closest ancestor error boundary,
+// defaulting to the root match
+function findNearestBoundary(matches, routeId) {
+    let eligibleMatches = routeId ? matches.slice(0, matches.findIndex((m)=>m.route.id === routeId) + 1) : [
+        ...matches
+    ];
+    return eligibleMatches.reverse().find((m)=>m.route.hasErrorBoundary === true) || matches[0];
+}
+function getShortCircuitMatches(routes) {
+    // Prefer a root layout route if present, otherwise shim in a route object
+    let route = routes.find((r)=>r.index || !r.path || r.path === "/") || {
+        id: "__shim-error-route__"
+    };
+    return {
+        matches: [
+            {
+                params: {},
+                pathname: "",
+                pathnameBase: "",
+                route
+            }
+        ],
+        route
+    };
+}
+function getInternalRouterError(status, _temp4) {
+    let { pathname , routeId , method , type  } = _temp4 === void 0 ? {} : _temp4;
+    let statusText = "Unknown Server Error";
+    let errorMessage = "Unknown @remix-run/router error";
+    if (status === 400) {
+        statusText = "Bad Request";
+        if (method && pathname && routeId) errorMessage = "You made a " + method + ' request to "' + pathname + '" but ' + ('did not provide a `loader` for route "' + routeId + '", ') + "so there is no way to handle the request.";
+        else if (type === "defer-action") errorMessage = "defer() is not supported in actions";
+    } else if (status === 403) {
+        statusText = "Forbidden";
+        errorMessage = 'Route "' + routeId + '" does not match URL "' + pathname + '"';
+    } else if (status === 404) {
+        statusText = "Not Found";
+        errorMessage = 'No route matches URL "' + pathname + '"';
+    } else if (status === 405) {
+        statusText = "Method Not Allowed";
+        if (method && pathname && routeId) errorMessage = "You made a " + method.toUpperCase() + ' request to "' + pathname + '" but ' + ('did not provide an `action` for route "' + routeId + '", ') + "so there is no way to handle the request.";
+        else if (method) errorMessage = 'Invalid request method "' + method.toUpperCase() + '"';
+    }
+    return new ErrorResponse(status || 500, statusText, new Error(errorMessage), true);
+} // Find any returned redirect errors, starting from the lowest match
+function findRedirect(results) {
+    for(let i = results.length - 1; i >= 0; i--){
+        let result = results[i];
+        if (isRedirectResult(result)) return result;
+    }
+}
+function stripHashFromPath(path) {
+    let parsedPath = typeof path === "string" ? parsePath(path) : path;
+    return createPath(_extends({}, parsedPath, {
+        hash: ""
+    }));
+}
+function isHashChangeOnly(a, b) {
+    return a.pathname === b.pathname && a.search === b.search && a.hash !== b.hash;
+}
+function isDeferredResult(result) {
+    return result.type === ResultType.deferred;
+}
+function isErrorResult(result) {
+    return result.type === ResultType.error;
+}
+function isRedirectResult(result) {
+    return (result && result.type) === ResultType.redirect;
+}
+function isDeferredData(value) {
+    let deferred = value;
+    return deferred && typeof deferred === "object" && typeof deferred.data === "object" && typeof deferred.subscribe === "function" && typeof deferred.cancel === "function" && typeof deferred.resolveData === "function";
+}
+function isResponse(value) {
+    return value != null && typeof value.status === "number" && typeof value.statusText === "string" && typeof value.headers === "object" && typeof value.body !== "undefined";
+}
+function isRedirectResponse(result) {
+    if (!isResponse(result)) return false;
+    let status = result.status;
+    let location = result.headers.get("Location");
+    return status >= 300 && status <= 399 && location != null;
+}
+function isQueryRouteResponse(obj) {
+    return obj && isResponse(obj.response) && (obj.type === ResultType.data || ResultType.error);
+}
+function isValidMethod(method) {
+    return validRequestMethods.has(method.toLowerCase());
+}
+function isMutationMethod(method) {
+    return validMutationMethods.has(method.toLowerCase());
+}
+async function resolveDeferredResults(currentMatches, matchesToLoad, results, signals, isFetcher, currentLoaderData) {
+    for(let index = 0; index < results.length; index++){
+        let result = results[index];
+        let match = matchesToLoad[index]; // If we don't have a match, then we can have a deferred result to do
+        // anything with.  This is for revalidating fetchers where the route was
+        // removed during HMR
+        if (!match) continue;
+        let currentMatch = currentMatches.find((m)=>m.route.id === match.route.id);
+        let isRevalidatingLoader = currentMatch != null && !isNewRouteInstance(currentMatch, match) && (currentLoaderData && currentLoaderData[match.route.id]) !== undefined;
+        if (isDeferredResult(result) && (isFetcher || isRevalidatingLoader)) {
+            // Note: we do not have to touch activeDeferreds here since we race them
+            // against the signal in resolveDeferredData and they'll get aborted
+            // there if needed
+            let signal = signals[index];
+            invariant(signal, "Expected an AbortSignal for revalidating fetcher deferred result");
+            await resolveDeferredData(result, signal, isFetcher).then((result)=>{
+                if (result) results[index] = result || results[index];
+            });
+        }
+    }
+}
+async function resolveDeferredData(result, signal, unwrap) {
+    if (unwrap === void 0) unwrap = false;
+    let aborted = await result.deferredData.resolveData(signal);
+    if (aborted) return;
+    if (unwrap) try {
+        return {
+            type: ResultType.data,
+            data: result.deferredData.unwrappedData
+        };
+    } catch (e) {
+        // Handle any TrackedPromise._error values encountered while unwrapping
+        return {
+            type: ResultType.error,
+            error: e
+        };
+    }
+    return {
+        type: ResultType.data,
+        data: result.deferredData.data
+    };
+}
+function hasNakedIndexQuery(search) {
+    return new URLSearchParams(search).getAll("index").some((v)=>v === "");
+} // Note: This should match the format exported by useMatches, so if you change
+// this please also change that :)  Eventually we'll DRY this up
+function createUseMatchesMatch(match, loaderData) {
+    let { route , pathname , params  } = match;
+    return {
+        id: route.id,
+        pathname,
+        params,
+        data: loaderData[route.id],
+        handle: route.handle
+    };
+}
+function getTargetMatch(matches, location) {
+    let search = typeof location === "string" ? parsePath(location).search : location.search;
+    if (matches[matches.length - 1].route.index && hasNakedIndexQuery(search || "")) // Return the leaf index route when index is present
+    return matches[matches.length - 1];
+     // Otherwise grab the deepest "path contributing" match (ignoring index and
+    // pathless layout routes)
+    let pathMatches = getPathContributingMatches(matches);
+    return pathMatches[pathMatches.length - 1];
+} //#endregion
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ggaUx":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e9f6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e9f6.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MovieView", ()=>MovieView);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _propTypes = require("prop-types");
+var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
+var _reactBootstrap = require("react-bootstrap");
+var _reactRouter = require("react-router");
+var _reactRouterDom = require("react-router-dom");
+var _react = require("react");
+var _movieCard = require("../movie-card/movie-card");
+var _s = $RefreshSig$();
+const MovieView = ({ movies , user , updateUser  })=>{
+    _s();
+    const [favorite, setFavorite] = (0, _react.useState)(false);
+    const { movieId  } = (0, _reactRouter.useParams)();
+    const movie = movies.find((movie)=>movie.id === movieId);
+    //GET request
+    (0, _react.useEffect)(()=>{
+        if (user.favoriteMovies && movie.id) setFavorite(user.favoriteMovies.includes(movie.id));
+    }, [
+        movie
+    ]);
+    const addFavorite = ()=>{
+        const token = localStorage.getItem("token");
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}/movies/${movieId}`, {
+            method: "POST",
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>{
+            if (response.ok) return response.json();
+            else {
+                alert("Failed");
+                return false;
+            }
+        }).then((user)=>{
+            if (user) {
+                alert("Added to favorites!");
+                setFavorite(true);
+                updateUser(user);
+            }
+        }).catch((e)=>{
+            alert(e);
+        });
+    };
+    const removeFavorite = ()=>{
+        const token = localStorage.getItem("token");
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}/movies/${movieId}`, {
+            method: "DELETE",
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>{
+            if (response.ok) return response.json();
+            else {
+                alert("Failed");
+                return false;
+            }
+        }).then((user)=>{
+            if (user) {
+                alert("Removed from favorites!");
+                setFavorite(false);
+                updateUser(user);
+            }
+        }).catch((e)=>{
+            alert(e);
+        });
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                    xs: 12,
+                    md: 6,
+                    lg: 4,
+                    className: "mb-4",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Image), {
+                        className: "img-fluid h-auto",
+                        src: movie.image
+                    }, void 0, false, {
+                        fileName: "src/components/movie-view/movie-view.jsx",
+                        lineNumber: 78,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/movie-view/movie-view.jsx",
+                    lineNumber: 77,
+                    columnNumber: 17
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                    xs: 12,
+                    md: 6,
+                    lg: 8,
+                    className: "mt-4",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                            children: movie.title
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 82,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                            children: "Description:"
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 83,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: movie.description
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 84,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                            children: "Genre:"
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 85,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: movie.genre
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 85,
+                            columnNumber: 36
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                            children: "Director:"
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 86,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: movie.director
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 87,
+                            columnNumber: 21
+                        }, undefined),
+                        favorite ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            onClick: removeFavorite,
+                            variant: "warning",
+                            className: "movie-fav-button mt-4",
+                            children: "Remove from list"
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 90,
+                            columnNumber: 25
+                        }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            onClick: addFavorite,
+                            variant: "primary",
+                            className: "movie-fav-button mt-4",
+                            children: "Add to favorites"
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 97,
+                            columnNumber: 25
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                                variant: "outline-primary",
+                                className: "mt-4",
+                                children: "Back"
+                            }, void 0, false, {
+                                fileName: "src/components/movie-view/movie-view.jsx",
+                                lineNumber: 105,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/movie-view/movie-view.jsx",
+                            lineNumber: 104,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/movie-view/movie-view.jsx",
+                    lineNumber: 81,
+                    columnNumber: 17
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/movie-view/movie-view.jsx",
+            lineNumber: 76,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false);
+};
+_s(MovieView, "qVpW5bxN4Yeg59G+wTsu2hED3Cg=", false, function() {
+    return [
+        (0, _reactRouter.useParams)
+    ];
+});
+_c = MovieView;
+//Defining prop types constraints:
+MovieView.propTypes = {
+    movies: (0, _propTypesDefault.default).arrayOf((0, _propTypesDefault.default).shape({
+        id: (0, _propTypesDefault.default).string.isRequired,
+        title: (0, _propTypesDefault.default).string.isRequired,
+        description: (0, _propTypesDefault.default).string.isRequired,
+        genre: (0, _propTypesDefault.default).string.isRequired,
+        director: (0, _propTypesDefault.default).string.isRequired,
+        image: (0, _propTypesDefault.default).string.isRequired
+    }).isRequired)
+};
+var _c;
+$RefreshReg$(_c, "MovieView");
+
+  $parcel$ReactRefreshHelpers$e9f6.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","prop-types":"7wKI2","react-bootstrap":"3AD9A","react-router":"dbWyW","react-router-dom":"9xmpe","react":"21dqq","../movie-card/movie-card":"bwuIu"}],"9YtA0":[function(require,module,exports) {
+=======
 },{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./helpers":"gotcT","./getInitialPopperStyles":"c8j3Q","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD"}],"9YtA0":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var $parcel$ReactRefreshHelpers$9fee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -41124,7 +48037,11 @@ const LoginView = ({ onLoggedIn  })=>{
                             }, void 0, false, {
                                 fileName: "src/components/login-view/login-view.jsx",
                                 lineNumber: 45,
+<<<<<<< HEAD
+                                columnNumber: 29
+=======
                                 columnNumber: 25
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
                                 onSubmit: handleSubmit,
@@ -41140,6 +48057,12 @@ const LoginView = ({ onLoggedIn  })=>{
                                                 columnNumber: 37
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+<<<<<<< HEAD
+                                                style: {
+                                                    backgroundColor: "white"
+                                                },
+=======
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                                                 type: "text",
                                                 value: username,
                                                 onChange: (e)=>setUsername(e.target.value),
@@ -41162,23 +48085,41 @@ const LoginView = ({ onLoggedIn  })=>{
                                                 children: "Password:"
                                             }, void 0, false, {
                                                 fileName: "src/components/login-view/login-view.jsx",
+<<<<<<< HEAD
+                                                lineNumber: 58,
+                                                columnNumber: 37
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                                style: {
+                                                    backgroundColor: "white"
+                                                },
+=======
                                                 lineNumber: 57,
                                                 columnNumber: 37
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                                                 type: "password",
                                                 value: password,
                                                 onChange: (e)=>setPassword(e.target.value),
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "src/components/login-view/login-view.jsx",
+<<<<<<< HEAD
+                                                lineNumber: 59,
+=======
                                                 lineNumber: 58,
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                                                 columnNumber: 37
                                             }, undefined)
                                         ]
                                     }, void 0, true, {
                                         fileName: "src/components/login-view/login-view.jsx",
+<<<<<<< HEAD
+                                        lineNumber: 57,
+=======
                                         lineNumber: 56,
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                                         columnNumber: 33
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
@@ -41187,7 +48128,11 @@ const LoginView = ({ onLoggedIn  })=>{
                                         children: "Submit"
                                     }, void 0, false, {
                                         fileName: "src/components/login-view/login-view.jsx",
+<<<<<<< HEAD
+                                        lineNumber: 67,
+=======
                                         lineNumber: 65,
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                                         columnNumber: 33
                                     }, undefined)
                                 ]
@@ -41233,7 +48178,11 @@ $RefreshReg$(_c, "LoginView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"4OGiN":[function(require,module,exports) {
+=======
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dIT0z"}],"4OGiN":[function(require,module,exports) {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 var $parcel$ReactRefreshHelpers$73d1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -41250,7 +48199,11 @@ var _reactBootstrap = require("react-bootstrap");
 var _s = $RefreshSig$();
 const SignupView = ()=>{
     _s();
+<<<<<<< HEAD
+    const [username, setUsername] = (0, _react.useState)("");
+=======
     const [username, setusername] = (0, _react.useState)("");
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
     const [password, setPassword] = (0, _react.useState)("");
     const [email, setEmail] = (0, _react.useState)("");
     const [birthday, setBirthday] = (0, _react.useState)("");
@@ -41271,7 +48224,11 @@ const SignupView = ()=>{
         }).then((response)=>{
             if (response.ok) {
                 alert("Signup successful");
+<<<<<<< HEAD
+                window.location.replace("/login");
+=======
                 window.location.reload();
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
             } else alert("Signup failed");
         });
     };
@@ -41279,6 +48236,159 @@ const SignupView = ()=>{
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+<<<<<<< HEAD
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Title, {
+                                children: "Please Register"
+                            }, void 0, false, {
+                                fileName: "src/components/signup-view/signup-view.jsx",
+                                lineNumber: 43,
+                                columnNumber: 29
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
+                                onSubmit: handleSubmit,
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Group, {
+                                        controlId: "formUsername",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                                children: "Username:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/signup-view/signup-view.jsx",
+                                                lineNumber: 46,
+                                                columnNumber: 37
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                                style: {
+                                                    backgroundColor: "white"
+                                                },
+                                                type: "text",
+                                                value: username,
+                                                onChange: (e)=>setUsername(e.target.value),
+                                                required: true,
+                                                minLength: "3"
+                                            }, void 0, false, {
+                                                fileName: "src/components/signup-view/signup-view.jsx",
+                                                lineNumber: 47,
+                                                columnNumber: 37
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/signup-view/signup-view.jsx",
+                                        lineNumber: 45,
+                                        columnNumber: 33
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Group, {
+                                        controlId: "formPassword",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                                children: "Password:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/signup-view/signup-view.jsx",
+                                                lineNumber: 57,
+                                                columnNumber: 37
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                                style: {
+                                                    backgroundColor: "white"
+                                                },
+                                                type: "password",
+                                                value: password,
+                                                onChange: (e)=>setPassword(e.target.value),
+                                                required: true
+                                            }, void 0, false, {
+                                                fileName: "src/components/signup-view/signup-view.jsx",
+                                                lineNumber: 58,
+                                                columnNumber: 37
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/signup-view/signup-view.jsx",
+                                        lineNumber: 56,
+                                        columnNumber: 33
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Group, {
+                                        controlId: "formEmail",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                                children: "Email:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/signup-view/signup-view.jsx",
+                                                lineNumber: 67,
+                                                columnNumber: 37
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                                style: {
+                                                    backgroundColor: "white"
+                                                },
+                                                type: "email",
+                                                value: email,
+                                                onChange: (e)=>setEmail(e.target.value),
+                                                required: true
+                                            }, void 0, false, {
+                                                fileName: "src/components/signup-view/signup-view.jsx",
+                                                lineNumber: 68,
+                                                columnNumber: 37
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/signup-view/signup-view.jsx",
+                                        lineNumber: 66,
+                                        columnNumber: 33
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Group, {
+                                        controlId: "formBirthday",
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                                children: "Birthday:"
+                                            }, void 0, false, {
+                                                fileName: "src/components/signup-view/signup-view.jsx",
+                                                lineNumber: 77,
+                                                columnNumber: 37
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                                style: {
+                                                    backgroundColor: "white"
+                                                },
+                                                type: "date",
+                                                value: birthday,
+                                                onChange: (e)=>setBirthday(e.target.value),
+                                                required: true
+                                            }, void 0, false, {
+                                                fileName: "src/components/signup-view/signup-view.jsx",
+                                                lineNumber: 78,
+                                                columnNumber: 37
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/signup-view/signup-view.jsx",
+                                        lineNumber: 76,
+                                        columnNumber: 33
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                                        variant: "primary",
+                                        type: "submit",
+                                        children: "Submit"
+                                    }, void 0, false, {
+                                        fileName: "src/components/signup-view/signup-view.jsx",
+                                        lineNumber: 86,
+                                        columnNumber: 33
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/signup-view/signup-view.jsx",
+                                lineNumber: 44,
+                                columnNumber: 29
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/signup-view/signup-view.jsx",
+                        lineNumber: 42,
+                        columnNumber: 25
+                    }, undefined)
+                }, void 0, false, {
+=======
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Title, {
                             children: "Please Register"
@@ -41412,6 +48522,7 @@ const SignupView = ()=>{
                         }, undefined)
                     ]
                 }, void 0, true, {
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
                     fileName: "src/components/signup-view/signup-view.jsx",
                     lineNumber: 41,
                     columnNumber: 21
@@ -41432,7 +48543,11 @@ const SignupView = ()=>{
         columnNumber: 9
     }, undefined);
 };
+<<<<<<< HEAD
+_s(SignupView, "jsOQN3GC2XlBG9ITlzCdpyJOnso=");
+=======
 _s(SignupView, "3CEA//2Arbrj0s/+dyHUF3JaEuE=");
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 _c = SignupView;
 var _c;
 $RefreshReg$(_c, "SignupView");
@@ -41442,6 +48557,1577 @@ $RefreshReg$(_c, "SignupView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
+<<<<<<< HEAD
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bsPVM":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$abf5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$abf5.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "NavigationBar", ()=>NavigationBar);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactBootstrap = require("react-bootstrap");
+var _reactRouterDom = require("react-router-dom");
+var _react = require("react");
+var _s = $RefreshSig$();
+const NavigationBar = ({ user , onLoggedOut , onSearch  })=>{
+    _s();
+    const [query, setQuery] = (0, _react.useState)("");
+    const logo = new URL(require("115951a49957fa5e"));
+    (0, _react.useEffect)(()=>{
+        onSearch(query);
+    }, [
+        query
+    ]);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar), {
+        fluid: "true",
+        style: {
+            borderBottom: "1px solid purple",
+            backgroundColor: "rgba(52, 55, 121, 1)"
+        },
+        expand: "lg",
+        variant: "dark",
+        className: "mb-4 navbar-container",
+        sticky: "top",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Container), {
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar).Brand, {
+                    as: (0, _reactRouterDom.Link),
+                    to: "/",
+                    onClick: ()=>setQuery(""),
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                            src: logo,
+                            className: "png-logo",
+                            alt: "MyFlix"
+                        }, void 0, false, {
+                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                            lineNumber: 24,
+                            columnNumber: 11
+                        }, undefined),
+                        "",
+                        "MyFlix"
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                    lineNumber: 23,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar).Toggle, {
+                    "aria-controls": "responsive-navbar-nav"
+                }, void 0, false, {
+                    fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                    lineNumber: 26,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar).Collapse, {
+                    id: "responsive-navbar-nav",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav), {
+                            className: "me-auto",
+                            children: [
+                                !user && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
+                                            as: (0, _reactRouterDom.Link),
+                                            to: "/login",
+                                            children: "Login"
+                                        }, void 0, false, {
+                                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                            lineNumber: 31,
+                                            columnNumber: 21
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
+                                            as: (0, _reactRouterDom.Link),
+                                            to: "/signup",
+                                            children: "Signup"
+                                        }, void 0, false, {
+                                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                            lineNumber: 34,
+                                            columnNumber: 21
+                                        }, undefined)
+                                    ]
+                                }, void 0, true),
+                                user && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
+                                            as: (0, _reactRouterDom.Link),
+                                            to: "/",
+                                            children: "Home"
+                                        }, void 0, false, {
+                                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                            lineNumber: 41,
+                                            columnNumber: 21
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
+                                            as: (0, _reactRouterDom.Link),
+                                            to: "/users",
+                                            children: "Profile"
+                                        }, void 0, false, {
+                                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                            lineNumber: 44,
+                                            columnNumber: 21
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
+                                            onClick: onLoggedOut,
+                                            children: "Logout"
+                                        }, void 0, false, {
+                                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                            lineNumber: 47,
+                                            columnNumber: 21
+                                        }, undefined)
+                                    ]
+                                }, void 0, true)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                            lineNumber: 28,
+                            columnNumber: 11
+                        }, undefined),
+                        user && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
+                            className: "d-flex",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormControl), {
+                                    style: {
+                                        color: "dark",
+                                        backgroundColor: "white"
+                                    },
+                                    type: "search",
+                                    placeholder: "Type to search...",
+                                    className: "me-2",
+                                    "aria-label": "search",
+                                    value: query,
+                                    onChange: (e)=>{
+                                        setQuery(e.target.value);
+                                    }
+                                }, void 0, false, {
+                                    fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                    lineNumber: 55,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                    to: "/",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                                        variant: "outline-secondary",
+                                        onClick: ()=>{
+                                            onSearch(query);
+                                        },
+                                        children: "Search"
+                                    }, void 0, false, {
+                                        fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                        lineNumber: 67,
+                                        columnNumber: 17
+                                    }, undefined)
+                                }, void 0, false, {
+                                    fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                    lineNumber: 66,
+                                    columnNumber: 15
+                                }, undefined)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                            lineNumber: 54,
+                            columnNumber: 13
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                    lineNumber: 27,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+            lineNumber: 22,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/navigation-bar/navigation-bar.jsx",
+        lineNumber: 21,
+        columnNumber: 5
+    }, undefined);
+};
+_s(NavigationBar, "CCuvaKRud86EhT+STbWOVtMtgh8=");
+_c = NavigationBar;
+var _c;
+$RefreshReg$(_c, "NavigationBar");
+
+  $parcel$ReactRefreshHelpers$abf5.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","115951a49957fa5e":"gQKqU"}],"gQKqU":[function(require,module,exports) {
+module.exports = require("6dae8e6f712ce404").getBundleURL("byUka") + "logo.726d37a8.png" + "?" + Date.now();
+
+},{"6dae8e6f712ce404":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"2vVqf":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3c12 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3c12.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "ProfileView", ()=>ProfileView);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _reactRouterDom = require("react-router-dom");
+var _movieCard = require("../movie-card/movie-card");
+var _favoriteMovies = require("./favorite-movies");
+var _s = $RefreshSig$();
+const ProfileView = ({ user , movies , updateUser  })=>{
+    _s();
+    const [username, setUsername] = (0, _react.useState)("");
+    const [password, setPassword] = (0, _react.useState)("");
+    const [email, setEmail] = (0, _react.useState)("");
+    const [birthday, setBirthday] = (0, _react.useState)("");
+    const [favorite, setFavorite] = (0, _react.useState)([]);
+    const handleSubmit = (event)=>{
+        event.preventDefault();
+        const data = {
+            Username: user.username,
+            Password: user.password,
+            Email: user.email,
+            Birthday: user.birthday
+        };
+        fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
+            method: "PUT",
+            body: JSON.stringify(data),
+            headers: {
+                "Content-Type": "application/JSON",
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>{
+            if (response.ok) return response.json();
+            else {
+                alert("Failed to change data");
+                return false;
+            }
+        }).then((user)=>{
+            if (user) {
+                alert("Data changed successfully");
+                updateUser(user);
+            }
+        }).catch((e)=>{
+            alert(e);
+        });
+    };
+    const deleteAccount = ()=>{
+        fetch("https://myflixapi.herokuapp.com/users/${user.Username}", {
+            method: "DELETE",
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>{
+            if (response.ok) {
+                alert("Account has been deleted!");
+                onLoggedOut();
+            } else alert("Can not delete account");
+        }).catch((e)=>{
+            alert(e);
+        });
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "row-cols-1 row-cols-md-2 g-4",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Title, {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                            children: "Your information"
+                                        }, void 0, false, {
+                                            fileName: "src/components/profile-view/profile-view.jsx",
+                                            lineNumber: 77,
+                                            columnNumber: 33
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/profile-view/profile-view.jsx",
+                                        lineNumber: 76,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: [
+                                                    "Username: ",
+                                                    user.Username
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 79,
+                                                columnNumber: 37
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: "Password: ********"
+                                            }, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 80,
+                                                columnNumber: 37
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: [
+                                                    "E-mail: ",
+                                                    user.Email
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 81,
+                                                columnNumber: 37
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                                children: [
+                                                    "Birthday: ",
+                                                    user.Birthday
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 82,
+                                                columnNumber: 37
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/profile-view/profile-view.jsx",
+                                        lineNumber: 78,
+                                        columnNumber: 33
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/profile-view/profile-view.jsx",
+                                lineNumber: 75,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/profile-view.jsx",
+                            lineNumber: 74,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/profile-view.jsx",
+                        lineNumber: 73,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card), {
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Body, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Card).Title, {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                            children: "Edit your information"
+                                        }, void 0, false, {
+                                            fileName: "src/components/profile-view/profile-view.jsx",
+                                            lineNumber: 91,
+                                            columnNumber: 33
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/profile-view/profile-view.jsx",
+                                        lineNumber: 90,
+                                        columnNumber: 29
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: `/users/settings/username`,
+                                                children: "Change username"
+                                            }, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 93,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 94,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: `/users/settings/password`,
+                                                children: "Change password"
+                                            }, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 95,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 96,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: `/users/settings/email`,
+                                                children: "Change email"
+                                            }, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 97,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 98,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                to: `/users/settings/birthday`,
+                                                children: "Change birthday"
+                                            }, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 99,
+                                                columnNumber: 33
+                                            }, undefined),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {}, void 0, false, {
+                                                fileName: "src/components/profile-view/profile-view.jsx",
+                                                lineNumber: 100,
+                                                columnNumber: 33
+                                            }, undefined)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/profile-view/profile-view.jsx",
+                                        lineNumber: 92,
+                                        columnNumber: 29
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/components/profile-view/profile-view.jsx",
+                                lineNumber: 89,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/profile-view.jsx",
+                            lineNumber: 88,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/profile-view.jsx",
+                        lineNumber: 87,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            variant: "danger",
+                            className: "centered",
+                            onClick: ()=>{
+                                if (confirm("Are you sure you want to delete your account?")) deleteAccount();
+                            },
+                            children: "Delete account"
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/profile-view.jsx",
+                            lineNumber: 106,
+                            columnNumber: 21
+                        }, undefined)
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/profile-view.jsx",
+                        lineNumber: 105,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/profile-view.jsx",
+                lineNumber: 72,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                    className: "mt-3",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        children: "Your favorite movies:"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/profile-view.jsx",
+                        lineNumber: 115,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/profile-view/profile-view.jsx",
+                    lineNumber: 114,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/profile-view/profile-view.jsx",
+                lineNumber: 113,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _favoriteMovies.FavoriteMovies), {
+                        movies: movies,
+                        user: user
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/profile-view.jsx",
+                        lineNumber: 120,
+                        columnNumber: 21
+                    }, undefined)
+                }, void 0, false, {
+                    fileName: "src/components/profile-view/profile-view.jsx",
+                    lineNumber: 119,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/profile-view/profile-view.jsx",
+                lineNumber: 118,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_s(ProfileView, "a9mHq+rlJ2eADaCWF/SUZ82Y+p4=");
+_c = ProfileView;
+var _c;
+$RefreshReg$(_c, "ProfileView");
+
+  $parcel$ReactRefreshHelpers$3c12.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","../movie-card/movie-card":"bwuIu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./favorite-movies":"dTTQH"}],"dTTQH":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8767 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8767.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "FavoriteMovies", ()=>FavoriteMovies);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactBootstrap = require("react-bootstrap");
+var _movieCard = require("../movie-card/movie-card");
+const FavoriteMovies = ({ movies , user , updateUser  })=>{
+    const favoriteMovies = movies.filter((movie)=>user.FavoriteMovies.includes(movie.id));
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+        className: "justify-content-center",
+        children: favoriteMovies.length > 0 ? favoriteMovies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
+                    movie: movie,
+                    user: user,
+                    updateUser: updateUser
+                }, void 0, false, {
+                    fileName: "src/components/profile-view/favorite-movies.jsx",
+                    lineNumber: 12,
+                    columnNumber: 25
+                }, undefined)
+            }, movie.id, false, {
+                fileName: "src/components/profile-view/favorite-movies.jsx",
+                lineNumber: 11,
+                columnNumber: 21
+            }, undefined)) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            children: "No favorite movies added yet"
+        }, void 0, false, {
+            fileName: "src/components/profile-view/favorite-movies.jsx",
+            lineNumber: 14,
+            columnNumber: 23
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/profile-view/favorite-movies.jsx",
+        lineNumber: 8,
+        columnNumber: 9
+    }, undefined);
+};
+_c = FavoriteMovies;
+var _c;
+$RefreshReg$(_c, "FavoriteMovies");
+
+  $parcel$ReactRefreshHelpers$8767.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","../movie-card/movie-card":"bwuIu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dZ9kv":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ab10 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ab10.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "UsernameSettings", ()=>UsernameSettings);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const UsernameSettings = ({ user , token , updateUser  })=>{
+    _s();
+    const [username, setUsername] = (0, _react.useState)("");
+    const [controlUsername, setControlUsername] = (0, _react.useState)("");
+    const [password, setPassword] = (0, _react.useState)("");
+    const [email, setEmail] = (0, _react.useState)("");
+    const [birthday, setBirthday] = (0, _react.useState)("");
+    const handleSubmit = (event)=>{
+        event.preventDefault();
+        if (username === controlUsername) var data = {
+            username: username,
+            password: password,
+            email: email,
+            birthday: birthday
+        };
+        else alert("Usernames don't match");
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
+            method: "PUT",
+            body: JSON.stringify(data),
+            headers: {
+                "Content-Type": "application/JSON",
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>{
+            if (response.ok) return response.json();
+            else {
+                alert("Failed to change username");
+                return false;
+            }
+        }).then((user)=>{
+            if (user) {
+                alert("Username changed successfully");
+                updateUser(user, username);
+            }
+        }).catch((e)=>{
+            alert(e);
+        });
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
+        onSubmit: handleSubmit,
+        className: "mt-2",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormGroup), {
+                        controlId: "formNewUsername",
+                        as: (0, _reactBootstrap.Col),
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 4
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                children: "New username:"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/username-settings.jsx",
+                                lineNumber: 59,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                style: {
+                                    backgroundColor: "white"
+                                },
+                                type: "text",
+                                value: username,
+                                onChange: (e)=>setUsername(e.target.value),
+                                required: true,
+                                placeholder: "Enter new username"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/username-settings.jsx",
+                                lineNumber: 60,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/profile-view/username-settings.jsx",
+                        lineNumber: 58,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 3
+                        },
+                        className: "desktop"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/username-settings.jsx",
+                        lineNumber: 69,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/username-settings.jsx",
+                lineNumber: 57,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormGroup), {
+                        controlId: "formControlUsername",
+                        as: (0, _reactBootstrap.Col),
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 4
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                children: "Enter new username again:"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/username-settings.jsx",
+                                lineNumber: 73,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                style: {
+                                    backgroundColor: "white"
+                                },
+                                type: "text",
+                                value: controlUsername,
+                                onChange: (e)=>setControlUsername(e.target.value),
+                                placeholder: "Enter new username again"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/username-settings.jsx",
+                                lineNumber: 74,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/profile-view/username-settings.jsx",
+                        lineNumber: 72,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        sm: {
+                            offset: 1
+                        },
+                        md: {
+                            offset: 3
+                        },
+                        className: "desktop desktop-long"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/username-settings.jsx",
+                        lineNumber: 82,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/username-settings.jsx",
+                lineNumber: 71,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                    sm: {
+                        offset: 2
+                    },
+                    md: {
+                        offset: 4
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            variant: "primary",
+                            type: "submit",
+                            children: "Submit"
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/username-settings.jsx",
+                            lineNumber: 86,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/users",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                                variant: "outline-primary",
+                                children: "Cancel"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/username-settings.jsx",
+                                lineNumber: 88,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/username-settings.jsx",
+                            lineNumber: 87,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/profile-view/username-settings.jsx",
+                    lineNumber: 85,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/profile-view/username-settings.jsx",
+                lineNumber: 84,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/profile-view/username-settings.jsx",
+        lineNumber: 56,
+        columnNumber: 9
+    }, undefined);
+};
+_s(UsernameSettings, "ijttjLyazegx7amzEQGRybuXAnc=");
+_c = UsernameSettings;
+var _c;
+$RefreshReg$(_c, "UsernameSettings");
+
+  $parcel$ReactRefreshHelpers$ab10.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"5unBk":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ceaa = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ceaa.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "PasswordSettings", ()=>PasswordSettings);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _reactBootstrap = require("react-bootstrap");
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const PasswordSettings = ({ user , token , updateUser  })=>{
+    _s();
+    const [password, setPassword] = (0, _react.useState)("");
+    const [controlPassword, setControlPassword] = (0, _react.useState)("");
+    const [email, setEmail] = (0, _react.useState)("");
+    const [birthday, setBirthday] = (0, _react.useState)("");
+    const [username, setUsername] = (0, _react.useState)("");
+    const handleSubmit = (event)=>{
+        event.preventDefault();
+        if (password === controlPassword) var data = {
+            username: username,
+            password: password,
+            email: email,
+            birthday: birthday
+        };
+        else {
+            alert("Not matching passwords");
+            return;
+        }
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
+            method: "PUT",
+            body: JSON.stringify(data),
+            headers: {
+                "Content-Type": "application/JSON",
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>{
+            if (response.ok) return response.json();
+            else {
+                alert("Failed to change password");
+                return false;
+            }
+        }).then((user)=>{
+            if (user) {
+                alert("Password changed successfully");
+                updateUser(user);
+            }
+        }).catch((e)=>{
+            alert(e);
+        });
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
+        onSubmit: handleSubmit,
+        className: "mt-2",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormGroup), {
+                        controlId: "formNewPassword",
+                        as: (0, _reactBootstrap.Col),
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 4
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                children: "New password:"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/password-settings.jsx",
+                                lineNumber: 58,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                style: {
+                                    backgroundColor: "white"
+                                },
+                                type: "password",
+                                value: password,
+                                onChange: (e)=>setPassword(e.target.value),
+                                required: true,
+                                placeholder: "Enter new password"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/password-settings.jsx",
+                                lineNumber: 59,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/profile-view/password-settings.jsx",
+                        lineNumber: 57,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 3
+                        },
+                        className: "desktop"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/password-settings.jsx",
+                        lineNumber: 68,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/password-settings.jsx",
+                lineNumber: 56,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormGroup), {
+                        controlId: "formControlPassword",
+                        as: (0, _reactBootstrap.Col),
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 4
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                children: "Enter new password again:"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/password-settings.jsx",
+                                lineNumber: 72,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                style: {
+                                    backgroundColor: "white"
+                                },
+                                type: "password",
+                                value: controlPassword,
+                                onChange: (e)=>setControlPassword(e.target.value),
+                                placeholder: "Enter new password again"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/password-settings.jsx",
+                                lineNumber: 73,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/profile-view/password-settings.jsx",
+                        lineNumber: 71,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        sm: {
+                            offset: 1
+                        },
+                        md: {
+                            offset: 3
+                        },
+                        className: "desktop desktop-long"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/password-settings.jsx",
+                        lineNumber: 81,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/password-settings.jsx",
+                lineNumber: 70,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                    sm: {
+                        offset: 2
+                    },
+                    md: {
+                        offset: 4
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            variant: "primary",
+                            type: "submit",
+                            children: "Submit"
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/password-settings.jsx",
+                            lineNumber: 85,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/users",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                                variant: "outline-primary",
+                                children: "Cancel"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/password-settings.jsx",
+                                lineNumber: 87,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/password-settings.jsx",
+                            lineNumber: 86,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/profile-view/password-settings.jsx",
+                    lineNumber: 84,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/profile-view/password-settings.jsx",
+                lineNumber: 83,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/profile-view/password-settings.jsx",
+        lineNumber: 55,
+        columnNumber: 9
+    }, undefined);
+};
+_s(PasswordSettings, "3FfIzutMjLcVED0No4G1xRt2sKU=");
+_c = PasswordSettings;
+var _c;
+$RefreshReg$(_c, "PasswordSettings");
+
+  $parcel$ReactRefreshHelpers$ceaa.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"44XWW":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7e59 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7e59.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "EmailSettings", ()=>EmailSettings);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactBootstrap = require("react-bootstrap");
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const EmailSettings = (user, token, updateUser)=>{
+    _s();
+    const [email, setEmail] = (0, _react.useState)("");
+    const [controlEmail, setControlEmail] = (0, _react.useState)("");
+    const [password, setPassword] = (0, _react.useState)("");
+    const [username, setUsername] = (0, _react.useState)("");
+    const [birthday, setBirthday] = (0, _react.useState)("");
+    const handleSubmit = (event)=>{
+        event.preventDefault();
+        if (email === controlEmail) var data = {
+            username,
+            password,
+            email,
+            birthday
+        };
+        else alert("Emails don't match");
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
+            method: "PUT",
+            body: JSON.stringify(data),
+            headers: {
+                "Content-Type": "application/JSON",
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>{
+            if (response.ok) return response.json();
+            else {
+                alert("Failed to change email");
+                return false;
+            }
+        }).then((user)=>{
+            if (user) {
+                alert("Email changed successfully");
+                updateUser(user);
+            }
+        }).catch((e)=>{
+            alert(e);
+        });
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
+        onSubmit: handleSubmit,
+        className: "mt-2",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormGroup), {
+                        controlId: "formNewEmail",
+                        as: (0, _reactBootstrap.Col),
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 4
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                children: "New Email:"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/email-settings.jsx",
+                                lineNumber: 57,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                style: {
+                                    backgroundColor: "white"
+                                },
+                                type: "email",
+                                value: email,
+                                onChange: (e)=>setEmail(e.target.value),
+                                required: true,
+                                placeholder: "Enter new email"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/email-settings.jsx",
+                                lineNumber: 58,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/profile-view/email-settings.jsx",
+                        lineNumber: 56,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 3
+                        },
+                        className: "desktop"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/email-settings.jsx",
+                        lineNumber: 67,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/email-settings.jsx",
+                lineNumber: 55,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormGroup), {
+                        controlId: "formControlEmail",
+                        as: (0, _reactBootstrap.Col),
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 4
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                children: "Enter new email again:"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/email-settings.jsx",
+                                lineNumber: 71,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                style: {
+                                    backgroundColor: "white"
+                                },
+                                type: "email",
+                                value: controlEmail,
+                                onChange: (e)=>setControlEmail(e.target.value),
+                                placeholder: "Enter new email again"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/email-settings.jsx",
+                                lineNumber: 72,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/profile-view/email-settings.jsx",
+                        lineNumber: 70,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        sm: {
+                            offset: 1
+                        },
+                        md: {
+                            offset: 3
+                        },
+                        className: "desktop desktop-long"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/email-settings.jsx",
+                        lineNumber: 80,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/email-settings.jsx",
+                lineNumber: 69,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                    sm: {
+                        offset: 2
+                    },
+                    md: {
+                        offset: 4
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            variant: "primary",
+                            type: "submit",
+                            children: "Submit"
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/email-settings.jsx",
+                            lineNumber: 84,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/users",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                                variant: "outline-primary",
+                                children: "Cancel"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/email-settings.jsx",
+                                lineNumber: 86,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/email-settings.jsx",
+                            lineNumber: 85,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/profile-view/email-settings.jsx",
+                    lineNumber: 83,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/profile-view/email-settings.jsx",
+                lineNumber: 82,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/profile-view/email-settings.jsx",
+        lineNumber: 54,
+        columnNumber: 9
+    }, undefined);
+};
+_s(EmailSettings, "AguFU0oQO3OLU4BdbrZdXruTrtQ=");
+_c = EmailSettings;
+var _c;
+$RefreshReg$(_c, "EmailSettings");
+
+  $parcel$ReactRefreshHelpers$7e59.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"79rq2":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$8a89 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$8a89.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "BirthdaySettings", ()=>BirthdaySettings);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactBootstrap = require("react-bootstrap");
+var _reactRouterDom = require("react-router-dom");
+var _s = $RefreshSig$();
+const BirthdaySettings = (user, token, updateUser)=>{
+    _s();
+    const [birthday, setBirthday] = (0, _react.useState)("");
+    const [controlBirthday, setControlBirthday] = (0, _react.useState)("");
+    const [password, setPassword] = (0, _react.useState)("");
+    const [username, setUsername] = (0, _react.useState)("");
+    const [email, setEmail] = (0, _react.useState)("");
+    const handleSubmit = (event)=>{
+        event.preventDefault();
+        if (birthday === controlBirthday) var data = {
+            username,
+            password,
+            email,
+            birthday
+        };
+        else {
+            alert("Birthday doesn't match");
+            return;
+        }
+        fetch(`https://myflixapi.herokuapp.com/users/${user.Username}`, {
+            method: "PUT",
+            body: JSON.stringify(data),
+            headers: {
+                "Content-Type": "application/JSON",
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>{
+            if (response.ok) return response.json();
+            else {
+                alert("Failed to change birthday");
+                return false;
+            }
+        }).then((user)=>{
+            if (user) {
+                alert("Birthday changed successfully");
+                localStorage.setItem("user", null);
+                localStorage.setItem("token", null);
+                updateUser(user);
+            }
+        }).catch((e)=>{
+            alert(e);
+        });
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
+        onSubmit: handleSubmit,
+        className: "mt-2",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormGroup), {
+                        controlId: "formNewBirthday",
+                        as: (0, _reactBootstrap.Col),
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 4
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                children: "New birthday:"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/birthday-settings.jsx",
+                                lineNumber: 60,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                style: {
+                                    backgroundColor: "white"
+                                },
+                                type: "date",
+                                value: birthday,
+                                onChange: (e)=>setBirthday(e.target.value),
+                                required: true
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/birthday-settings.jsx",
+                                lineNumber: 61,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/profile-view/birthday-settings.jsx",
+                        lineNumber: 59,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 3
+                        },
+                        className: "desktop"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/birthday-settings.jsx",
+                        lineNumber: 69,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/birthday-settings.jsx",
+                lineNumber: 58,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormGroup), {
+                        controlId: "formControlBirthday",
+                        as: (0, _reactBootstrap.Col),
+                        sm: {
+                            offset: 2
+                        },
+                        md: {
+                            offset: 4
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Label, {
+                                children: "Enter new birthday again:"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/birthday-settings.jsx",
+                                lineNumber: 73,
+                                columnNumber: 21
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form).Control, {
+                                style: {
+                                    backgroundColor: "white"
+                                },
+                                type: "date",
+                                value: controlBirthday,
+                                onChange: (e)=>setControlBirthday(e.target.value)
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/birthday-settings.jsx",
+                                lineNumber: 74,
+                                columnNumber: 21
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/profile-view/birthday-settings.jsx",
+                        lineNumber: 72,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                        sm: {
+                            offset: 1
+                        },
+                        md: {
+                            offset: 3
+                        },
+                        className: "desktop desktop-long"
+                    }, void 0, false, {
+                        fileName: "src/components/profile-view/birthday-settings.jsx",
+                        lineNumber: 81,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/profile-view/birthday-settings.jsx",
+                lineNumber: 71,
+                columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                className: "mb-3",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                    sm: {
+                        offset: 2
+                    },
+                    md: {
+                        offset: 4
+                    },
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                            variant: "primary",
+                            type: "submit",
+                            children: "Submit"
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/birthday-settings.jsx",
+                            lineNumber: 86,
+                            columnNumber: 21
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                            to: "/users",
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Button), {
+                                variant: "outline-primary",
+                                children: "Cancel"
+                            }, void 0, false, {
+                                fileName: "src/components/profile-view/birthday-settings.jsx",
+                                lineNumber: 88,
+                                columnNumber: 25
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/profile-view/birthday-settings.jsx",
+                            lineNumber: 87,
+                            columnNumber: 21
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/profile-view/birthday-settings.jsx",
+                    lineNumber: 85,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/profile-view/birthday-settings.jsx",
+                lineNumber: 84,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/profile-view/birthday-settings.jsx",
+        lineNumber: 57,
+        columnNumber: 9
+    }, undefined);
+};
+_s(BirthdaySettings, "6Eakctq+7I6nSy3HJYjZZhMLBGk=");
+_c = BirthdaySettings;
+var _c;
+$RefreshReg$(_c, "BirthdaySettings");
+
+  $parcel$ReactRefreshHelpers$8a89.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","7a1Sg","d8Dch"], "d8Dch", "parcelRequireaec4")
+=======
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"l1nDD","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dIT0z"}]},["gCSer","5vlUK","d8Dch"], "d8Dch", "parcelRequireaec4")
+>>>>>>> 0bfa21c25e04b2d57e29b09e9b1d1d8b7ec0daa3
 
 //# sourceMappingURL=index.b4b6dfad.js.map
